@@ -11,8 +11,13 @@
   - FDA, EMA는 공식 RSS 피드를 직접 사용
   - ICH, PIC/S는 공식 RSS가 없어 Google News RSS의 site: 필터로 수집
 
+필터링:
+  - NOISE_KEYWORDS(주가/실적/인사 등)는 검색 쿼리 단계에서 -제외어 로 걸러낸다.
+  - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 730일=2년)보다 오래된 것은 제외한다.
+    (해외는 절대량이 적어 기간 제한 없음)
+
 결과: data/articles.json 에 저장 (list of dict)
-  { title, link, source, region, published, matched_keywords }
+  { title, link, source, region, published, category, matched_keywords }
 """
 
 import json
@@ -21,7 +26,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 import feedparser
@@ -38,12 +43,42 @@ DOMESTIC_SOURCES = [
     ("팜뉴스", "pharmnews.com"),
 ]
 
-# 국내 검색 키워드 (개발/연구/품질/GMP 관련) - 이 중 하나라도 매칭되면 수집
-DOMESTIC_KEYWORDS = [
-    "GMP", "cGMP", "품질관리", "품질보증", "품질", "밸리데이션",
-    "연구개발", "R&D", "신약개발", "임상시험", "임상", "허가",
-    "식약처", "실사", "품목허가", "제조소",
+# 국내 검색 키워드 - 카테고리별로 정리. 카테고리 단위로 OR 검색을 묶어서
+# 요청 수를 줄이고, 어떤 카테고리에 매칭됐는지 결과에 태그로 남긴다.
+DOMESTIC_KEYWORD_CATEGORIES = {
+    "개발·연구": [
+        "신약개발", "제제개발", "개량신약", "제형", "후보물질", "파이프라인",
+        "비임상", "임상시험", "임상1상", "임상2상", "임상3상",
+        "생동성시험", "생물학적동등성", "기술이전", "라이선스아웃", "L/O",
+        "물질특허", "바이오시밀러", "R&D", "위탁연구", "CRO",
+    ],
+    "품질관리(QC/QA)": [
+        "품질관리", "품질보증", "불순물", "니트로사민", "NDMA", "NDMC",
+        "유연물질", "함량시험", "시험법", "안정성시험", "규격", "시험성적서",
+        "회수", "자진회수", "리콜", "밸리데이션",
+    ],
+    "생산·GMP": [
+        "GMP", "cGMP", "EU-GMP", "GMP실사", "제조소", "제조시설", "무균",
+        "원료의약품", "API", "DMF", "CMO", "CDMO", "위탁생산", "제조공정",
+        "제조정지", "행정처분",
+    ],
+    "공통·규제": [
+        "식약처", "품목허가", "승인", "허가취소", "실사", "고시",
+        "가이드라인", "FDA", "EMA",
+    ],
+}
+
+# Google Alerts/RSS 스타일 노이즈 제외 키워드 (주가·실적 등 산업 뉴스와 무관한 기사 걸러내기)
+NOISE_KEYWORDS = [
+    "주가", "목표주가", "실적", "매출", "영업이익", "인사", "임명",
+    "인수합병", "투자유치", "후원", "ESG", "채용",
 ]
+
+# 검색 쿼리 길이를 적절히 유지하기 위해 카테고리 안에서도 필요시 나눠 검색
+KEYWORD_CHUNK_SIZE = 10
+
+# 국내 기사는 양이 많으므로 최근 N일(기본 2년=730일) 이내 기사만 남긴다.
+DOMESTIC_MAX_AGE_DAYS = 730
 
 # 해외 공식 RSS 피드 (직접 파싱)
 FOREIGN_OFFICIAL_FEEDS = [
@@ -114,6 +149,20 @@ def matched_keywords(text: str, keywords) -> list:
     return [kw for kw in keywords if kw.lower() in text_low]
 
 
+def chunked(seq, size):
+    for i in range(0, len(seq), size):
+        yield seq[i:i + size]
+
+
+def build_or_query(keywords, domain: str, noise: list = None) -> str:
+    """(kw1 OR kw2 OR ...) site:domain -noise1 -noise2 ... 형태의 쿼리 생성."""
+    or_part = "(" + " OR ".join(keywords) + ")"
+    query = f"{or_part} site:{domain}"
+    if noise:
+        query += " " + " ".join(f"-{n}" for n in noise)
+    return query
+
+
 def clean_google_title(title: str, source_name_hint: str = "") -> str:
     """Google News 제목 끝의 ' - 언론사명' 부분을 제거."""
     return re.sub(r"\s*-\s*[^-]+$", "", title).strip()
@@ -126,24 +175,27 @@ def clean_google_title(title: str, source_name_hint: str = "") -> str:
 def collect_domestic() -> list:
     articles = []
     for name, domain in DOMESTIC_SOURCES:
-        for kw in DOMESTIC_KEYWORDS:
-            query = f"{kw} site:{domain}"
-            url = google_news_rss_url(query, GOOGLE_NEWS_LANG_KR)
-            feed = fetch_feed(url)
-            for entry in feed.entries:
-                title = clean_google_title(entry.get("title", ""))
-                link = entry.get("link", "")
-                if not title or not link:
-                    continue
-                articles.append({
-                    "title": title,
-                    "link": link,
-                    "source": name,
-                    "region": "국내",
-                    "published": to_iso(entry),
-                    "matched_keywords": [kw],
-                })
-            time.sleep(0.3)  # Google News 요청 과부하 방지
+        for category, keywords in DOMESTIC_KEYWORD_CATEGORIES.items():
+            for kw_chunk in chunked(keywords, KEYWORD_CHUNK_SIZE):
+                query = build_or_query(kw_chunk, domain, NOISE_KEYWORDS)
+                url = google_news_rss_url(query, GOOGLE_NEWS_LANG_KR)
+                feed = fetch_feed(url)
+                for entry in feed.entries:
+                    title = clean_google_title(entry.get("title", ""))
+                    link = entry.get("link", "")
+                    if not title or not link:
+                        continue
+                    mk = matched_keywords(title, kw_chunk) or kw_chunk[:1]
+                    articles.append({
+                        "title": title,
+                        "link": link,
+                        "source": name,
+                        "region": "국내",
+                        "published": to_iso(entry),
+                        "category": category,
+                        "matched_keywords": mk,
+                    })
+                time.sleep(0.3)  # Google News 요청 과부하 방지
     return articles
 
 
@@ -168,6 +220,7 @@ def collect_foreign_official() -> list:
                 "source": f"{source_label} ({feed_label})",
                 "region": "해외",
                 "published": to_iso(entry),
+                "category": "공통·규제",
                 "matched_keywords": mk or ["(공식 규제 피드)"],
             })
     return articles
@@ -191,10 +244,28 @@ def collect_foreign_google_news() -> list:
                     "source": name,
                     "region": "해외",
                     "published": to_iso(entry),
+                    "category": "공통·규제",
                     "matched_keywords": [kw],
                 })
             time.sleep(0.3)
     return articles
+
+
+def filter_domestic_by_age(articles: list, max_age_days: int) -> list:
+    """국내(region == '국내') 기사 중 max_age_days 보다 오래된 기사는 제외한다.
+    해외 기사는 절대량이 적으므로 기간 제한을 걸지 않는다."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    result = []
+    for a in articles:
+        if a["region"] == "국내":
+            try:
+                pub = datetime.fromisoformat(a["published"])
+            except Exception:
+                pub = None
+            if pub is not None and pub < cutoff:
+                continue
+        result.append(a)
+    return result
 
 
 def dedupe(articles: list) -> list:
@@ -219,6 +290,7 @@ def main():
     all_articles += collect_foreign_google_news()
 
     all_articles = dedupe(all_articles)
+    all_articles = filter_domestic_by_age(all_articles, DOMESTIC_MAX_AGE_DAYS)
     all_articles.sort(key=lambda a: a["published"], reverse=True)
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
