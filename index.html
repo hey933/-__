@@ -296,8 +296,8 @@
 
     listEl.innerHTML = items.map(a => {
       const d = new Date(a.published);
-      const dateStr = isNaN(d) ? '' : d.toLocaleDateString('ko-KR', { month:'2-digit', day:'2-digit' }) +
-        ' ' + d.toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit' });
+      const dateStr = isNaN(d) ? '' : d.toLocaleDateString('ko-KR', { timeZone:'Asia/Seoul', year:'numeric', month:'2-digit', day:'2-digit' }) +
+        ' ' + d.toLocaleTimeString('ko-KR', { timeZone:'Asia/Seoul', hour:'2-digit', minute:'2-digit' });
       const kws = (a.matched_keywords || []).slice(0,4)
         .map(k => `<span>${escapeHtml(k)}</span>`).join('');
       return `
