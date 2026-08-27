@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-08-27T01:21:55.615050+00:00",
-  "count": 1016,
+  "generated_at": "2026-08-27T01:32:14.434115+00:00",
+  "count": 891,
   "articles": [
+    {
+      "title": "프로티나, 美 트위스트바이오사이언스와 AI 항체 신약개발 업무협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15N2hxVnliSWNpdWNwLVJnNXN2bE4tM1BwRkpMaVg1MUl3YklJRHlPN09mMmpBcjM4eFJxWUQ3MlJNb0pNSnBIYkhzSDd1bEN1Z1lZamc0Sk8xNXAxQXNlQ242SXdRSFdRTVUxcQ?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-08-27T01:20:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
     {
       "title": "삼양그룹, 판교 삼양디스커버리센터서 '2026 R&D 잡페어' 개최",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MM3N2eFZveWFKZ1hqN3EwcG5lT2hpb0NwYTFueURBTkpqWXdaZEJVM1RmSWwxdzVrUTdZX1dRMV9nWGNnUDVGWUhtQzlDc0Q2ZlFFcHpwY3VFTGpDcnh4Q1pXSjNod2dmOW5mbw?oc=5",
@@ -25,18 +36,6 @@
       ]
     },
     {
-      "title": "난공불락 RAS 장벽 넘은 ‘라손크’, FDA 조기 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40QjBXZHNVaEJnQnF2WEZHZURZMy1lQW1SckY1cHVvQjNfeHQtaEdrOEJqRnJWcmZQVnJILWhBcVJDb2twa0JQZjJlUDlZVXk0UnUtN3VJUnRUNkpwOS13R0x4UVVvZ09mVThkTg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-27T00:14:04+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "“증상 전 알츠하이머까지 치료 목표”…로슈, 신경과학 신약개발 전략 공개",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlk2c2lqS2xKVHl1dUhUaFlVNHdmWWk0TVJJSWRPa0NtbGNxQ0hsS1RzdmFKV0ZnN2p4MlNXVnpDNEdiX3BOdVdGaDhTR3o0NzkyQlZta2JIekMwcXlIRXVySWNVenpJYlc4dkpmYnVvZVFzbVd1dDFydEVRcUVPS3dSdDVtNlg1ZkhkNXJsTXAtSTA?oc=5",
       "source": "약업신문",
@@ -45,6 +44,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
+      ]
+    },
+    {
+      "title": "유유제약-영진약품,'오마코 제네릭' 생동성 소송 승소",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFE2eVpIdWxBaTQ1NmdSdTQ1R0FOc29FS0pnU3JYOWlzdVN2NWU5Szk2Wjk4UUNSWjY3LUlYZDJBcUxNSGNDNnJaQmlmSllrek0zNThIMkZnd2I2VWoxclhQUUs0Ujc3UmhvamFqZXdQR01SVzRaSU5jTVczWGpKVGpjUTI1ZDF5U3VrTjRxVEJKUHY5UnNYN0hkbjhyNTB0?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-08-26T12:54:45+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -67,50 +77,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상3상"
-      ]
-    },
-    {
-      "title": "“K-바이오 대도약, 이제는 속도”…식약처, 규제혁신·글로벌 조화 가속",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMcC1CcHVLbUw5b1h4WFZYSG9QbEJmVzRUSHdmd20xM2pSTERvQi1TQVFQY2RRQmlnYnNVNmYxckp4c1JYcVhFd0M5WWlIbFRZbkc3WXA0YjVTTjM1U01VcWs1WGo5aHBQSHB0LWxiSUdVZXdaSGc?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T06:01:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
-      "title": "‘지헤라’ 병용요법 위식도 선암종 FDA 플러스",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wX1ZwSTItcmMyQTlZc0YyUVpvWHBVV0pjT2laU0pVTnRCMWtUT1pLcGRpdl9FTFpQZEw2UW5ONGlUdkVna1Z5cVQwTFV0MFVQZE1rT3lJQU5ZM2lMMjAwU2x3WE5Na25oVzRFY01yNGN1OTNQb1E?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T05:22:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "글락소 ‘젬퍼리’ 진행성 직장암 FDA ‘신속심사’",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9laGFrRjRocTFEQ2NUTzRpeU5mWEU2MnRPUHQxLWota29CZWFGQ3NDNlJ0bEE4b1NacF9sdjZXMFpnUTljd1lBR19rUmdxZ0pZZlBhM0k0bWFWUWpmX3p3aWhuVWF1dlVNVmljT1RtcWppel9ua1E?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T03:19:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "다케다 제 1형 기면증 치료제 日 후생성 승인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kSjAwRWRhUGZ5SWM4WDJ1aENuZTV4WHc2QmQ1dWdlcDVsWDNkQTJxbTFXb0RLU2lLczM2dldBZ3E1Um9IN2w1akhjZ25OUE9kdU55NVhoSXdOVU5KTnJSS0wzOWQtNXQ5eVlSY2swbzdKU0U?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T02:06:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인"
       ]
     },
     {
@@ -137,37 +103,14 @@
       ]
     },
     {
-      "title": "지아이이노베이션 ‘GI-101A’, 전이성 요로상피암 미국 FDA 패스트트랙 지정",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EeXg1SjdwcmVKZ1czY1I0c0pFaHpXQm1xTTVRdmpfcnp1Uk9peWtIUkZNRzd0eXBoeWQ5ZnVEV3NTQ1RrWkRZRmkwNS1UUWEwb0RQbzFXRU12T1JXbzlLcEREajhYQmZrNGV3NlZsOTlzUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T00:57:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "식약처, 한약·생약제제 허가 시 제출자료 대폭 간소화한다",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9naF81QXB4Y09COFJ5c1VPNGxzYVo4M3IyMWZieVV4eHlRS1ZBY0doRkJDY1U4V2JiS1pBb3h6YUdIaGhVUVlRUGpHTlhoZVA5dTEtNzNHNXotNEowRVplWFl4LWE0dldJTGRocQ?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-26T00:30:22+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "규격",
-        "식약처"
-      ]
-    },
-    {
-      "title": "“한약(생약)제제 특성 반영해 허가 문턱 낮춘다”…식약처 규정 정비",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvdFlXeWs5N2Nsanh1RHpPZ1JoSWNqVzV2Q3B2VlkzY1J3NVJWVlhMQUtfR2h0Y1hUZXc4V1ludjFoVWhPLVVjbXFJU0lFX3JZU3NCTGtOd25SdmdtTkFoYmRiX0lBdkhLS0kxZkRqVVJFTGM?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T00:28:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
+        "규격"
       ]
     },
     {
@@ -176,10 +119,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-26T00:26:00+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "시험법",
-        "식약처"
+        "시험법"
       ]
     },
     {
@@ -194,17 +136,6 @@
       ]
     },
     {
-      "title": "식약처, ‘2026 글로벌 바이오 콘퍼런스(GBC)’ 개막…“바이오 혁신에 속도 더한다”",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWF81cVlDQWJPVUxPSkJscS1aS1lFUXpOdmVaMmlndTVJOVpFcUZqS0Q3MWFhekRhdVNDaTZ0WThjOHlkSzJVMVRZaWpHQXBDckNUMzFRallERDFnY1I5NWJOTEF4c0lVWkJfYXVfMG9IVUEwYVI4UEwtOEx6aVpGMUJvNjAyNFllUmh6QllzQ0xIcGM?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T00:23:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "분당서울대병원, 한·미 혁신 R&D 선정…70억 투입 췌장암 치료 플랫폼 개발 착수",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbFB1aS1XRHB1RDY1TmlOUENYakgydFJmX0tDUXMwaENDQXdDbkJJQzhhWlRSSUFYSTNhTE9WeWtrZUFoNDRBSFJjUURYSlVpUWlZVG9Ib2tmeWQwZ0JJTHh2b0lVaG9ldno4SnZFWFYtSkpyVWR0cjZ2OGpjQWh6UDRMSzJJZmZTUU10OFJkRQ?oc=5",
       "source": "약업신문",
@@ -213,29 +144,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "R&D"
-      ]
-    },
-    {
-      "title": "조아제약, 식약처 임상재평가 통과 이담 소화제 '가레오액' 재출시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rZTRibzhzNGxhWWVWbTYxZjl0bHoxSXZaNjNHQi10RjVqNnNMV1VYdnl4RkhOUDg0c2lQNVMycE1qUVZTNDZvYzdrcEtiNTJKOTNCLVRvdkxRd2llRDdmVk90eS1tTmhRa2FiYQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-26T00:09:30+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
-      "title": "10년 표준 넘은 26개월 생존, FDA 위암 지헤라 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GT3p0Sk5HNUhvd1JVU3FZTWFJbVRSRzYxVEY0ZHV6eUdhSHQ5Z2F5c04yUDdZWFphUUN4MnVOUV84TlNkV01QeFVNaTF4YmItbW1lZmZSVmtpZnJiTzVQUEhkdmx5WWFVVHlLdQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-26T00:05:04+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -333,33 +241,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-25T01:56:53+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "신약개발",
-        "FDA"
-      ]
-    },
-    {
-      "title": "근이영양증 치료제 FDA 심사기간 3개월 연장",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wTTBPTTJiM0lydVhwc3Y1VURhRzU4cnZiUmhUZ3hnSWVQdGJZTmVUamZPVFVuSzBmd0JyQWRjX3ZqWk9qWExKdTVGcjgxZVJDSlhSS3lsMXR4RUJWcW1RcWZ1ZlJQeXAxZWlRLV84TnBWdmtWWHc?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-25T01:14:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "FDA, 희귀 혈액 질환 치료제 J&J ‘IMAAVY’ 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12MnJzTkxXMEx1NV96aW1wWDc0TnVMN3BhNFdmZDhfOFlSdVRaSUpnZy1JcWNYWDB3S0RJZEt5Nzh6UnhoOUhsbE5BRFdkSlJIMGFUM2NaWnE3N1pGUW5lLVM3S0xyWExRdjNqRw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-25T00:52:13+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
+        "신약개발"
       ]
     },
     {
@@ -372,6 +256,17 @@
       "matched_keywords": [
         "승인",
         "FDA"
+      ]
+    },
+    {
+      "title": "씨엔알리서치, 'RBQM 기반 임상 데이터 관리' 제8회 웨비나 개최",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hQkozWjNxR3UwbWl3akY5OVpZbzR5ZzdzMEZ3UDZYUU43ZlRiWDZkblVvOTlGbEtabkFibnpkbEU4M3NOWGtTSERsNlc3VWlabmVPYnhJVm9XS0hZNU1Gcjg4MF9wcUg5MFJmSw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-08-25T00:11:40+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -394,28 +289,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "프레스티지바이오파마, ‘투즈뉴’ 브라질 GMP 인증 획득",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54VUdvcE96OFV4eEtJZi1aYWpqTEdvdmdFeFh3RzlJR3lWcllEdElkMURhbm50am9DLTBQSzhaWUE2UGtqRDZET2VHNmQxLTFrWFFjQjJKc2hGSW81YnRfMzVLUklDQXJIYjRDX18xZURNWko5VkFF?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-24T23:05:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "사푸시데닙 FDA 패스트트랙 지정, 뇌암 표적 치료 시동",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lN0VHdUVoUjBMS1ZJZlhibFVrRmgtOXpGOGVfaWlZU1p0VGNSTXFjN2xnWUhQckh4Q1VpTkN4RkphUzlYUElHYjdBWGxDNVVyODF6QUQzOXVxTUw1Mm5ORk5iVkJZVF9TNC1PNg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-24T15:03:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -453,17 +326,6 @@
       ]
     },
     {
-      "title": "새 경구용 폐동맥 고혈압 치료제 FDA 심사개시",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01eURObGVkUG5acXQ4T0ZTX3NsdjNGTDNVY2tTQW1QVFVsazJ1N3NZQlBjWlFBTm9FUjdrWkxUSFFkTzJybTJWQXFxcDRDNjBJaWwyNGhfRHRjTzVXZ3FXVldfZmJ6TFFfbHAyYnlQNHpXYUE?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-24T01:27:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "노벨티노빌리티, CSU 후보물질 'NN2802' 중국 임상 1b/2상 승인",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NZHZZTnVIZ2lnNDQxcmhnVlFFLXIzeHlPcUJZclhEWGNvOVFiTmNLUVlub2RqT29fSnljbGNSWnptWVpZa0Vqdnk5MldSMlpEZHB1VG5YZEU3Q2NUMmt1eFpnNXpQYm54dG1TNA?oc=5",
       "source": "팜뉴스",
@@ -475,28 +337,6 @@
       ]
     },
     {
-      "title": "노벨티노빌리티,두드러기 치료제 'NN2802' 중국 임상 1b/2상 IND 승인",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fQnhCOTZYOS1XQzg0clFfbmhTbVc5Sk5DbmxJYjcyTlZ4MEVpWWJmaU5uZ0V4YVNBUEhjZTl5clNmeEJVNDdPNVd4UDIwUVdPbTVra0wxVFV3Z1Q1QUlwLXpnbHpXbGFFN1RlS1pYTVN1dw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-24T00:48:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인"
-      ]
-    },
-    {
-      "title": "GC녹십자 헌터증후군 치료제 '헌터라제', 인도·대만 품목허가 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ocDQwQk1wd29yS283TmswRnBtMTVETjZaUTh5ejI4NXkzeUFXWFRVTXp1aXNPenhXZ3plOXo0bmNJS3I2MGF6c2RwSHU5aW03VDU0bThVSjEwck1vNWRiTHBMQ1hTUXJUOTlQSw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-24T00:44:18+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
-      ]
-    },
-    {
       "title": "한국비엠아이 컨소시엄, 정부 자가증폭 mRNA 백신 과제 선정",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uQmExQWduSFJKMmVVZU5iOU4zSnBKTjRBd0t3WVFpbnFHUXBDczM2TU5Jb2xDZkRxalBJVndnMXpQQlZQdDUyRmxSc19zV3NEczIyWFNDUFRZSjNXWV9rU2dsWHJfaWNZM2FIbQ?oc=5",
       "source": "팜뉴스",
@@ -505,17 +345,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "GC녹십자, 헌터증후군 치료제 ‘헌터라제’ 인도∙대만 품목허가 획득",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE56NFc2OXhHMkRKc2Fyb3VrcDRVRG1vaE40Uk1kVW1fNXRWRk42a0FWV3prWW1ERGRhRnFvUmcxdWxWSXZJRHY3enQ4R1V6N1J0UncyVjVab293VkhUTGtxT0Y5UDk5bWVYZU14WnVjQk5DQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-23T23:58:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
       ]
     },
     {
@@ -551,17 +380,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상시험"
-      ]
-    },
-    {
-      "title": "‘텍베일리’ 다발성 골수종 2차 약제 EU서 승인",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yTHBnbjVHbFVZWXZVYUlkb19TY3RsMEF3REU4cVBfQUhQSExvVkoybGpYZ2RkdnNiNEVMclVKcWJod1drbU03QnpqLUVOYzJCbkJ6RU1vd3pmckhsU1UzNGNzb2lrUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-23T21:01:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인"
       ]
     },
     {
@@ -621,18 +439,6 @@
       ]
     },
     {
-      "title": "대한약학회 \"원료의약품 자급률, 제조소 중심 지원이 해법\"",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fdld3RHZBaF9Ed19SNEtMYVViMjFDWUpqTmhwRjJMOHRHWVRtMHp5OUtQaWNpMzQ1THpXdDV4dW9Sakh3T2JHYldZdGRuc04tdWZIWVBZME5tU2JJQTlhZHA0UXZ3Q3U0d013RA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-20T15:03:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소",
-        "원료의약품"
-      ]
-    },
-    {
       "title": "Guidance and template for industry on implementing Shortage Prevention Plans (SPP)",
       "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/guidance-template-industry-implementing-shortage-prevention-plans-spp_en.pdf",
       "source": "EMA (EMA 규제/절차 가이드라인)",
@@ -671,11 +477,9 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-20T04:40:32+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "규격",
-        "승인",
-        "FDA"
+        "규격"
       ]
     },
     {
@@ -724,29 +528,6 @@
       ]
     },
     {
-      "title": "피플바이오, ‘알츠온 플러스’ FDA 혁신의료기기 지정 승인",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVWpxckNVSFYxODdRSElwVk1jLVRraUVaNEpzbW1OX3VYRzV5cm53Q3R5RDNfclpYcWtyMFFiZWNBbzZPd2N2UGIwVV96OHEwQXVaVk1qVWpvWlVzYTJScEFaVG9ldXJPbGVPTlFCYUE5eUl1aG5mdlhEaGxmZXI2b3M4dFN2ZDlGVnVlRVdFUk93UWliMXRPTU8xMVJzLXMy?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-19T19:47:50+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "FDA 출신 이장익 서울대 약대 교수, 네이처셀 합류",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSSnEyVjJlZTE3bFN0dFFLcjcyV2dmRW5yWXJhYzFEWjJWSFBOM2U5N1JuZTVBUUVrbTZ3T1ZMTmRlRUljc1k3Nm1PeU04cUVzSE84cHZtOGdQbHNLZWNuY2ZCcUJUQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-19T08:27:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "EMA procedural advice for medicinal products intended exclusively for markets outside the European Union in the context of co-operation with the World Health Organisation (WHO)",
       "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/ema-procedural-advice-medicinal-products-intended-exclusively-markets-outside-european-union-context-co-operation-world-health-organisation-who_en.pdf",
       "source": "EMA (EMA 규제/절차 가이드라인)",
@@ -755,17 +536,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "(공식 규제 피드)"
-      ]
-    },
-    {
-      "title": "땅콩 알레르기 치료 후보물질 FDA ‘패스트 트랙’",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxQmtxUERITUpWRTlENmtHZnREZFlWRHJoSGwxMGpidk1LVUdER3dCeUhkcXc1SW9WOGw3WTByWkpKaVliRml0V3dQVjAtLTZLTlVFNXVJQzAxcFYtQ05HR2l4VlZFc1lCdmlFYTZFM1dBMVBqVW1WSVZfdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-19T08:16:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -799,18 +569,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "품질관리"
-      ]
-    },
-    {
-      "title": "이어폰이 보청기로…갤럭시 버즈 FDA 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DYVpFdWtYQnRfblZDUTJlczJvQ09kbUNTM29PLXRZWTlOYXpZWmx0Vm1IRm1fWE1ZS01wSC13LUwxLVAzMzZTcTBIRmdoWGhLdVNMbTAwU0FlOFNoS2UzaFl6YVJ4X0NTeW44cQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-19T01:24:10+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -870,17 +628,6 @@
       ]
     },
     {
-      "title": "“GLP-1 투여 후 췌장염” 논란…식약처 “인과관계 미확립”",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FYVFvajU5Z3ZGd0UzMkkxeUZGRndQLWdyWTBQdnJ3X3dBdkxFMFUwWmR6UncyWUswUGEzeXJNR2dZamdnY2NucENTYlh6dWZ6a1N4RW4xcGVvQ01Bc19Nem1jUmtQQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-18T21:01:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVXgxZk0yZVNWQlJHcmt0Qm9CS1lDZ3pBcV9FSEJwbnpsM29GX2lpcm1acUN5b2dMUjlBTURNSmRaTjBlSEsyUDBXaTVPR1FKVDZJMGpDQkNfb2FVM3JrNC10UjQzakktdjJPR0NXczJSREZLUzNtSFJmbFpuNmhNWm95X2gwcGZuLVlFOVBpcEtyV2VRZXRZ?oc=5",
       "source": "약업신문",
@@ -892,17 +639,6 @@
       ]
     },
     {
-      "title": "식약처, 커지는 할랄 화장품 시장 대응 지원",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWxWblM0ZmQ3NGI2R0xDRmluRlNkMUFXLXpWdjZjczhsSDdYUngxcWE5VGNLWnEtVk53anpiaWdhX2trQWdlTnZxTmJJamxoeTBnS1ZiemlyTk5jVWhQY3hnamRQU2pFVUIxc0tEdW4yWkZ1Snd4QmpnVzBnUlNoelVYNXBLZGJ5WVd2SlByRnNDSE01V2FuTnZpTUpPaG5nMV9YZWpHRXUzZzZVbWlkaUxuQlhDU01TbDVN?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-18T18:20:37+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "에이프로젠바이오로직스-미래바이오제약 '클로피도그렐황산염' 영업자 회수",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenNUMUNYTTlWU2kyRXlTWnJSWkNNYmx0cVQ5ak14RHFFUDJQdXlPdnNSUnlnZGR6eTdMOXM0ek1xbW5HWGFCYUZRXzdCWjVqcEZGbUV1OTJBVk1vX1ZQNlhVTVdaYXB6aFBFMFJuWmk2bG5kZ2NLbW9lbkk4MzZXdHVGdklsM1U0U1FMdHZiX2g4aV9zWU4wdTJILUNEOFg4cEJYWmhn?oc=5",
       "source": "약업신문",
@@ -911,39 +647,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "품질관리"
-      ]
-    },
-    {
-      "title": "동아에스티 등 122개 제약사 GMP 전면 재평가 실시",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVNBVkpsNHNlR3hKTkNfQW9WcTNiXzNtLTlTM3haNEg0UW1BUDlRdW1YbklsbklHQzFocTlBZkdQbWNIY0h3ZGpFUHV6TXR3LUVQYWc5MHJWSTFTRF9hQkhacEdlVHhvX2RvMlByWnhpdWtsSm53V2hFV0NmRlowNEh1ZUd1dmhnVERxalNrcVplcWhzYVlUZnJXOFFqcWp3eHlMbm5GNlBTRl9XSThiZ0VkWWVJRkt1Ri0yMHpFLXYxU0Ry?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-18T02:12:16+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "FDA, 스페바타미그 담도암 ‘패스트 트랙’ 지정",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTNnY3YTR2QnlZVjRQVUJZem5zaHlFTzQ3eElCb3BobmxnM2ZHeWhUckpxMXp3ZlZzZXNKU1NLYnJtcDhaVFE0V2dJaG5vb3VHSXZKM0phTUxjWVczQV9hQ0s3dG5xaGJObnV3STJWc3AyeGJlVVE?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-18T00:49:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "식약처, 글로벌 규제 대응 제약 GMP 교육·세미나 개설",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmWU9qN1dDRmp4Uld5emNpRGZMeU9ocmhmMVdHZFduZk5hcGthRlpyN0lIMm5lZU9ZZFNvNHJIaFdNMzRjVTZNejNRSzhKRVh4am9teVp3TG1wTzVDYU02a0FBRkRfZzhYVHRUZw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-18T00:32:13+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -1047,26 +750,15 @@
       ]
     },
     {
-      "title": "리브스메드, K-수술로봇 '스타크' 식약처 품목허가 신청",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMzRLMWV6QTJDYnlVLWpMXzE4MkkxYl80Y3UtN05wR1ZScG5yZm5VNFRxNXM4YmVqYXdWZlBoeUV4bE1hd3pCdVBjYVg4U19SQTQtRXB1MWU3VUNBeFRnUXJuVktqQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-09T22:48:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처",
-        "품목허가"
-      ]
-    },
-    {
       "title": "메드팩토, ‘백토서팁’ 골육종 임상 2상 중용량 환자군 추가 IND 신청",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wTXRfaUl2Q2tsMTFTbU9jdEdYcGJOYV9iQWNCSlRJTHl1eEViY0hlbnBENDZYaTlEZmp6cHdRQVRDS28ydWE5a2ppME9XZW54SWlPU3JJbTMtU01kbHdtMDd2OGN2TjBuRnFmMA?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-07T14:30:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "식약처"
       ]
     },
     {
@@ -1114,17 +806,6 @@
       ]
     },
     {
-      "title": "\"법적 근거없는 우월성 기준 적용 위법\"...식약처 허가 거부 제동",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ybnh2dUlaX2NoeDE1QzZveDhpX1NOdHFmdWVvTTlWQVdfRExBc0UybmI0YzhzeFhkOElkT1VJMU1hbnhYTXhFSWZLNF9BNUxuQ2ZfYUgwQUE0aVNnMzJvenJ0R0xDQkNpYzhjcw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-05T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "대화제약·무진메디, 나노 기반 혁신 신약 개발 맞손",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lT3c0Q0E0VVhhbXlLZmNwdWZzUWVxNF9BUDBhMzUzVXVKb2RSQW9nc3JCaGtwWnMtdVp0Y1NXdUdQOE5uSTlpTWwwZnI3cU9wYTVJWDh4QUxKMkwycDlYODBTR3p6YkhSRlBCVg?oc=5",
       "source": "팜뉴스",
@@ -1158,17 +839,6 @@
       ]
     },
     {
-      "title": "신약 심사 군더더기 뺀다…식약처 ‘240일’ 속도전",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51RWIwell2bEZVS1NKVnFUc3BtaldVVk56eXBqa2c2QjZ4MnpFRXFJeTJzVTZsTlBNNTZNNHc5aWx5UmVfYjFuUTVOeU93U2gwZkZmbjR1SkpLcWxpdzN3Z1hWSmg3NUFjWFpGeA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-31T01:10:09+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "K-제약바이오, AI 신약개발 도입 열기... But 전문인력 부재 '걸림돌'",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82ckNHVDZLZHpiVDRLcWl3azh2dzlWZ3RxY0F4aE91ZjB1SUsxY1I4OWxTQVllS01oaXlaSjBMSkdjTy0wRlB0WGFIR2Q1OS02cktfVzd6b2FqQzNPNEdPbVdyZVM3cUhUd3d1VQ?oc=5",
       "source": "팜뉴스",
@@ -1180,26 +850,14 @@
       ]
     },
     {
-      "title": "네이처셀, '조인트스템' pre-BLA 미팅 신청서 미국 FDA 제출",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52NmRSNFdpamxlckVXbnk2LUYyanZaVWQ1NWY2RXU5YlNsOXJ1WmxJUDNHY1c2djktajFSVVNzbFYtN3VZSDRPdVcydmRHWDNLd3NEWXpVY05BbXFKM1ZvUzVBamhtdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-31T00:06:11+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "엠비디, 코스닥 상장예비심사 승인..오가노이드 정밀의료 IPO 본격화",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sNm5pbXZWcnB5d3l3UllfUUctem43UGdKM0JrZ3pMQ25QSFJIS1J6Y3dJdTVHZHY0b2hZQ3RBXzE4ZjNsd0lsTXc4VFRtS2RIQ2lYUmVsZjR6RWF2eEx1ajlWNWFtQQ?oc=5",
       "source": "약업신문",
       "region": "국내",
       "published": "2026-07-30T23:57:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "CRO",
-        "승인"
+        "CRO"
       ]
     },
     {
@@ -1238,17 +896,6 @@
       ]
     },
     {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM0g5djZwV0lsUkEwOS1RLVhtblNxR1U3Y2RVTGZoY2RSeU02TUMxTUFHVUpwTjZ5SFE3VE1jZklSZ21sa0RXd0ZpNjV5M1hWM0sxTzRQQWRDNUhkQ2tLSE9aMDFZWV9OSVNCa3RFbUJwTVltbW5kdUR6OVBIUkk0ZEo3OTJhMjFQYUpoTXVPVVJkeXg4WnJJ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-30T15:43:28+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "List of centrally authorised products with safety-related changes to the product information",
       "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/list-centrally-authorised-products-safety-related-changes-product-information_en.xlsx",
       "source": "EMA (EMA 규제/절차 가이드라인)",
@@ -1280,17 +927,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "식약처"
-      ]
-    },
-    {
-      "title": "시지바이오 '노보시스 퍼티', 美 FDA PMA 확증임상 첫 환자 시술",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwMkc3Mm1PYW91YlNlVHUxRnIwTkpsNHhQWElFa01RUjV3dnVDWkhoOFRVTE5ibkI2Z3FMZEl6OXZWaW4tSWlFcGMzS0NIRGFBeS1sOEdBamhnMG5qN095WlltcURjd0g3czBlUQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-30T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -1333,11 +969,9 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-07-24T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "바이오시밀러",
-        "승인",
-        "EMA"
+        "바이오시밀러"
       ]
     },
     {
@@ -1412,10 +1046,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-07-21T07:00:00+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "GMP"
+        "품질관리"
       ]
     },
     {
@@ -1452,14 +1085,14 @@
       ]
     },
     {
-      "title": "식약처·제약바이오협회, ‘GMP 규제조화 상담 핫라인’ 가동…현장 애로 상시 접수",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01YzZ1OW40aGF4OFdvMEhhN3ZuMGRhaFRSRGRqRGJxYS1rWWlZMV9VajlJaUNRcFlQWUFyTHB4d0plX2stb293U0UzUDFSOWN4bTd3UkRDVXU1OW52VU1PX28wbTNtaFdhWGhNSl9yT1EzLUk?oc=5",
-      "source": "약업신문",
+      "title": "케어젠, ASRS 2026서 점안형 황반변성 치료제 'CG-P5' 임상 1상 발표",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FMzc2VHNzLTZ1OUYzQnJlaFBiTW5hUzVKa1RqSVV5aGw2S256c3lzc0NpeFVfdHlzWVlQRUFWc2hTaFd0VElETmFaS2NpRFpkT0dySHFoc1B0YWVEbHp5T21VaHhZem5nUnRfUg?oc=5",
+      "source": "팜뉴스",
       "region": "국내",
       "published": "2026-07-20T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "개발·연구",
       "matched_keywords": [
-        "GMP"
+        "CRO"
       ]
     },
     {
@@ -1474,17 +1107,6 @@
       ]
     },
     {
-      "title": "한국제약바이오협회·식약처, 'GMP 규제조화 상담 핫라인' 본격 운영",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TSzBrV3ByRnNOTFZzZXJucV9uVVp0REJSa2dSMlRkNlg0ZmlBX3N4UTVJRXhTTXAxaF9BOWlXczA3YjhGZ0dobGlKM2NCczFDeWhZeGRRUmFMYl9EN2ZjWXUzZURZZzdhYzVCMQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-20T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "삼성바이오로직스, 폴리펩타이드 2.7조에 인수...'CDMO' 패권 승부수",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ueUxwcGNDelprMnFSbE5oemhPTmREOGFUZEZUS1VibTI3akk5SF9rd1A1ZURuVWxoZUFYREdtcTRRMXhJa2d6b1IySVJzbW42eE91R25NMGFmSjAwS3dqQzRYeUp6MjZ1Q3lydw?oc=5",
       "source": "팜뉴스",
@@ -1493,17 +1115,6 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "CDMO"
-      ]
-    },
-    {
-      "title": "SK바이오사이언스가 던진 화두...해외 제조소 시대, 허가 체계 변화는",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEODU1QTlvOHh1enNsMU9DWVRwU2lsSjc2VXNtSEIxNHpmM3ZNUjU3cElPcEwzbm8talY1T3cwNTFGTXY0UlFPeHFTaDdGckFPeElWM0dremxLUUlxM3FuSzRPR3RkZVVTcmdnNw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-18T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소"
       ]
     },
     {
@@ -1529,19 +1140,6 @@
       ]
     },
     {
-      "title": "HLB, 리보세라닙 제조소 cGMP 실사 'VAI'로 종결",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSbGdRVDhMM0drb2lGYURCTjF5QnI1aks5SHFiWTFOSTVpMEZ0QVNCOWJ0bHFEQ2hVcGRSeUkxbjdPWG04ZzduZHc3Y2prNmc3cWh5RGtVTHBPb1FNR3BkWmItRC1CQmwzMHhtcWlNdjBZM2NhVXpr?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-15T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP",
-        "cGMP",
-        "제조소"
-      ]
-    },
-    {
       "title": "거래소,진원생명과학에 CDMO 부문 생산-판매중단 조회공시 요구",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lc0pqMEk3bEsxOWZMVUgyaHN5czVGYzYtMEdoTUtiU3VOY2F1SG9UeXp5b0JnMF8xS0p5TUdMaTQxd1djeTgxXzdERGstWXI1d0hWMnNiR2JDNkhWZHI5TjRsUzNhZw?oc=5",
       "source": "약업신문",
@@ -1550,18 +1148,6 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "CDMO"
-      ]
-    },
-    {
-      "title": "FDA, 분산 제조 유연화하고 해외 원료 통제 높인다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oY0dVa21vVXdVTDJXSkdQV0RyczUzT3Y1RzJFQVZkdEo5bmNKM01oRW1GQ2NSWXNrZFhuYmJlQVduVUNhSHFnYmpaNUxOLUREZUtUMmlBbm1HZGltQVF2eWpBRWcwdGh4aGNZVA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-15T07:00:00+00:00",
-      "category": "공통·규제, 생산·GMP",
-      "matched_keywords": [
-        "GMP",
-        "FDA"
       ]
     },
     {
@@ -1620,6 +1206,17 @@
       ]
     },
     {
+      "title": "미생물실증지원센터-바이엘티, mRNA 의약품 개발·제조 협력 '맞손'",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdkZVZlJxSnBLVEMyM1pJeVlEbHJHRXBlREM3d2FhYngwZG5wc1hiTUpmLUZkNHZReE04ZkVOM0NpNlRCX2RqdTU5VVowQ3JyZ25XOWhBeDdqQXFTZ3o2X2J3VENXQ3NCNXVOZXVCOVVBTXg3TzVWSXhYOWM5MG9qMmJmbTlmUEY2REtDTGJ4bE55WW9Nc3hXNjFVbw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-07-13T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
       "title": "FDA CRL 뜯어보니, 최종 허가 가른 CMC…규격·제조소·완제공정 핵심",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91bWdJVHpQdVJlZnlxdWtlSFFBOW9JbjNnb0Y1UXJmZFVqX3g1c1VpNURZNUZkRHRVWkxPRnBqb1FjU0dTbVozNjV2azJjVWxObVBXUXVfUWtBZGh4bVQ2cHBrQ1J1dw?oc=5",
       "source": "약업신문",
@@ -1628,43 +1225,7 @@
       "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
         "규격",
-        "제조소",
         "CMO"
-      ]
-    },
-    {
-      "title": "HLB 간암 신약 또 FDA 지적…제조소 리스크에 허가 제동",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9URm04VzM1UWtUZ0xtc3c4ejZKdGVqMnRnLXlMWk91bE9rTGQ0YkZ2TVBvTGFmOEpCZG53YXZnZjByWWlHeWhKSHRJb3lleFpBY096WS1LdlJUdDhTQXRVMGZYMHZ0UQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-10T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소"
-      ]
-    },
-    {
-      "title": "메지온 \"'폰탄치료제' 등 성공적 FDA 신약허가 CMC·PAI 철저 준비\"",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lU0dySTRKUktqWE5RNnVCdTVJeVU3U0t0V3dXZ2ZHaDZGTzF2Q2QzRGhKQkctU1VHWEVjRU13aDFvdEJrNFdoZURKaUNaVmRpaTlTRDE0SGNpc1RfZGdMdkhRdzJ1UQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-10T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "CMO"
-      ]
-    },
-    {
-      "title": "HLB 리보세라닙, FDA 승인 또 불발...제조시설 cGMP 실사 여파",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WUFlqdG9wc2N1Y1hJS20xcWtnRjE2RE53bU93WDA2SUNpZDNYeUEwc0w0d09rVl9QSzB2X2ktZnlaUUpjT3V4V3N2TU9GODNBdVY4VXRtdkE3T3NTQ3ZxSDRlV2w5UlNmdmdqRA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-10T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP",
-        "cGMP",
-        "제조시설"
       ]
     },
     {
@@ -1676,17 +1237,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "네이처셀, 조인트스템 품목허가 반려 취소소송 1심 승소",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1USExFZml3OV9WS1dodTdVUHI4TTNNNjRGVDBlT05lSHB0UzRBZ3FuV0hJNHRHWENqeVFYTnZkNW95VnN3dEgtZG5nTl9VZU90YXdqMnVTejk1LUplRF9hVWF2NEp4VTVJejdjZlhlM3p1bTlMeVVFOE93T1FJdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-09T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
       ]
     },
     {
@@ -1709,17 +1259,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "시험법"
-      ]
-    },
-    {
-      "title": "승인 따로 관리 따로, 의료용 마약류 부실 취급자 15명 검찰 송치",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PSXVxYVNkTDRHeVZ5NWdBcVNrMVlfOE1Eb1JnVGV3QVRqM0hPYmpacDM4bVFod1FoNjMxWlBIMkxUMWR5ZlhrbjV0M19RRk43X3Y3djYwRkhkSk9GeW83RkFWQ3RXNnp5SHdRcQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-08T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인"
       ]
     },
     {
@@ -1754,17 +1293,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "셀트리온 ‘트룩시마’, 美 FDA 상호교환성 지위 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yTml1TnNua0ppY2U3bV9adm1yY0s2cENMN1B2WGlwa3pXY3kwT2VoRHVDWGRWekhjRzdNdmFxVU45SGdBTU5HX052bHdZakpwSEVkQnktaDQ5aVNLNFFjZEEyT2dISHdibFg0Ug?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-07-01T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -1878,28 +1406,6 @@
       ]
     },
     {
-      "title": "\"PV·GMP 의무화에 약가는 바닥\" 한방제약사 원가 폭증위기",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OdzBzbFU3MmpqVmVnTXN3MHp6VzZOQnVXUHNua0thNmJxVGFtaUJoYUNqbzFhNWZjNzVram83NjFuaUVjVnBLLU9IRHFVVzVjOXR6ZENOcll4bG9kX09KZmhYdGY4UncxUTJ3SA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-06-19T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "OTC 날록손 비강분무제 FDA서 접근성 확대",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UcXpuVDdCQnBBcUhUNnR3Sm1xNzAxSFJBZ25ma1I4TjFDTWlCSlg0dXdmSTNTakNaX0pvVnFCcXNqN2NVbG9tUmxRUnFxYlU3SUdPUFNwSzdnSElHbDFPanJtQzlIZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-06-18T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "삼천당제약 'SCD0503', 제1형 당뇨 환자 표적 임상 1상 투약 완료",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1S0tpSm1RRmxadHpyeWRsdk5VeTFRMnduYVpXOURsRzRZWlZ1MGI2Z2p4U3ZEWHA2N3BLbXh6a18xZ05kQk9QcV9idXVwX2RxRWVmYnRMd3VESHcyMHRaZE5leGRwckxfeUEtRQ?oc=5",
       "source": "팜뉴스",
@@ -1953,18 +1459,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "R&D"
-      ]
-    },
-    {
-      "title": "릴리 ‘엡글리스’ 年 6회 투여 적응증 FDA 승인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wdEdXbVMwc0NBSzdBdUluX3loemNKc2dJQks5OWIxZElQMG9MQ09nM0NnNG9xV05za2lHOGxxUWstZVlETWpYMU9nY0h1TnQ1OWtNWlRYN3FqUlhaTVBVMnFCQm1mZVl2TnJtS3RxSV81VHM?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-06-11T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -2023,6 +1517,17 @@
       ]
     },
     {
+      "title": "데일리팜코리아, 데일리팜 영문뉴스, dailypharmkorea",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0taGJBUEJYZFdDa2VmR2FHaS1oWUtvU0Z2NFF4V1JZeUFSd0g4a0xxZERQZGEwdHBNU0M3M0F1UWlLRWZQTnVGQnZGRzZFTWlkM0J6UFBkcmM?oc=5",
+      "source": "데일리팜",
+      "region": "국내",
+      "published": "2026-06-09T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "의약품품질연구재단, '2026년 3차 의약품품질 규제과학 웨비나' 개최",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhY1NGNkM3dFVZWFNlbTUzclNmcE5yVzFDaHROTFdGZTk1d2UxaklCa040QlZVckljSFRCYkFDU0dmYm0xOS1BaDBGRHJaRGhVQVNSMzlxWEt5WFZFUE5FOUFaOVluWXJKTWRfVA?oc=5",
       "source": "팜뉴스",
@@ -2056,26 +1561,14 @@
       ]
     },
     {
-      "title": "보령컨슈머헬스케어, 제산제 '겔포스엠' 12포 대용량 패키지 출시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XYTBKblMwNkZ0UUdHd1FhQTJLMHY1Q0hLVEQxTlRxYXhTaU9DaXlScWh5V2RrbWlRQTVZU1lhcGVRZjlkWVB0YnJXeXk3Wm9UcldlN3A4VHp5WFloWVhSekFJTGQxYXByRG1jWg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-06-08T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
       "title": "[FDC 2026] \"신허가·AI 심사관·CDMO 특별법\"…식약처, 향후 5년 의약품 정책 대전환 예고",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56YUlvbWRFcmRMYTdsWDAwX2U2dFZ2eHVEemFGMTRMcDE1SGRRR2w0QUEySVRDOUhBUkhLUHlscnAyZGZLZ2FFZndySXFyOEhETm9tT2dTQXB2UVdELUJUWmhTU0pjdw?oc=5",
       "source": "약업신문",
       "region": "국내",
       "published": "2026-06-05T07:00:00+00:00",
-      "category": "공통·규제, 생산·GMP",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "CDMO",
-        "식약처"
+        "CDMO"
       ]
     },
     {
@@ -2112,17 +1605,6 @@
       ]
     },
     {
-      "title": "코아스템켐온-하드사이언스, ‘미래 융합 오가노이드 플랫폼’ 공동연구 추진",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tSzhsM0NrbnBCdGRkMG1pbDVZaUh4UGlHZEM1OGdDZnhEcUZxS1VMeTNsU2FMS0hnOWVJQXlwWFlRYUdMN0Viem5jenZWT1lvYmNjOTk0eTNidzBlSlBRd2dqdkhUTVdLQmJHcUgtYzlybXhRY3hj?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-06-04T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "식약처, 제약업계 안전관리 돕는 ‘의약품 중 불순물 저감화 사례집’ 발간",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aRkNSWlEyM21oRTk4eTJqUWE0d2tTRGVGZDY1c2dZajNtMUlOdVBLSkVUSi1jcG91N2E2Nk4tMmY1N1d0dGlYNExVNFZPXzFLZjdwNlZIQTNXZnZ6NHRPRC1ta2kwNEhxUWZHcDBzbTRjODg?oc=5",
       "source": "약업신문",
@@ -2155,17 +1637,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "디티앤씨알오, KSNS 워크숍서 30건 이상 상담 완료…\"통합 CRO 수요 확인\"",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9majVHQ05mOUJKZEtpNld0MmxmWVdQVlBPRWptaWF1SUFRTnI4RjhWZl9WaU1oWU56cW9NOWVYdUlWUjNFRU1OU1M3NFAtSVNhemN3UldKS3kyX0EwU19KYU91azFKdGtIdEZsYXRQSQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-06-02T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -2207,10 +1678,20 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-05-28T07:00:00+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "FDA"
+        "품질관리"
+      ]
+    },
+    {
+      "title": "\"100년 이콜랩, 왜 한국에 아시아 첫 '바이오프로세싱 랩'을 세웠나\"",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nck9BMHBjcl9xbXQ2QnJiTmNTWU1iYUFkY1BRRHdWcGxmMmlUc3ppTlFVa1B1WjFVSG9lZGpJdHFraXNSTmNRVnhYZzZvZGYyZ0JHNGl4Tmo4ZGxQNVlRTy16Q2tLUQ?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-05-26T07:00:00+00:00",
+      "category": "생산·GMP",
+      "matched_keywords": [
+        "CMO"
       ]
     },
     {
@@ -2244,17 +1725,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ0RHbFR5bTQ0NXNiZWtOVFVycEIzdnFaUUl4VkVaTHN6WGxqRGZJRGVjbV9ld3NTU3BfcUJIM3JudHpfZGZKWlA5eWl5Rjd1RUw1UElCVWlGeGZ1RllQTmhsdDE1czhfb3hUVEN3bHNOMWtZRjBkZWJ2QkUxX2ZrY2pqWS1HN3hhNzYwdXAwUWM5eDdEdnlqNDF5UDVvNTNJSklN?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-05-16T12:45:03+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -2302,17 +1772,6 @@
       ]
     },
     {
-      "title": "FDA, 미충족 의료수요 대응 약물 재창출 추진",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53LUxQc3FxZURia19wNld5SG4zVE1kNi1LOU5PcUE4eEo0cFEtdlM4ci15RXV4c0kxWXd5anlnU3dXVThCRXg2dTRwRHZfSnc2X2JwMEVTbWZtdThCcXZYQTdFZ21DT2wweXZpNzlueW9URms?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-05-12T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "LSK Global PS, ‘고객의 밤’ 성료…대사질환 임상개발 및 규제 대응 전략 공유",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tdzNUV1dCYkFUY2dvWUhQWV9meEl4QUw3U0hkQURydzdYbGlUYzdpeS1QbTcxVjJPZEVHbkJoamdJeHpCT1hVUzFIakJwb2M5akxIRzZNNXVLV25ERFllSG9Nd2dSQWpfLWhQbDhWSEhxTXZETU5Z?oc=5",
       "source": "약업신문",
@@ -2343,29 +1802,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "FDA, ‘레켐비’ 주 1회 피하주사제 5월 승인 기대",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVjl0bXdEZkFDQnVoVC0yb1NGdHR0SFgyMktkN1RCTEQ2LUdVTjNHdFBQNFZwZ09OQnNqZWJZQzRMcVR6Q3JkRl9weE92ZlRmdUNSV0ZMZUhNRXFCLU9oaHBFYmJSRjlJRU54M0RadEg4aGNZeEVJNW1iT0d4ZDhoWUFsU3JLMUk?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-05-10T21:09:35+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "릴리, 미국 최대 API 공장 구축 추진",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16SEdoYzZDNDV6WU1walgyWWJuZEk5NjVMUzVfbzRNdzVxMl9nNmVuLTYtVjB1UlVudnFLN2tOek9Lb3c3VG1BMXo3TVdqdTN1aURvYnlGV1ZHTlJBUlA4MEZ4QzFCdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-05-08T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "API"
       ]
     },
     {
@@ -2440,21 +1876,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-04-30T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
-      "matched_keywords": [
-        "임상시험",
-        "FDA"
-      ]
-    },
-    {
-      "title": "덕우전자, 드림씨아이에스와 큐리바이오 사업 협력 MOU 체결",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeHhvamVZNGdNSDlSelI2U1VaNVNfVUx5LWU1enQ2UUJxOFNyUWtGd3NlSmdSSDdPSkgyV1lwbGI5M3AwWDJ1aElSNmFTSFpNcG5zRWw4Zk5MRVhXZVJ1ZzdaR2M5VnloQ2JzcVNIcmxYQ0ZvSDZ2NjdKVTc3Y1lkcjRhSl9XR1ZMSmNDSkVkSnhjVGxKUWdOS1JvY0tRRXN5dUFJaDNIb2p0ZUpSZ0V2clE4N1VrNlVWMUotdUFvUmI0Zw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-29T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "CRO"
+        "임상시험"
       ]
     },
     {
@@ -2480,17 +1904,6 @@
       ]
     },
     {
-      "title": "'해외 제조소 규제', K-제약 영토 확장 걸림돌",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iS0RDdDQ4aEptN0JqVnJJM3RFYnp4M0dSNnhuaTAyeUdibUtid0ZxeWlWN3dyaHozaXJjQ01LakNRM0NpYzZvOC1PbFZhU3JZOXZwQ0dQbzkzSHBUWTZDMlloTkwxbE5GYnFYNw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-04-28T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소"
-      ]
-    },
-    {
       "title": "바이엘 코리아, 국내 유망 파이프라인 글로벌 사업화 지원 확대",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TUlRUUEZwbkJFa05fb29zTjdoa2JQcmZBWkFmWWFtakZ3X3o5aGc0cTl3QTZCeHFJU2FDU2tmb2VoZF9RZ29ybXVWdHowVmdBMXFpMkVGWllQNDhfTjF4VDhCSzlTcEJ1aHZsNQ?oc=5",
       "source": "팜뉴스",
@@ -2499,17 +1912,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "파이프라인"
-      ]
-    },
-    {
-      "title": "네오이뮨텍, 'NT-I7' 비소세포폐암 미국 FDA 임상2상 자진취하",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01Skc3a3EyMm13UWZlQkdXOFl4azRWMWxjWEI4Wm1SUVN2c0I5Qk1WVFJDdWd2LVhOOW1ld1hpSXB3Nk50WHcyZWtDcjRSZ3A4WndzTEh2bDd1Z0xJR2pxc3lKVUhoUWxzMDYweWtrVWRVXzEzMFVr?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-26T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -2529,6 +1931,17 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-04-23T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
+      "title": "디앤디파마텍 MASH 치료제 임상2상 48주 데이터베이스 락 완료",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nMDlUSVYtX01YMGFlUUtnRkpoZEV2TjMxOGR1WmJlTWQ5al9Td2FYZDNQVGx0OVo1aUNKUGl0ZVM5djU3aXNrc2VTUmVQd1Q3WVl4ajVORnQ0NEtCTU5HdDdXbkhyZw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-04-22T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
@@ -2579,17 +1992,6 @@
       ]
     },
     {
-      "title": "대웅제약 '펙수클루', 인도네시아 품목허가 획득… 동남아 시장 진출",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NOTJueU9SM2F2YzJvTnFzeVBZbFI4c1J1TFdFMTVuYndXYUt6TGQxdkctWExfamtZdGhlQm1xeDZZTkNLRlcwS2tZZzIwT1hwNlp4V2hlWUlyNVJ6a0VyWEhtSzMzemprSzM3ZQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-04-17T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
-      ]
-    },
-    {
       "title": "이뮨온시아, 론자와 CDMO 계약…PD-L1 항체 상용화 ‘글로벌 생산체계’ 구축",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTkFFd1JkQzJJU3luMGNiMWxycTVDZWFxVmlmSWdmaVB6eEZIbDdVZ1FJUm9qczZCb3pzSHRUYmlsc19TOExyRkl5TEpIU2tKeVRsS3EwbW1XenBILUNVNDdRNGcxUQ?oc=5",
       "source": "약업신문",
@@ -2620,28 +2022,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "L/O"
-      ]
-    },
-    {
-      "title": "식약처, GLP-1 계열 비만약 ‘오남용 관리’ 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ec0xJR2U4RFJJc3VRVjB3YlFVUGE4VEVaR0hUZnVHOURuYlEtLTZEZUdNMTA3cTd5d29mOUY4TUpST0F2QU9UYlVlcEgzVVRzRjVtVGVtYWxXZXRfUmRMVldPUUpUdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-15T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
-      "title": "FDA, 릴리 비만약 ‘파운다요’ 추가 안전성 요구",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aQ2tHdGdYV29BUjc1NWM5XzFSdTAzU2M0Y19SeXFrRFhZNmRYdDdhVHJfX2pEd0kxbnNid18yeUhBdFoxVEYwUUg2RlJZOWdYRmduWjBsR2NHa2ZEc3AteW54X0F5R0FOR2NNYg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-04-15T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -2745,6 +2125,28 @@
       ]
     },
     {
+      "title": "“AI 시대에도 결국 사람” 씨엔알리서치가 짚은 임상시험의 본질",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKTDY4WC1uYTVZcmtFbkdLY21xbXBaUEVLWnBnLTZfbnVyREIzNDR4ajJzb1pKRlVaT085VzNuZGtwLXFuSXo3Y2tjTkRPTFNUZFlJTTJyVTF4dXBkajd6ZUVqcHRTZw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-04-07T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
+      "title": "데일리팜코리아, 데일리팜 영문뉴스, dailypharmkorea",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzT1FibGl3TW9ncHRnMUlvWldkT0FQNHhnaHdEcm9NTGhvVVU5RU9weTBSb2JSVW11M1dibE1BZmdmNTZJeGl1V1pYRV9ULXRtNXo0S29GeGY?oc=5",
+      "source": "데일리팜",
+      "region": "국내",
+      "published": "2026-04-07T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "사후 인간 뇌로 여는 CNS 신약개발…“유전자 넘어 기능 데이터로”",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IaWtVMVk1UlhqSEpLVVRKVGhfVWJZWGVneUdDdzFuaG9iWVBpRnNGby0ycnRoa2JIYlNpMVVod3VWU3VRUXhUbHJaX21SdGRjSUt3TEh1My02Wlk1RjQ4UmNYZmktQQ?oc=5",
       "source": "약업신문",
@@ -2778,17 +2180,6 @@
       ]
     },
     {
-      "title": "의약품 GMP기준, 정밀약사감시 '강화 된다'",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3hMOVN4QkZxaWtTckVrRHBiVDlibkg1bFZLVUl5YzR6QkF4U1JqOXYxYUdPeGNPbUJJSG1ycGpGU1JuTTZxbDB3bENpOGNJWWk4YzdEN3ZVUG14WVFqVGhhRlBoekE5UWNzRzZUWmFmTmtieXN2S0hCazI3RUJJRmZsUUZ2MkM2a3MyaUpkMA?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-03T19:34:07+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "큐라클, CU01 당뇨병성 신증 임상2b상 효능·안전성 입증..기술이전 본격화",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iS1ItdU1UV1h4OEV0dlBwTUhiaGJmYkExS202aWQyNlpnWEhPNkpRZ3pwYmlPQzRvaDE1dXQ5MjgzWXU5azhwUmo4OE0xZjZnSDU5TG5OX2ZwOGRSUkNOOEtwZzRpZw?oc=5",
       "source": "약업신문",
@@ -2797,17 +2188,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "기술이전"
-      ]
-    },
-    {
-      "title": "국내기업 美 자회사 담관암 신약 FDA ‘신속심사’",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hX1ZrcEZCV2RnUTctSElINnhRWjVaWDZacW03c3czUmg2M1NueVkxSUVoSlRIS2hfd0Y0LVgyZXVlaVZKTnU0ZzRHcHpZTWhraVlaNm1Lb1BwZmdoS0VVblVPcGtnb01raERBM2hfUFk3U2c?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-02T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -2822,17 +2202,6 @@
       ]
     },
     {
-      "title": "FDA, 바이오의약품 홍보 제동…4개사 동시 지적",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yTEpaZlQzTDduSlJvQm9kQ1VTYVRjc0MyNDdPTWNwQmZPNWpZLVNXMEYtUXl5WWk5blY1cFlNNFh0MVBSMmRMdHZHRElESVJuTm43anlMTmg1UGlobEI5SGFFRlVFZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-04-01T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "유럽의약품청 바이오시밀러 비교효능임상 생략 기준 채택",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96Vi11ZklKZmd2Y3l5RS1tc1IyNWduWkY0TFlwaUFDb0JOMTg0d0dVc2tNUkUwSlA3NWc3bXE1Q3BMbHpIZG0xeGZzbXBSZk93d0pIa005dFI1dmd4QXNLWmlnenkxSU9iM3ZqNw?oc=5",
       "source": "팜뉴스",
@@ -2841,28 +2210,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "바이오시밀러"
-      ]
-    },
-    {
-      "title": "DMF 허여서 제출…실사 집중 ‘병목현상’ 우려",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ21YdW9mcFlCdWxLcHFuNUVYcWJJY1FYZFM3RWl6SXNDeHNCTVhqVW5oUEZlQjNRbUtnRzJyckxtaHVnczJnMGw1d3pEV2hzcVRLcGtoaVZsZVVPX2lWZU16YV91Tnczd2kzb0Z2bkp6OE9fd2U1V2FsSjNpWmVNN0p1Yzg4Z0g1VUgwRUI5VQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-31T08:58:55+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "DMF"
-      ]
-    },
-    {
-      "title": "日 건식업계 GMP 의무화 앞두고 분주",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TS2MwSzFLYm1jbTVtS2JrcHpmYU1JN283cnppcWJUOHhLclkyRTRxODZmOVExOE9mOUtkTUQ3a2pJMjdvQTlpYUoycnFxUXVEZTNDVUh0Uk1aU2YwQXVMZkRXVWk1Zw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-31T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -2888,49 +2235,14 @@
       ]
     },
     {
-      "title": "DMF, 내년부터 단계적으로 시행",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbHNZNjZuVDR1MzhfTFEzWHdqRUQ3LTJrR0NFRkxrcVBlRElQeXhmaU13aEVHTnBGNG9ZNXQta2k1dmU5VGR1VDN0T3AzZm1QY1dRNnlrWkVtRkpLRF82ZGVUdVZoZ0ZXWnRXckZXSTRFcU1yZ3NBeUhQMDRkSHplQUdTcVJIOGJCbkRYR3RtZWRHRVRuRTUtV3ZzNUF4c3BfNlNr?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-30T08:50:25+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "DMF"
-      ]
-    },
-    {
       "title": "식약처, 바이오시밀러 임상 3상 요건 완화 기준 공개",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZnlmaE9ob0VaNm8tVWxXeGpqY05ScjMySEgtRHluWWpUVGt4dXJxbkk4RHRScTVsdzVlRjZiZXAtZElWRUF6N0xROW91YU4zd3R1QXVzWEJiSjVsNlZWczl0T3Ztakp3MElEOA?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-03-27T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "바이오시밀러",
-        "식약처"
-      ]
-    },
-    {
-      "title": "셀트리온, 日서 옴리클로·아이덴젤트 품목허가 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwcnlFQmRabWs5MFkxQzBfV3M4WkVoNUR5OUFOdmt2OGRtcXhEZ0gxalV3bF81Z1Q1X3E5Zkk5VXRITTFuQUtwQmlVRmlKQkxpMC0wTlpZQlV3d2kwemxWMC1CQ0VZYXU4UldpXw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-03-27T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
-      ]
-    },
-    {
-      "title": "라정찬 대표 “네이처셀 미국 진출 전략 완성…FDA·나스닥 동시 타깃”",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZcmNuQ0FRS0VhUnhBU2V1SmNGcVhkaGN6MWdkSDI5VW04YzMtMEFfSFRqeWtLZE1ITVpaVl9Ic0h2akNHSzZiNUpJX1VxRnB5cDhBMVNFMlh4OGUxNGhwWXJEN2JTRVkxVjQ3THhqZTlCeS1nZFQ2RFUzNFNtQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-26T07:00:00+00:00",
-      "category": "공통·규제, 생산·GMP",
-      "matched_keywords": [
-        "GMP",
-        "FDA"
+        "바이오시밀러"
       ]
     },
     {
@@ -2947,17 +2259,6 @@
     {
       "title": "제약바이오협회-식약처, 글로벌 GMP 규제 조화 위한 민관 협의체 출범",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9INGFzT3JDQnRQYm1ENm9HbTdzS3RKaWpwMVoyQVRfQ2s2S2FWTjMxZ0hQdUhOTEdfREpsWlBEdVZJVGUxLTJSdjFxaWhIRXpja2hEV1RCNWxiUDZtQzRaTmpFdHExUWp3Tl81Mg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-03-25T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "메디톡스, 체지방 감소 유산균 '락티플랜' 출시… 식약처 개별인정형 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3SWpvV3NkWk1ibFlOOGRkZWpRaXlkUERNTHdxODNUYWkwTDhRQUMtR0ctejB5cjVQanFiZ083VGNkRFhQX1AtXzl1S2hORF9fLWk0emNoQU9oeUtKNlVrQUdLNm56NjFXcmFqWA?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-03-25T07:00:00+00:00",
@@ -2986,17 +2287,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "품질관리"
-      ]
-    },
-    {
-      "title": "식약처, 의약품 허가·심사 '불만제로' 추진",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHlpaHZsODVxRk5zWFNUOFdSSDhwS3NZdW5CZExTLWh3bThGczF6QjBJbGNHTnFtam9ZSGNnNXllN19nLTREeVNZWU91Q0FDS0F6UzRwQ01WcnhRLVdfd09GX3BvNkxOSGRYUVNVd3drY3RQeFhfMS1EXzBRN1h6OHVzbndWT1JHNTg3OVVQcE9JalBnb2xOYWtOSEQzZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-22T13:30:18+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
       ]
     },
     {
@@ -3081,39 +2371,14 @@
       ]
     },
     {
-      "title": "경보제약, 아산공장 미국 FDA 현장 실사 통과",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GV0RtaEVNS05WRjFlR1ZOTEdWM2ktdnpvUVJJOUNKcEIxZHpsQkx2QmR3MXBTcjl1eTliVDNBcE15OFJhOUt0ZS05SGh3dHBTRU9wcTJ3WHJ4cEZJTzJGd3Y2VlU0QQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-18T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "실사",
-        "FDA"
-      ]
-    },
-    {
-      "title": "씨엔알리서치, 인도네시아 지사 설립…아세안 임상 네트워크 확대",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuVUVzUWxoUE1SRTAtTndSZGhRb2Y3UnVKeWhQUzU4eEZJZHpSYlBBdUVGVlFDMUtkQlMzblRCZlB2NUh3b3RlZUZpQktUTmdoQTVsbG9GQjBEVWNjSlFRVGRMUUR5WUtEM3RrUg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-03-18T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "경보제약, 미국 FDA 현장 실사 통과…\"글로벌 품질 관리 체계 확보\"",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tLWZjQ3A4N2JGNlF2djQzWVNXdUNiMjB5N2lQTjBzNnhTNGNQRFA3bjRMeWpBR0hycmQtV2JXa0prNjd0dnY3YWtyQVp3RlVRNl9hSHJUeFZKZVNWaDR3OEZYb25xSmhtekJmcQ?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-03-18T07:00:00+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "실사",
-        "FDA"
+        "품질관리"
       ]
     },
     {
@@ -3125,6 +2390,17 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "위탁생산"
+      ]
+    },
+    {
+      "title": "삼성바이오로직스,전세계 바이오의약품 생산 캐파 1위 ‘우뚝’",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55cllhNlVZc1pWeTU0VDJhSE93UF9oV3NKWXd0Ylg1X0FzY2tub1RZTzNLUVdtWm1OdWY3WGhhQ1NkOFF3WmlHOFdDSHR2UTZfRTM1TVl1a3NXMUdPc3pNNXZXdmdKdw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-03-17T07:00:00+00:00",
+      "category": "생산·GMP",
+      "matched_keywords": [
+        "CMO"
       ]
     },
     {
@@ -3158,17 +2434,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
-      ]
-    },
-    {
-      "title": "일방적 제조소 변경에 20억 손해배상 날벼락...이유는?",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XZ2dxWUlmazd2SlJENFB1LUdZamdhSUplbzc3TnB3M0pkR1d2eTBKZXFycmtTTUNCQzc2b0d0bjdBalNXNXNLZklCZHVPUUdyRFB5MVV5ZGhRaEhPTWRiNDRPSzFqLV9OajE5Vw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-03-13T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소"
       ]
     },
     {
@@ -3221,10 +2486,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-03-10T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "바이오시밀러",
-        "FDA"
+        "바이오시밀러"
       ]
     },
     {
@@ -3244,10 +2508,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-03-10T07:00:00+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "CDMO"
+        "품질관리"
       ]
     },
     {
@@ -3284,17 +2547,6 @@
       ]
     },
     {
-      "title": "소아 연골무형성증 치료제 FDA 심사기간 딜레이",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mZGw1c2N2OU5mTEFiLUE2WFVIeGswWnBnSVhxcld5UHdZeWEwMzlNTEF1WmtLZUs2S0FkV0k3bmU3ZXh2enljWm12dkt0cHNQUHkyNHRkd3U3SEVsNmY0RnFPdnVFb1pQX2RXQ0J2ak1mTTlNWFR2VzB0RTJKZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-04T13:10:05+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVjRWay1sclQ1STI5VUlhSnhZYTI0dU82VnlNN05VcHFqNFNSZnN5aDdWRFUzaXFzR3RmZkU1amRQWjc5VzFacVZlajF2ZFpYa09TZ01UNkZRZUZTOTh6aGxhMUhpRE9LZW9abnltRlpIXzZKY1ZXenZYdW9ydHExV3dDUjJFZWUzc2lNR2RrZU9CX0xEb3RUZG5mZ2RrcTEwYVpn?oc=5",
       "source": "약업신문",
@@ -3317,17 +2569,6 @@
       ]
     },
     {
-      "title": "원료의약품 등록대상서 영양목적 주사제는 제외",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPenFoWEpmVlotOGFPdU93cU1JLXJ6LVl2QV93MnFJeG5ROHNhaHgzLTZCZW9KZ3NjdF9SMWxRT0cwRkNFUUpuYTl5U3l4MndGNFlFOExJcHMwM0tRX2YtcW1tODJ0UUN4d0JHSWg1RVpybGtCRTZKcFZXV2syMzJEcDlpNzE1ZzJkUDNrZE5MVUtocUloT1BuZllqN1pNQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-26T03:33:31+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품"
-      ]
-    },
-    {
       "title": "큐로셀 CAR-T '림카토' 임상 1상, 고위험군 혈액암 환자 완치 판정 확인",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIeFpTZ0xUdHVWWHg5VXJMejNNOTdneXJHRm15Tm1vc3JNSVJWa0tXekM0TTlMMXNxVXZKaDZSalU0SE0xcHR0OTByS2JPZHNJaTNLOUpiNUtvYUNacURWOGdUTkJsbC1oY2lyRg?oc=5",
       "source": "팜뉴스",
@@ -3344,10 +2585,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-02-24T21:07:20+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "신약개발",
-        "FDA"
+        "신약개발"
       ]
     },
     {
@@ -3373,28 +2613,6 @@
       ]
     },
     {
-      "title": "‘와킥스’ 소아 기면증 환자 탈력발작 FDA 플러스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DTmdKTHlFVzlYaHB5THJZV3RibHdKb2Y3MVNvSDJUZVFEWkkxbVRha29JdUZ1MUdJTFdPTS12TXVoa19mUXRBOWMyX256eFdRUVF3X0hyUlM3TkYxNk9RU0Ntakx6ekpmSERhWVo5czRDZDQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-23T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "로슈 유방암 신약 기레데스트란트 FDA 심사돌입",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4X1dvRXJIRnVka05oNUhiR3RIdWhNc3pVRzFaOWVILUFLQk1YaG1xZEVMdk1nTTVLNUQzODNQdXBjWVY1WUkxUGpRZThZeU5DYnhDV0ZlcGtyMWpHOUZWXzdiazF1ckxkVjBYSlhwaVFtc1E?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-23T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "케어젠, 'CG-P5' 임상 1상 주요 데이터 국제 학회서 공개 예정",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ySmJUa3VqSExmUFo2R1RiZnVoZ0RncXcxQy1BNm5MdzZvc04yWHVoZ3Y0YkFOUXRzVjVrWFJOY21TczhJcXc5eVV2dW8wRWZPWHhjZlEySXB0aWd0N1kwS0JwTm5vbkhfTUlWSw?oc=5",
       "source": "팜뉴스",
@@ -3417,29 +2635,6 @@
       ]
     },
     {
-      "title": "위더스제약,안성공장 정제 제조업무 재개..생산 정상화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDNFlHZWNkejdFeHczZzEyZzFNNkZBZE5jWUhJSUd5ZUotQjRVM2FyS2lLOFB3Y0IyNF9jWWJIV3FtS1ZUQkk2Wk5oRFdMZGpGVU5aZDhybTgwdmtnaWoyX3BEU1Q0UQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-20T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "CMO"
-      ]
-    },
-    {
-      "title": "광동제약, 노안 치료제 ‘유베지’ FDA 승인 소식 상한가 직행… 52주 신고가 갱신",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMX2xkZFBnV3pnMklIOVVKUDY3R2Z4WnRzZjJVV29kSllla3pDNE1Uc2t2dHhlbjV2UUdVd2FMTXhQMTZ0Vjk2NFpUWk91Y0wxNmZ0QjRNQTFiMlhFbFhfbTc1U2VWdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-20T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "현대ADM, '(주)페니트리움바이오사이언스'로 사명 변경",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWSUlVX29tb0JwMjdhc3VQX1NyMFlRLWlPSVlHcVd3aHY4VnlHMVFtUEdPTDAyV3lpMWlxUkllMWgwb3BTaExyLWVFalJjWks0c2NOdFNzSlEtbWdSY3dUMGF4cl9WZFUtc1o5Yw?oc=5",
       "source": "팜뉴스",
@@ -3459,28 +2654,6 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "CDMO"
-      ]
-    },
-    {
-      "title": "30년 만 국소진행성 췌장암 치료법 FDA 허가",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lNnhubUpyMnNBSkRiOG5mVDRkNlJoWThlVTZxZDRvQk5vRkhfcVFraDVEc280cWhyVDg3YjhoU2ZMdDU5UTNjUEFkTTJ1TmNyMTZiTy1zSDROX2cxMmV5UVJQWHU4dw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-13T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "FDA, ‘대량 유통’ 조제 비만치료제 칼 빼들었다… “안전성 검증 불가”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yclVvUEkyTTdiVWRtaGtSOHVqOXkwTUd6VXBabnJCSG12ay1RajlRVjJqYUhaQXYxVTNEMTRFNFdxU3ZyOFpHQlphS2RMNFZZQlpCWVdrVTNFb2paRjNlWE44NmhhOTFuS25aNA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-02-13T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -3575,17 +2748,6 @@
       ]
     },
     {
-      "title": "FDA, 未허가 GLP-1 제제들에 단호한 조치 표명",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KWHpZMmhZeTFnemwxZjBsckppdjJYNmFLYWg4NVc4MjhNZHRaemstRmVBeHd3a1M3MU0zOFpzMXVUZTRGTWJVTVZtelFsSU5sVEJELTFhb0xudjVuVkFIeWdZUU9pdUJHbGwzVkhxVGNvNVVjX3ZpbWRDN0k1UQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-09T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "Harmonised ICH M15 Guideline, General Principles for Model-informed Drug Development, Adopted",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdzVtaDBpM3c2QTlyeW03Q0NyVTM0Y0ZNZUJEYjBLM01oWF95Y1BpMUdsT0x3UVBfWjREbmtNbUFZYWpTVUt3MHdqMjBrdlhXb0szV0xiWGtrUmpUNDZLNDNTQ2ZaaklXTEc0V2h4eGFXd210dDJFSGNNcHVCR2ZQUHkwUjlwV2FXMHg1ZDFRSUVpZ1pwTV9rVjhMeVhVNUhsbmRhOF9zc3pzcTlDVUNYcVBB?oc=5",
       "source": "ICH",
@@ -3615,7 +2777,6 @@
       "published": "2026-02-06T08:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
         "CMO"
       ]
     },
@@ -3675,28 +2836,6 @@
       ]
     },
     {
-      "title": "뉴로핏, ‘아쿠아 AD 플러스’ FDA 510(k) 획득…세 번째 미국 인허가",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzdC1udjlJTERQbmlhUzBCZ0k0WG9QcXc2dS1QNW4tQklOVEczYmJ6VmNGVW1mWXctQWZBT2Y2Z29TY2FnYWVhZmZmRm1VYW9FZ2psQTZjSlJHelZxcTBXUndGd1dDdW1hNzhzUWxkWQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-03T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "릴리, 35억弗 투자 새 주사제ㆍ디바이스 제조시설",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KZVg3MXI3SXVmQWR1TmxLcWo4X2RDWkt1cTgwajZGUHJneFg0blpnS1lrRHVVT1cwSDFUellGeWItLVhUT3haUkdXYUt4c0p5SWNpVTBKcHcwNzc1WFBfNGRTMUVER2M3QmJYd3RlUjQ1UEk?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-02-02T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조시설"
-      ]
-    },
-    {
       "title": "AI가 채굴한 신약 후보 물질 '렌토서티브'",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xY1lCY2ljOGpCQWhJdFd3dmpJN21lV25uUlA1WTJScUt2N2k2ZC1CRG1HQ2Z0OUZnODZLZGVhMFJHcVdjclhyenVvdndJcktIeHBJUWx4UjRKWGtaNFFRUVhYbXQ2ZlZzZ2trNw?oc=5",
       "source": "팜뉴스",
@@ -3730,51 +2869,6 @@
       ]
     },
     {
-      "title": "HLB, 간암 신약 FDA '클래스2' 본심사 시작…\"7월 최종 결정\"",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ERFU1VHV2d3ZvdFg4RG5Ndkx3NHpZY015RUU4TFdNbjV6cURUajFKREtCd0hsNGJtOWpxMkJOZGZsZHcyWEphQlc5WDNRTEtLYW1lMmhPbnVBYlhxX0NhanBTcWZDVDVFaUZRenlnYw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-01-29T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "UAE, 식약처 참조기관 인정…WLA 전 기능 효과 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnRUxEUHBXWG1qWnVHTmVlWnRhY2lyYV96RTJDQU9uYWhPb0Nqa3pPXzhqOUpTbElMOThiRGM3LW1OU1NNYlhvRlJ2OTM2VDhLUThRQTZkUks3ZFUwNG5Pc3VRM1R4QQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-01-28T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
-      "title": "FDA, 이식 불가 다발성 골수종 환자에 ‘다잘렉스 4제 요법’ 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNU0RXNVIxRlV6MWtlRzBtazMyWjItWXZrMF93YzFPQ3lIQXVGT3pmdUM3WDJYX0FZUktwX0NwNUgwV1QyR0txSmlfZE9VUlNFTWdQMzkyeFFtWWlfZ0FXQUxtel9BU1hQZjlDbQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-01-28T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "식약처, 스마트워치·건강 앱 ‘성능 인증제’ 본격 시행… 26일부터 운영",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZYVJMQWtyYWZ1N1RoNDE1S2dwNC1PQ1NmWlZ4dzNiVDNsbkNxTkd2dTdFQmRBbE43LUZIcm9YRzlCUlZNZzJDS2FhRFljOFprUElvdmhkVnh1NDN0LWItT1RTQlByUUJtenRWRg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-01-26T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "[2026 R&D⑧]산업통상부, 제약바이오 ‘제조 강국’으로 반도체 신화 정조준",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPam5BZW5oejBDSktGUmZmODR5SWk5OXY3NmhITUlNd1FFamNnVjBIblRVREpFQTBIaHkwcmd0TGJ5V0VFZWc5T3JEUXNCaWFiLWJTNTVZTEJGNDZVRksyUGxFQ1N5RDg1RzRPc3p1VXVBcnU3VXNOOXUyRG9IMnMtc1F4WlNVNE5YUGc?oc=5",
       "source": "약업신문",
@@ -3794,6 +2888,28 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "불순물"
+      ]
+    },
+    {
+      "title": "[기고] 리니칼, 종양학에서 가속 승인 제도: 신속성과 과학적 엄밀성의 균형",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QRWZVVFJza0N2SGlyTDZmQWk3cDFCbWtPWkhCbndHQklEZFcxMlVwM0xYQnBOTklXdzFzSHFrcnYyNkExNEdfNkUyb1RnYXlyVjBKdzh5RjFHTmZIOWpuMkdxMWZaSzU2aFBldUxiWmphZlM1d2pQUGlmMTFkdw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-01-19T08:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
+      "title": "식약처, ‘트리클로산 의혹’ 애경 2080 수입치약 전량 수거",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UTnR1SVJBR0JJdnlydlliQnREM092WnhlVmplQTFwX1JmdDZDZkt2QUxsd1FndU8zeFBzTGlEa2lwek5pczdtTFhyUFZ4V1cyYVAxUm1BQl9PeHNTdmtuTVUta2FrQ2VVVjhxOQ?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-01-16T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
       ]
     },
     {
@@ -3908,18 +3024,6 @@
       ]
     },
     {
-      "title": "원료의약품 사전 GMP 평가 방안 논의",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaDZ3Y0VzNm9VNHRUa0U0aGVNcFVwVFdRZ0l2Zjl6UnV0Ri1XR3kyZDRUal9MNlpoWmExVlNTVWFUTUxNcE5SMFd6WTBwWDltc0kwWHQtWTZfZnRpMHAzVWJSUDhBaEJUenJ6YjZzUFQ2bEh1YlpKRmVzV3g4SXg0emVzWlJESlpfTnU1ZlhvVzJHZzBPZlpMcVFrMExmZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-01-11T03:49:39+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP",
-        "원료의약품"
-      ]
-    },
-    {
       "title": "세라트젠, 오가노이드 비임상 ‘오가노스크린’ 적용 범위 확대",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yQ3Z0Q2V6Y3A4NnE1MzVURWdnQ2RTT3dnZXh5cEhrTEotb1ZUakUyU3dCeVV1ejR1Y2xjZlVyWHhSSHJkSkFOLWRYd1V5VGd3REt4TUdYODFwdUlzQ0l2YU9Jd1BSellsMVhiOA?oc=5",
       "source": "팜뉴스",
@@ -3953,15 +3057,14 @@
       ]
     },
     {
-      "title": "안국,cGMP 공장 착공",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHhQZm1iRURYUTRuUlBldFB2OHBhTENVZXNvQ1R4SzBUcXB0cEFMeldrWUVfTHRTdlhrbEdhWmJaR2d4cC1ueEJ5OUJMOW80NFktcGl0SmUxRnFKVW5CQUdWX1VNb25jenpCdnJYVmZoTjZ1RkZqUDVKNGtvdUxqLWZnclVsNkFQSGxwTWg5bFVtZm5OdGRrSC04cGxkQQ?oc=5",
+      "title": "식약처, 2026년 주요업무 발표",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQlFzRkxVX1RaUG5Gc3lqTS1oaGtnNU1TRDdVazNJb1d1U1JYZnZIbDFTcDJrd3hSNm0zcHVIT0k3eTY5aGdzem90Mm9hYWFrWl9iLVNCQndJZFlxVlpTaF93WHdBWkZiaEVNWjNLdTVsS0tsVVl0VkNrYnNlV2pyZGFGWUJ2aURvTGZONjQ2OGNhX0lrY3VhamduOA?oc=5",
       "source": "약업신문",
       "region": "국내",
-      "published": "2026-01-04T21:23:00+00:00",
+      "published": "2026-01-02T08:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
-        "cGMP"
+        "CMO"
       ]
     },
     {
@@ -4017,17 +3120,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "기술이전"
-      ]
-    },
-    {
-      "title": "씨엔알리서치, 웹어워드코리아 의료서비스분야 대상 선정",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mYk90eU1Odlo2WkVURmZQai1fdTNrakRUQ3FLME9SeDR2V3F3YkRZa2dCQkYxNDBCV3NPdUxQckRrTENsNzZfMnI5QTdtemV4WUR5elZBbnlyRXN5THpBMl9MbnFIMXZjM3ZpTg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-12-19T08:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -4149,11 +3241,9 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-12-09T08:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "신약개발",
-        "승인",
-        "FDA"
+        "신약개발"
       ]
     },
     {
@@ -4236,28 +3326,6 @@
       ]
     },
     {
-      "title": "쿼드메디슨, 마이크로니들 상업화 역량...'수익성·성장성' 두 마리 토끼 잡는다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54MHdYZVpXX0NsdlB6ME5lQmJNSnBaSXZDQTQxYlZtYk5wcVZKMEdQd1JWNk10QWZWaFBaSWhpMmF1ZHBtNVVMLTI3cGxvRjZLMnFuV1J2YzR5Q0JPZ1l5YVpIRFlRZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-12-01T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "CMO"
-      ]
-    },
-    {
-      "title": "HLB펩, 항이뇨호르몬 ‘바소프레신’ 원료의약품 등록",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQYl81SlRsYnltdk0wZWVDNmY1TnJSLVkxYnBGc2ltNkxTbGY4dUZuc29mQXlNWjVNMTZaMUxaaS1xN0F1YXFZbXdGS3VodDY1UzJ3Y1FTQy1KWHpwbDFMWkJldUpvNGNXMFdUSg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-12-01T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품"
-      ]
-    },
-    {
       "title": "일본 CDMO 기반 열세, 항체·ADC 수탁 기업 절대 부족",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tWWtBVUVQY3NZbHpyb2RMbjlyUDE0Vk1ubHdCUDd4Nk5MdURETkpTeEF0SERLXzQ4UFBhdGREZE9LY0hwYTA0ZUVfeXEyT1k1VDRpcFJxV2JYeFllQlctTmVINXlwYm1KN1Fxcg?oc=5",
       "source": "팜뉴스",
@@ -4274,34 +3342,20 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-11-27T08:00:00+00:00",
-      "category": "개발·연구, 공통·규제, 생산·GMP",
+      "category": "개발·연구",
       "matched_keywords": [
-        "임상3상",
-        "제조소",
-        "식약처"
+        "임상3상"
       ]
     },
     {
-      "title": "HLB셀, 의료기기 K-GMP 인증 획득… 지혈제 ‘블리픽스’ 상업화 절차 진행",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjX0NZcFFMZ1pfSTQtUWprQmtWOEhTRklsNXdkMVlnUEdlbmM2Q1J1WmRHOXZkTmhWbDBrX1BLLWFFdnprUkJ0NDhKZWJjODVLcFBFbFpUY2lPck5MaU9qOTRPaW5ycUVwM1ZHdA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-11-27T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "IgAN 환자 단백뇨 감소 치료제 FDA ‘가속승인’",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ba0F2bjFURFhNdjNZdFo4bTltM3htUVhGNnZiVS1XMEVEQm1vZ2d1YjJYdnh5cWFTQ2EwM0gweU43dTk3dmdlSVJKR21qTmJaZno3MVI5YUJFVFR5VlVId21SMExWZDg1ME94Q29wNDduT28?oc=5",
+      "title": "바이오톡스텍, 2025 Biotoxtech Biennial Symposium 27일 개최",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xWkp6emNyVWRCY1hCRy1qQlROa3BPZ1JHYUVZSEhuNUlISkVtQkZpYWdYUFB4bWhTME5IMTM2VEN0VTNKcmxQRG5pQzdpN2l5blpnME9iN1BBLTl6Y0E0emNIRXRKa0E4VWc?oc=5",
       "source": "약업신문",
       "region": "국내",
       "published": "2025-11-26T08:00:00+00:00",
-      "category": "공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "승인",
-        "FDA"
+        "CRO"
       ]
     },
     {
@@ -4481,17 +3535,6 @@
       ]
     },
     {
-      "title": "씨엔알리서치, ‘K-AI 신약개발 전임상·임상 R&D’ 국책과제 선정",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BdkVOS0tKOVJqTW84am92Tl9STmtGRVpaZ2JFajlnZGJqdU5pbnFkeG9yWFA1Uldra1VYYThtZlcyUGdmdUw1Sm5uTncxQXVCMldTUlFlU3FvalItM0NEcmRSWUVXQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-11-05T08:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "목암생명과학연구소, 복지부 K-AI 신약개발 연구기관 선정",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxb3dPYUdkYzdCenEtUlFIMUVZR1ZLdk1IZlFGel81R0l4X0cwWm5DX3VpY0xyaFhRbmtiQzNMLVJISUN4MEVRWVBaN2l1RGNCWTM1b2pUR1pBeW1qTXpPVTRBU1V5ZmpLSEJxdg?oc=5",
       "source": "팜뉴스",
@@ -4512,18 +3555,6 @@
       "matched_keywords": [
         "비임상",
         "임상시험"
-      ]
-    },
-    {
-      "title": "내성균 위협 속, FDA 마이셀 콘테포 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9STXVDcFNyVzRJZXpvc1V2Zk1VSkd6MjN0ekJvZURzR3FRcFZvZHpMeHJhUjZoWnVieDJOWmkyVGJtamYzR1pJQ1NQOHhFaFBTTUxCTTdhWWUtR1lrcFA3QlZDMWxKMDluemRqVQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-11-05T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -4554,10 +3585,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-10-31T07:00:00+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "GMP"
+        "품질관리"
       ]
     },
     {
@@ -4605,14 +3635,14 @@
       ]
     },
     {
-      "title": "FDA, 426일 지연 RTF 차단…신약 심사 기준 전격 공개",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUlB2RkZ6WXZjRWxUeXdmT2x5NGVjZ0JkYm9wcW4tck5VNnJNWWhTQlNRcTIxbTVUWjlrRnBIY2FyT3lwSkVNNVNHa3BQd1RkZTVwcXc0amUzbVQwVVZKd3pHbDBmNnVHeGpVVg?oc=5",
+      "title": "산자부장관, 톡신 국가핵심기술 해지 '결연'...고시폐지 급물살",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjdGJKQ3NET3psbXBKWWgyZzM3T3BQVFhGWkYyRDFteC1PNHQ5SE1BdkdGOHFZVnlsZkpNcnNCTlZxTi1jTFhWaGJIbF9JYUttWElPYUlzMGp3TGJNOVFDNnhBcGdWZHNHZGY1aQ?oc=5",
       "source": "팜뉴스",
       "region": "국내",
-      "published": "2025-10-24T07:00:00+00:00",
+      "published": "2025-10-27T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "FDA"
+        "고시"
       ]
     },
     {
@@ -4763,17 +3793,6 @@
       ]
     },
     {
-      "title": "“합성 지아잔틴 관리, 식약처 관심 필요하다”",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuWjE1UDVsTjluWWpWQndtUkNuQ05FdHVrajVfeTdlaGRCSkJ3b0Jfc2ZkZWswRWt3U05sVG9MR3pja3Vjb3ZyTDZhYmJ5eGhrVU9QV2h1dlJFX2VDSzhVRllrWUROdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-09-22T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "바이넥스, 오송 신공장 증설로 생산능력 2배 확대",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2aFlCWjFrTmoxWHNCMDItbmV4ZXV4RHU1WE1JeTNvNktkd19rOGFfaEp3bU5rWVFrX1NSckI1OUhYSXhnTEhpV2VGQmJKZVV5SV93MkI4dVRmZllJeHhvbmlpM3RHd25oWWhJMg?oc=5",
       "source": "팜뉴스",
@@ -4862,29 +3881,6 @@
       ]
     },
     {
-      "title": "美 FDA, 극희귀 유전질환 신약 승인 가속화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PUW90bWVycldnN2VNZmZURWNGMnBRREluZjFMbjNUZXdUbHZiVmxndjQ3MUVYMElSUGlVa3R2M0JHc2pMcXBwUC1HZG9wTExkYnZYZTc2ajJ3TFRtMjgtQUo0V2tnVjluNTY0UA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-09-04T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qQlNmYkZNTkFjcHRDbkU0UFVBMUZxRzRlX3FFVmxRSkc2dnVYd1A3aVRJMmloaVJ1YklOQ2RmQ2VKdnlERGtWZ2x6VDVFTnpuYXNvQ2pDRWRJSTl3Z2xjT3BRU0JPbnRMQ2ZTY1FxUFV1Qkg2NVpfMldTOU00dw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-09-04T06:13:43+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "GMP Guide Chapter 1 Q10 implementation final",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4weE9iQzdDTERGYk9DQTdxOElhckdIaTYxZDhFOVRFUXp4TVZrUjlNSmVuMEo4TTViYU9WS2haSHUyNTlVVDBJYUJncw?oc=5",
       "source": "PIC/S",
@@ -4895,17 +3891,6 @@
         "GMP",
         "quality",
         "guideline"
-      ]
-    },
-    {
-      "title": "인트론바이오,'SAL200' 수술전 처치 약물 임상시험 올해 식약처 신청",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rcUJ1OEZ0NlJTdDJMQ2VsSzBRS2xuOGIxMEtfWlNKbDVsWHh3OUxBeElOckhVYUp2blYtMzZJRW1vVnVVdlFMZ3pxU3RTNXVxbHo1SExxWERocHV3bGh2S2pCWTg3N2hEM1F0aVF5Zw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-09-03T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -4953,6 +3938,17 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "품질관리"
+      ]
+    },
+    {
+      "title": "파로스아이바이오, 'PHI-101' 연구자 주도 임상 호주 HREC 승인",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NaFBhb1VQb2RSOUVSdDNfVUN1RHRqYzZSSG81aUhDUmtfSUxKVEJkNHRlQ0NHQ3Nka0xQREw0V1hIb25WM3dGYm13OVJQN3hDeENrWFdDUU5vSjVfTlVCRktTcXgyd1k0N1dXWg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2025-08-28T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "승인"
       ]
     },
     {
@@ -5022,29 +4018,6 @@
       ]
     },
     {
-      "title": "미국 FDA, 의약품 제조시설 건설 앞당기는 정책 시행",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mME1HT1E3WlhpXzdaNlJvcmxUVld0YlB6dTg2NXFfVzF4QzZ2TnJGMDFGYVF4WkZacVJ4ZVgyS013VnFSLU5oSEhOVlpXWFR4RGJfNGZBclE4OGRVUlJxS1NCRU5IZndFSUhTS21ndFQxSDA4aFhZRFkwTVZKUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-08-08T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조시설"
-      ]
-    },
-    {
-      "title": "美 FDA, 미만성 중뇌 신경교종에 모데이소(Modeyso) 가속 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCNFBDVlNlSDlTM3d4VlBscVJjX0ExMjc3VXkxWU9Ra3JZRGRpdXIwS3I3WGdOUHVzUXFLOWkxWHpXYnBJSjNqQUxiLXZSQkNkWWxHWFkwRmdLeGVyNndYNWwyc09YWUxxRUtqNg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-08-07T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "ICH Q3E Draft Guideline is Available Now on the ICH Website",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Pd3pKaFBMTjdIOHJFdE1abGlHWXdKZ0hxNndQYW9FTHZfa3FEZzlseXpEVnBBNGI5Z1U4UGQyNzdwSlNTeGRaQTRLRVJsTDIzdDQ5ZVNiT0xpUkRKTHZkOTI5Q1V4SUVNZXQxQWdFbFR5ZFpqa045WG1pUExnSkE?oc=5",
       "source": "ICH",
@@ -5079,18 +4052,6 @@
       ]
     },
     {
-      "title": "세계 최초 아세클리딘(Aceclidine) 노안 치료제 ‘VIZZ’, 美 FDA 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2ZmlZMmxiMFdBcktud2w3ejI2ZXJGY044NGs1aGNYQmY3UlJJSHUxa1htYU1YWG8zc2c4Mk51c0FaSmQyNjY5X3FKZVZkc01CSHllREJ2SHhQN0RDX3pLdl83Zmpjc1pZRUlWWQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-08-01T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "하나제약, 하길 CMO 공장 준공식 … 글로벌 생산기지 구축",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpSWNvV3NKbURQV2pFaGt5NjZzaFBpNnI2TWwtaTZKUmVwZTAwT2ZJRmlGMy1XVzUzd1dPRTRvV3l2VUI1cEFvVmc5NE92TWp4Vk9VVWRiZTUxYm8zNThSaDlEZU5pU2VBdzI3RlNXYw?oc=5",
       "source": "약업신문",
@@ -5100,30 +4061,6 @@
       "matched_keywords": [
         "품질관리",
         "CMO"
-      ]
-    },
-    {
-      "title": "엠파벨리(Empaveli), FDA 사구체병증·면역복합체 신염 치료제로 첫 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPTlEtdzhvbGxRWVIxNERwT2dWdlhERzBNUHM0UGtoZmhYSlllQ1lYMHVpOFhzYlZxRHhOQ0hXbXduUXA2ay1wX1pCLURzckZpOEJIWHN6MS1fZDBRSE9XWFhlWkF3dTRmSXVjeA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-07-29T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "HLB, 리라푸그라티닙 “FDA 신약 승인 위한 데이터 확보”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xNDdZVGo0TUI2Mm5hRk5HME56U0pZeUFhM2hGQ0VfdmZzNXFiVjJaYlVaaVhiRF9adTE5Z3BUeUl5UFVFeE1adlliNWlaWjVVTE5LaEZWU0ZxZ0REQ2pMTHQyLWtQeVM2X1JLZA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-07-28T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -5160,15 +4097,25 @@
       ]
     },
     {
-      "title": "FDA, 만성 손 습진 첫 치료제 승인… ‘Anzupgo’ 새 국소요법으로 허가",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZ3UxQUpLdjBTZVZISUlCVkNKSDhHTXhVSV9Kd19wWGZKeDN6cm1oTG81V19mc0tXTmNqal9IdG4wZmpaYkJRTGxENXBKaWRtQlVJZkxqNkhmRTJlQlV1V2NLVEdEWW9kRnY1SA?oc=5",
+      "title": "SK바이오사이언스-사노피 공동개발 폐렴구균 단백접합 백신, 중국서 임상시험계획(CTA) 승인",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwaXIxemc4cEtaQlluNFlDbkFKZVhGZmFsdnJLTUFOOU1uTmw4NUc2RHZFWjFnS050ZUR5dl94WGlrOXRLWWFPMEVQc3kxWlRYNEhmcHFNS3BlV21SYVlnLWdaeDJjOUUtZHJBdg?oc=5",
       "source": "팜뉴스",
       "region": "국내",
-      "published": "2025-07-24T07:00:00+00:00",
+      "published": "2025-07-18T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "승인",
-        "FDA"
+        "승인"
+      ]
+    },
+    {
+      "title": "메지온,'유데나필' 폰탄 치료제 적응증 확대 미국 FDA 추가임상 '순항'",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sdnMtV3BBOE81bE9MTzBnbGhjWWtlSFBFVncxdVI3R1N0SUlIR2ZOcUtGT1NtRmhTSnp2YWNFcTZyVUhuOFJmbFdicTFYMEdzUXFvR3RrR09GZnhXSjNxQzFLYm1kWnQ3ZjJ1SU5INA?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2025-07-17T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -5190,7 +4137,6 @@
       "published": "2025-07-17T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
         "CDMO"
       ]
     },
@@ -5238,17 +4184,6 @@
       "matched_keywords": [
         "제형",
         "비임상"
-      ]
-    },
-    {
-      "title": "말로만 외치는 원료의약품 주권 확보, 산업계에선 \"정부 차원 지원 필수\"",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kZVNXbTc5N2VwTUdHRkJ6MVh1MUxZNjZQSVd6ekl1OWJLbGh3STlQeDNHOXRBckJIXzlpVmwtdk1IX1E4MnlIZUZvY3pKVkkyUGtqV0RNM0dSTHVHcWlTNUJrWEV5SHlab2w3dA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-07-14T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품"
       ]
     },
     {
@@ -5300,14 +4235,14 @@
       ]
     },
     {
-      "title": "FDA, ADHD 약 복용한 6세 미만 아동 체중 급감 위험에 ‘경고’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3MWJfZU5IelRTTDBSNFl4eVZzS0hPWDBXLUNOZW1GSVZtRklDWDZaeE9ZeXdIRjBuMFQ0UTFLQVQ3Vlk2Q21Gc21wQjBQcmVWSjVLa2lvVW1jMDhnWGQ3Z1JILXJrXzhjQjB5aQ?oc=5",
-      "source": "팜뉴스",
+      "title": "\"AI·빅데이터로 탈모 끝장낸다\" 에피바이오텍 'Hair.I' 플랫폼 성과 '속속'",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2eG54bnMzaGtES1N5dU92OERGWW9VNTRHalNnTktua2NRS2tYekRoeWVPUWNPWkltdndILWV4QnFzVzVLWkRjVEVzQm9Ic2dCTENQZi11VlY1N1Rrd21QR3ZKZUVHZmRZVFFmQUxnNzFZSFpIUkx5anN3U21nUQ?oc=5",
+      "source": "약업신문",
       "region": "국내",
-      "published": "2025-07-01T07:00:00+00:00",
-      "category": "공통·규제",
+      "published": "2025-06-30T07:00:00+00:00",
+      "category": "개발·연구",
       "matched_keywords": [
-        "FDA"
+        "CRO"
       ]
     },
     {
@@ -5360,10 +4295,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-06-23T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "임상시험",
-        "승인"
+        "임상시험"
       ]
     },
     {
@@ -5375,17 +4309,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "바이브젠, 과학 기반 건기식의 '새로운 표준'을 제시한다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZTYxc2lOVlRsbFEwSXU3bUtaNHBpY19QYkJyX05PcEQ5QVdDYmtCeUpOZlJoam8teDJCUkJSc3pqVEtWQ2pJd0JMQzFOdmdDejNkdXZPRVdrUV9NbTZSTHJZWENjR0VrREZNUQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-06-23T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -5422,18 +4345,6 @@
       ]
     },
     {
-      "title": "세계 첫 알캅톤뇨증 치료제 나왔다…미 FDA, HARLIKU 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wR0l4UUN6U29IT1otZUloQ0hhZXViSGdHLXM4WWxSdm8wM2ItR0lJcjhCQnIweWRUNGdKczMwR0VZWnVldy03YTVHbzN3UWhSRUFmVWc2eFloSy1UQ3NqbkZ5dFhLOXYySk1ReQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-06-20T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "HLB펩,궤양성 대장염 치료물질 특허 확보..‘First-in-Class’ 혁신신약 도전",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kN2Vzb0RMNHBuNVlZTnppMmpYLU1OYVgyU0l5UVpyRi0zdVAxTzQ2V1J2Qm8yVk15VVYyZUN0T2hpUHFIOWJzQjRpVHg5dmZNeGtMM2ZRMlplRmRNR3hKb2trcVF3Z1ZENkZxZWlWSXh4NUNXNXpn?oc=5",
       "source": "약업신문",
@@ -5445,18 +4356,6 @@
       ]
     },
     {
-      "title": "미국 FDA, 신약 승인심사 기간 '대폭' 단축..국익 지원 기업 '우선'",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GQkxLOF9pQTV2LWxHNjNUVlRZWVEwWFcwSWpJWHVwRGl4dGNvcVp3UHE3bDBiS2JmYnhPc3FpaVlXQUVHd3FmdDVhR3lGaUxmTVBVLXVUNVVqTFNYbEpTaGNGZHVVdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-06-18T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "뉴라클제네틱스, 습성 황반변성 유전자치료제 ‘NG101’ 국가신약개발사업 임상 지원과제 선정",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91QlVuQjdMQnFzRXNUajVXbm5sODJyZjBIcmFyV0dzMlR4bEIxYmdzMlVyRXBCOVphbUYtSGcwaEFkdTZfSXhEbFFYeUlRTWdWdmNiS2tFZkpSUHIwWEFqMVVYYlZFMmZnZ09KVg?oc=5",
       "source": "팜뉴스",
@@ -5465,17 +4364,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "클립스비엔씨, 호흡기 세포융합 바이러스 융합단백질- 제조법 특허 등록",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tUjhfU05IOFBFZ3pLQzRsUG5tX0c0TGpPdENwSEtfcExNeTFkeDVuM25UbUpyUThWMFVia21zNENTdVVtT2laVFozYVN0cE5FOTFoQTBzbkJCRWFyd1R4Vlh5YW1BZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-06-17T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -5498,17 +4386,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "R&D"
-      ]
-    },
-    {
-      "title": "셀바스AI, 위버스마인드에 음성인식 API 공급…AI 기반 교육 시장 진출 확대",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHREItZGo5RHlnaXVvTUFhRG5oTGpMY3VBd0lHZ2prMnBKRWFOdnRSbjVkbjBsZ2dROU1ZbWVPWHBHY25ySXB4dktzbTA1S3JYZURPcS12Tkc0VkNDVW9DdDdLU2oxU2E5R3VNVg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-06-12T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "API"
       ]
     },
     {
@@ -5542,18 +4419,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "바이오시밀러"
-      ]
-    },
-    {
-      "title": "연세사랑병원, 미국 FDA 승인 '한국형 인공관절' 세계시장 진출",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WRDY2R09YQTN2SERtcThYZHNDMjE4UGt0bHl2c19nRjVjSlJoV0plZy1RZUhJRlk3SFFiZlFKUFJsZ0RON2ItT09mMEZydTh5VkNqMzZNcXhWLXhiSXZra3cxcG91eW9FZm4zSg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-06-05T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -5613,6 +4478,17 @@
       ]
     },
     {
+      "title": "디티앤씨알오-레디어스 리서치, FDA 독성시험을 포함한FDA IND 풀 패키지 서비스 구축… 국내서 글로벌 진출 전주기 지원",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ194SS1nUEZyNEZpemRpZ01wSC1TblFWZnVrVmVhRjA5UDZIZDFlUHJHU2tLeVJiaVNwaEZNM2N4aGhsT3NaX3cxal9SZWtQa3dxTERYbExEaF9HTi14NDlPRE1mOUJOY2NPUA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2025-05-20T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "FDA"
+      ]
+    },
+    {
       "title": "진원생명과학, 미국 자회사 'VGXI' 생산시설 FDA cGMP 승인",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9oa2tFWkZzcWY4UWc2OS1KRjEtbXBNalBUd3NuT2tTS1VEMmwyZG9PYkpLeWNXZFQxSk1QazI4eHNXek9FSE5hN1VwaVI2SGlIYTdsSTF4WVdoeXBDUUpfaHBZcGhTRTU0QUFKUDFmaDJMZzdOaVlR?oc=5",
       "source": "약업신문",
@@ -5620,21 +4496,7 @@
       "published": "2025-05-16T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
-        "cGMP",
         "CMO"
-      ]
-    },
-    {
-      "title": "애브비 새 비소세포 폐암 치료제 FDA 가속승인",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBST2F4TGN3MnlocXZNczg4RWFRRWFNMVp2dFJIU2t4T1dMdEZWOXJUNGx3cHZxRlcxdGMyWExIaS15LVhtVUpBcmVsTUNpZkVmQklUZGp2Y1pQNFBpaGhnb2xRV3ktTW9odGZSbVN6VQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-05-15T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
       ]
     },
     {
@@ -5682,17 +4544,6 @@
       ]
     },
     {
-      "title": "FDA, 섭취형 불소 보충제 시장 퇴출 착수",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EZW11X1FteHlQM1U0Mzg5ZHI1N2p0ZEJrSmZpQU0zdFl5czFwVklndUN0d0RyWDYtWXByTEZnWnAxc0hGWXU2ZUU0RTRlOS1FMTdXcDE1cG5rWjNQWktEUVpuOFFZNndfTXdGYg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-05-14T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "M4Q(R2) Draft Guideline",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWDZfQUdRVm5qQzNFX2xwM3dxQTNFMTl5SEhCcnJwNS1tN3Jjakd4N1NjM0ZtRFhkZWxiVnctRjViQ2lHaVJXa0JvVTg3MVBrYmM3SFVXZF95WHBENDVBUHU0bFRyQlFiLVVSZlBhbUhEWVFQNnVaNmw1NnVfazQ2SDQ1NW5aTXBwYnkzVVRQQ1U1WVB2bGJZYw?oc=5",
       "source": "ICH",
@@ -5725,6 +4576,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
+      ]
+    },
+    {
+      "title": "단백체분석, 바이오 기초연구‧신약개발 핵심 공정 ‘부상’",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8waExZVEdoTmtBejE4X3pGQldKSlFuZmR3dHBKSkRqTDJJaEEwV01Cck9adE9OampYS01FV1VFbGZocEtUY1JySXh5TWpQT0R1dVRlc1l0S0dHanZIc3IzM0dxYkp2QQ?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2025-05-13T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -5852,27 +4714,14 @@
       ]
     },
     {
-      "title": "미국,지난해 API 절반 이상 인도·EU서 수입..의약품 관세 영향은?",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfbVVXcG9COE5rNUVhQ25mcXQ1VGd0QVpJakVFaWRfT3k4XzdkelRlT2FWV2FJNjBrMXcxRXBrRkZ4VkNTZWl4SE12UUdoS19vcjRsWXRkTXYwblZ3VENUMWZGam1zQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-04-21T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "API"
-      ]
-    },
-    {
       "title": "동아제약, 全 의약품 제조시설 ‘GMP IT 시스템’ 도입",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kRVBVUEtfQ0FHSXVHYzN2TUFScGxWaGw5MktoeW5Sa0dQYjFWQ01sTjVCaVZaeDFGaXUxR2x3cHRSMlhscjdZenNjRXpEUlMtMGQyMTlvWVRPWWN5b2p4aUdhQ0RrYUVrNTdUSA?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-21T07:00:00+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "GMP",
-        "제조시설"
+        "품질관리"
       ]
     },
     {
@@ -5884,17 +4733,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
-      ]
-    },
-    {
-      "title": "식약처, 점자·수어 영상 확대…장애인 제품 정보 접근성 높인다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVZE9VM0d5aFV6V1NhS0hqNGFZZjBKcUpYbTlSTmFCLWJqaUYxU1B2eXZsWlQ2U1BsRGd4TmhIbGNMbWRSU0NfMEpqel9GcEdaMW04ZjVrMVhxc3pjMEFoWFJlZ2h1SXoxZVJ4eg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-04-18T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
       ]
     },
     {
@@ -5925,10 +4763,9 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-16T07:00:00+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "GMP"
+        "품질관리"
       ]
     },
     {
@@ -5943,16 +4780,25 @@
       ]
     },
     {
+      "title": "식약처, 젤잔즈 10mg 유지요법 제한…12월 허가사항 변경 시행",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyRjhNa1NacTJwaWNCU3NMSlJxcUtSYWozeUJaV19vZlRfcjNSNWQ2TVJRWnRzRXBRaV9aWXhyaWo3NW0yaFZOel9VUDNKZ1FudlBpN2ZGdXV2cGxVWDdWeG9TQzV0OGZtNnV3Sw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2025-04-15T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "의약품 소량포장·GMP 위반 제약사 8곳, 식약처 제조정지 처분",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hb05DRmlYdE5oeU0yVTdYenNWdzVMNDVCcmk0bEhZQ3ZXNUNmS0t2cTIyMUY3dWhFR2JnZm04cDFFVkJrYU5lWUw0M1RSY3dWNnJXRDdlQ01CLUJNczA2LUZYZzF2TS1pdkRkWg?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-14T07:00:00+00:00",
-      "category": "공통·규제, 생산·GMP",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
-        "제조정지",
-        "식약처"
+        "제조정지"
       ]
     },
     {
@@ -5967,17 +4813,6 @@
       ]
     },
     {
-      "title": "바이오플러스, 중국 하이난 의료관광특구 내 공장 GMP 승인 완료",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3emNRM19aZWNXMWVFU3Y3RF92NjZ4c1dFZ3JKbmtZRW91c01tV1lsSk8yYk5aeDBGN0lQRDJVQzl2UXU4V2JWeUhhQ1YxTk5KZVRFX01qTGRabVdXd0ZXR2hCaVc4aVlMMkduTQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-04-11T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "빌릭스, 호주 임상 1상 완료… 급성신장손상 치료제 임상 2a상 IND신청 완료",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlZVpvRVg1czkzZmpVeXBrOE1ZSG4wX2NEOHVsazdGUnV4MlU0MW5jNzlZZHJLLXBLNW9Ba1EwcHFTYXcxbDg4c1NINWRtRWo4VTZQaENIVm4zMVJiT0R0SzNpYjM5aXNISkhmVw?oc=5",
       "source": "팜뉴스",
@@ -5986,17 +4821,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "코아스템켐온, 우즈벡 국립병원과 줄기세포 치료제 및 생산 기술이전 MOU 체결",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TSG1LcU5sSTBqQlRrYmh3ZlNMSTRheE4zUVVLSC1FV1hlUWV1dlpEX05GM1lFaExNT0VVWjVhSGZybHdSOTVlMHUxLXlWc2psWmk1UklLMVJ5VEF4U1Jmd2NmX0ZHdUtORTVGSw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-04-08T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -6016,21 +4840,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-04-06T10:03:50+00:00",
-      "category": "생산·GMP, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "GMP"
-      ]
-    },
-    {
-      "title": "FDA, 사노피 릴자브루티닙 ‘희귀의약품’ 지정",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVODB4d1hMdFRIRU9lN2ZjQlhFU1QwY3VRdFM2WmJSMThJY1l4a3hJRHRweThEcWk5ckZva1VteDRtaXgxQXQ3Y3lhWl9QdFRhT3lkOHFQTlF6ak1KaUxrX2VCOFIySW1nNHhpcldZOWVEeDI4ajVxZE84R2R5Zw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-04-04T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
+        "품질관리"
       ]
     },
     {
@@ -6056,30 +4868,6 @@
       ]
     },
     {
-      "title": "HLB는 진짜 FDA 승인받을 수 있을까? \"CMC 지적, 우습게 보면 큰 코 다쳐\"①",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOd054Wm1VZWR3elZuenQya3BLQWgxNExvR2VZY09wSW9tcHdKMTN1YnZyYjBFUHI1UHRKODJYQ29NcmJMRklCbklSNUtiSVUxa0xGMlBSRE5CR3daTDNacENRc2pkZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-04-01T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "HLB는 진짜 FDA 승인받을 수 있을까? \"멸균 실패는 환자 사망과 직결\"②",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKbmFtc05aZGJwdVVoQ2JtWUhPYVZaZXlua0RiTHZlRzQxb2o4MzdRYVNTS3R3VkFQbHJmYzZHeFkyMThESmhzTldpWjRuYnpQeDlnbHFWV0xTdlZNUjdRYnBsMDBCQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-04-01T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
       "title": "프레스티지바이오로직스, 창립 10주년 \"CDMO의 새로운 미래 구축\"",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYRlgwX29LcVZlSld2S1VsOFdHbHBfSmpXMDZZRFBYTnNLcXN6V1lBVXRFVVJKUFY2NmstbWFnZFhWRmE0aWtReEJ1eGJCWUkwTEMtbHp4dkFMNnFKZXNQdTBsTGN1bGl4dFN4Zg?oc=5",
       "source": "팜뉴스",
@@ -6099,17 +4887,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "inspection"
-      ]
-    },
-    {
-      "title": "[창간 71주년] 바이오톡스텍 그룹 3사, 신약개발 ‘Total Service Leader’ 도약",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHhZTUg0d0dqR0h0cWtKem05VXhTRlpkeU42RloyRGZsSS14VEZ3bHdvd0tFSlNMSzI5VXA3OExxOW9oaVRpUjg0WFEzVnlpc0hQVm5zNHc1MkRHWGN3aEJJWDNkNFQycnFNY1pvSXdIQXJERHlOT0xvYnJ2cUhfcjRsbnBXYjlvMkE?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-03-26T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -6135,15 +4912,14 @@
       ]
     },
     {
-      "title": "FDA, 새 항생제 블루제파 승인",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ub2k0MFZjeUNsYWh0czJ0cWVYRm91OF9HZFpiVnFIeTJNNm9jbHRUOHhHNS1HSkdOZUtDYzJEQ1daUU5uaTAtUHJjOVNYRWN6Z2hyanNpakxEUEZISnZaOHNuWVVqZXNpMzJjUg?oc=5",
+      "title": "보로노이, HER2 양성 고형암 치료제 VRN10 韓 임상1상 IND 승인",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ibG1tSlZLWmtreG9STGtOaDNRdWtEWUV0YjFpUWxtVE4wdjZfQUtVSnlXRlEtLXcwLXZTZHB4QmZyNWhWY0Q3clJzVElrdzZRQUJOLXdFLW55dnJJdXNGSG50U3JPU0ZhMlFUdA?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-03-26T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "승인",
-        "FDA"
+        "승인"
       ]
     },
     {
@@ -6180,17 +4956,6 @@
       ]
     },
     {
-      "title": "네이처셀, 조인트스템 FDA '혁신적 치료제 지정' 획득",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwLW9mRHEwcjF5eTZybElWMjdDWm1fSlZEODlqNzFmaFNhbE4wci0yTmRtU3ZCbjRNbjZzMzNiTTdvNjFIZkdWV0cyTnFxMkhDYUhybGdZY1BYLWdfZnM1d2JoM1oxZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-03-21T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "큐라클, 반려동물 만성신장질환 치료제 ‘CP01-R01’ 임상 3상 개시 미팅 성료",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3bDV2Z0ZkWHhjWjBFRW9YTDVFNGhScEVSUTBJdW1pYzJ0ektycDZON0F1azR0Wk01cVN3SWtBQWNERi16NGJ2WXd6UzVyRV9GbDdKVi1XWTN4XzJmWmNZYVhHV0lQeDg5Tm5wSQ?oc=5",
       "source": "팜뉴스",
@@ -6202,17 +4967,6 @@
       ]
     },
     {
-      "title": "HLB, FDA로부터 2차 CRL 수령...캄렐리주맙 CMC 관련 추가 보완 필요",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RTjRDV2tvNjBVVmozYWhORERacGlsbUljMXlGZmozbTdGck9LNEJPVHhuS2JQZDFVeEpIRVMzYm02R2lRMUdVMlFZNEZOaTdiRTVnU0Q1cm1GbFRrOEcxcnY5MEwxMlE3YjB6cg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-03-21T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "Dx&Vx, R&D 투자에 대한 성과 회수 본격화",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiSE9McDUySUczdTd1elQxUHExcnRRZ25VYTZ2STZXMlQ1ejVYM3piSVFDdUROQTBrN1NCZ0praWd5QThnVk10cmxCeVFCb0Z2YTVVLTl2Y3BuLXAzaHBHbGJmTlo3bGp1Z2xUXw?oc=5",
       "source": "팜뉴스",
@@ -6221,18 +4975,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "회수"
-      ]
-    },
-    {
-      "title": "메디톡스, 증거 부족·재량권 남용 판결… 대법원 ‘품목허가취소 위법’ 확정",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DQ24yOXh0NVQ2NzZ3WW94QzBwbVZQRXZxeU54QlZsYXl4Z2pfVklrMFFKZTN2REN5eEEwczhoaDloN3VBLUdRSWwybGZqN18zeFUxWGs4WUd2cklCTGFma1VrYzRXUzI1LU1FVw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-03-20T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가",
-        "허가취소"
       ]
     },
     {
@@ -6303,17 +5045,6 @@
       ]
     },
     {
-      "title": "코아스템켐온, 소속부 '중견기업부'로 변경",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GNEJ5TDNTbUZjN1N4OWw2QkpKNEwzS3VldTJOeXBMbXptbXVESTc1a2FfcmR3Z0laNTVqS2YwR2hobUZNYmh3YUloa1kzOGpRcS1qeHRXejRMQkt4VUU1eUpJQ1lfUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-03-14T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "ICH M11 Updated Technical Specification Document Now Available on the ICH Website",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUl1Z0xFdDZvbWppVnIxa2VkUndMbkhPN3RwSnAxMFA5bUpKU090YlhScXdiS195Nmw3cEFleGxRWXJ3RzBxRVJUaTcxQ3g2Mm9MSTdFenJKeWZoai1Ja1ZXcXpBRGp5Sm9PZEhySkx1cjFFeGtQQzNFVXRNZ2s5M2VOZU5URFo4SklBVWtyRmZWZGZuZFVLc1k1TjdTenh4?oc=5",
       "source": "ICH",
@@ -6369,26 +5100,14 @@
       ]
     },
     {
-      "title": "식약처, 2월 의료제품 111개 허가",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MelBfTWZJZ29jd3lXWUxtUDNyelVsZDlDUUxzRFpud1ZxdG8xT0ZyWm5ZSmhkTWs1TkM0Q25MOS00STZIMG1kUGMyOWMtQ3pDdTdGa3FwZHdrQnBhR2ZhemxrUGxaMkRILS0tMQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-03-11T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "엔비피헬스케어, 알츠하이머병 치료제 FDA 임상 2상 Pre-IND 미팅 완료",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zN29ENVR5TGxZV0FuX0d4Y1N4cXNqSlZORExmOW5yR0RwVGNaLXUtVnVVNHhUNVlQSlpmUVZtaFdudXpPMkxmNDg5LXRRWXczYmZOTUxjSnUxelgzdU5qY2xaUFNnbWJaVWUtUg?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-03-10T07:00:00+00:00",
-      "category": "개발·연구, 공통·규제",
+      "category": "개발·연구",
       "matched_keywords": [
-        "신약개발",
-        "FDA"
+        "신약개발"
       ]
     },
     {
@@ -6403,14 +5122,14 @@
       ]
     },
     {
-      "title": "식약처, 담배 유해성 관리 규정 강화 예고",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45N2NDV0VkQnVRdUtWaWwyQVNuYzVBVXl6WU1Kc2NOdDB0UTIyZHI5Q2FnZ3J1U09FWE9oejhGSGZuNXVINTBwcTkxeVl2U2daWi1WdGtvSkVWcUFvUUs4THJlZ21HcjM2emxzcw?oc=5",
+      "title": "샤페론, 차세대 아토피 치료제 美 FDA 임상 2b상 파트2 돌입",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTd2hWUEEyME11RlN0ZG5NMWZuQnNFamhMcUFhQ0tZSmMxZXE4dmhtaDFDMzE5Y3ByRkpuOE90R1h6aHgzeGRpdDF3d1lib3YtbEhaM2Z6S2pPV0JodWlObUxxNHc2YW9xbmdaUw?oc=5",
       "source": "팜뉴스",
       "region": "국내",
-      "published": "2025-03-06T08:00:00+00:00",
+      "published": "2025-03-05T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "식약처"
+        "FDA"
       ]
     },
     {
@@ -6469,17 +5188,6 @@
       ]
     },
     {
-      "title": "엑셀세라퓨틱스, 중간엽줄기세포 화학조성배지 ‘국내 최초 美 FDA DMF’ 등록 완료",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hTkxES1Fwek4ya190M2UycEFiS1RDUlRlUTIwbDRoMWUzeThUN0lOMVhYbklKNDJ6YVdIY01KN1A0ZWtoZ2xkVi1KVmJTMGVxTS1ZT2lGWEhsMWJpOFEyMjhBaHYtS0tveGN4aQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-02-25T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "DMF"
-      ]
-    },
-    {
       "title": "보산진, 2025년 인공지능(AI) 활용 신약개발 교육・홍보 사업 운영기관 모집",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84cGlPSE9wN3ZhbGhzR2t2TWxWdVZvNl82NU9VUUxaVGVabHNDdmdYSHBGaUVHWkFZMXA0S0tMZjM2dWF2dFBuWWZ1VmZERmphZFNFWlF3b1U1TFRlcmt4TDE4LVhuOXM1YkFJWA?oc=5",
       "source": "팜뉴스",
@@ -6524,26 +5232,14 @@
       ]
     },
     {
-      "title": "원텍,미용·피부 치료 레이저기 ‘파스텔 프로’ 미국 FDA 승인",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FWjhXRFVoanNWX0M3c0Y4SmFxX1RnaUdzSXMwaHlxWlkxeF9BRHRRNkstTXVvdzI5OGtTd2dzaXpLSE5PNk1KZnY2VGd3OVRJMEhES3NWbTRyYkFwX2JpLWlLbUtrQQ?oc=5",
+      "title": "진양곤 회장, HLB바이오스텝·이노베이션 주식 추가 매입",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jUDBvTmluRGxxZVVFb254VFYwRTVOODJsM3k2QjN2QlV0SWUwUUVqNEVoSmFaOE91VnlfclAxVkRUWGRYemdQRFBwOC1oRHRaMFRjU01Gbkk0aHFJTW1qNFpLV3phSkxmYnNLck5GTGJrWUJRNWs0?oc=5",
       "source": "약업신문",
       "region": "국내",
-      "published": "2025-02-17T08:00:00+00:00",
-      "category": "공통·규제",
+      "published": "2025-02-18T08:00:00+00:00",
+      "category": "개발·연구",
       "matched_keywords": [
-        "승인",
-        "FDA"
-      ]
-    },
-    {
-      "title": "네이처셀,미국 FDA 출신 전문가 사장 영입..줄기세포치료제 상용화 가속",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kTmlmdWQ2Zjc2VWtIV3pjYjROd1BvYXRSekcxcEdqUWp2Tlh1Nnd6NWl2dDBUMHBSU2xRU0pidTZFaEYzZTBWYTAzMm9OeDlNazF3c2M3RkF3WXg4MzBKV3R0Vm9PUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-02-17T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
+        "CRO"
       ]
     },
     {
@@ -6582,17 +5278,6 @@
       ]
     },
     {
-      "title": "큐라클, 美 FDA와 CU06 Type C 미팅 성공적 완료",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RMG1MTnBCQzdfejI2YlhNUVQteTdMUy1VTXpFa1AzQ0dBZXhLV1E2VFRYSXFCdlJzcDBpSDIyNVoxY1FCaDdjMnJJZ1NVUFI0bzFRRW1KSmxPcVFseFNBQzFiX0tFQ2pQMG1hcQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-02-11T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
       "title": "코스메카코리아, PLM 시스템 구축 완료… R&D 디지털 혁신 가속화",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NRUxyMXVIRTlybkducGVkS042b2xDMUZwbkR2czZqQjdvSnFyTHJ6YmNsOVpCb3dsQTRqaUtMbWtmdXMwSjNvTzRtaXdCaVhndXM5QU1HQUt3QnBrNjUyaHZPdnFpNXlINWVJcQ?oc=5",
       "source": "팜뉴스",
@@ -6612,17 +5297,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "키스칼리, 조기 유방암 경쟁력 높여...英 승인 근거는 IDFS 25% 감소",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpbElWcUxPZFc2NGFmRTNRZ2VlbERZRVZzY2VmWGFRMVU0YUJhWFZ2QmZUX1JqX1lRT3ZTZ3J2M0VZZ25ScURsOXA1Z0xYbEFnakEwRU9BSzYxbXd1MFdCcGgwRGl4SGNlSFhjZg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-02-07T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "승인"
       ]
     },
     {
@@ -6714,6 +5388,17 @@
       ]
     },
     {
+      "title": "바이오헬스 제품화, 국가적 지원 받는다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZTEU3eEljQzdtaDFydWh2ekdmWEVHZjZ2TFRPQ3BtbURjS2hfLWx5b0FBTzIwYTZyaUJBcVNqSmRSejZ6YUpjc0Y2U0NybHdnRWVIWHdMamMzbUNqRFZvNnBPVjhudkNvVzNtdA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2025-01-14T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "The ICH E6(R3) Guideline reaches Step 4 of the ICH Process",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NV3VHYzN1cTh4QnBLZmxXSjBtU3l0eXBYMUxUdlhDOGxxZ1N0M3Q1cENFZXZjdEU3UHF5Y2tuSHVhMTJRcko0U2dGYTAtUldYVTRUVGxNUG1OSnNFY2t3Z3hKZHpnYnF0cFhVWXJMcEZIdVBk?oc=5",
       "source": "ICH",
@@ -6722,28 +5407,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "코아스템켐온, ‘Pig-a 유전자 돌연변이 시험’ 식약처 GLP 인증 획득",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtOXQzeWlmZ2RkZXNwMTV2aWl4dVN6ZGYtMVRtc3VlR0xXcXdpbFJueXVhUjFDZENEenNfekJzZ1Vtc0tRZ2poVGdseVJnVHI4OXRxOXVKcEkzWnlqUkVkU2x5enJEc0x3QUJLRA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2025-01-13T08:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
-      "title": "GMP차등평가관리제 설명회(2/16)",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGpXREMtczVSWXQ0eGJRSm1SWFBSLXlXSEZpdU1wU3hnZGx5WVFuTDY0RFNxY3drckdqN1N3OVNGU1RZRDFvMGczLV9hVHdtNERrbDlOUzJoa0NlSXU4OHFuNWNYYnctbHhMUTZMZG1vR3pfQlNEc1BhNnRRQklwVWdmY3lsTnRSSlJR?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-01-11T19:10:32+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -6780,17 +5443,6 @@
         "quality",
         "guideline",
         "inspection"
-      ]
-    },
-    {
-      "title": "식약처,의약품 허가·관리 제도 2025년부터 이렇게 달라진다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VNDd0WWdQTkFkSTJSMExTdUh2emJyc1d1OTZmd0RZdmw5dDVLdUVVWGpfOGRwd3VJUTdvb3dOanNnVTg1bjV3ZER1NTlPUjk2VE1jOFBQakhYNVg1OUw0NW92eHJXUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-01-02T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -6891,10 +5543,9 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2024-12-31T08:00:00+00:00",
-      "category": "개발·연구, 생산·GMP",
+      "category": "개발·연구",
       "matched_keywords": [
-        "신약개발",
-        "GMP"
+        "신약개발"
       ]
     },
     {
@@ -6998,32 +5649,10 @@
     },
     {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85VUY4SkN0Y19aT0g1ZjRqXy1Ucmp0TnY3NDNJbU11OXUzUFR2RHBSLTNCdkxzWEpWYTVtRmprdlp3aWxBTGR3aUdCc1lDN25rcXNsSEt6R1dHU1F0R2E0ZWpnaHlDMV85dWtpSEtnR1czWHF4bXE1c2wxVDFSQQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-25T23:14:24+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbHZZMlhwdWwzY3hnelJKTWwyN0FtVTZPUDJ1Y094Z3Z6cERMci10cy03MEdRbDNFbUM5RkFXTXpwN0xuM2hpTXI3WXdOR2ZrM0R2Z19TYnN3a2k5TXZNdDhVZklSelVwdHM1Qk9hWGctRjdGQ1B1RzRhQkR2ZldDZXZGQ1hPWGNyZkRN?oc=5",
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-25T15:48:47+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkd3MkpfcnFWMGk2V043R2ExTnRBWmhQVTg0T2VTS2lHeTY3aU0zMnEyN1BOSWVqc0U5TTdYeWl3czFNcmNhMXZzWXRBT1dfdktTWlpwd2VFSmItYkhJR2pjaWZSQjcyZk1VYnQ4T3BISC1na0VkaDFmUDJkcDZUaEJFbFJBSTN1WlE?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-25T14:54:42+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "규격"
@@ -7108,6 +5737,17 @@
     },
     {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fOTRNa2o0dXF1TjItYVVUSUFNYVF6REo1WjQ1Um9aR3RMZ1FoOXdjcDNqUE5QWDhHTlR1NHNpZmp4bF9uMFRBRWpZV1dMRTFfckR3NGMzbV9RZ3NjNGRKSVFpNFM2Y3NKWGMyX2xCNW9TUlNmREp4eXFiQXo?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2024-12-24T09:31:59+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "규격"
+      ]
+    },
+    {
+      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JbXQyaVhiRDVZUzNZRzNQbGFVdmZLOUJOTUktQUtHVEZzVWVJcWZBV0lQejhMemVIY0hPLVZCYmdjb1c0MkJEZ1N1RWVlRUQ2ejlxOUVua1hSTVhoUk96TF9pSU5MRTlhYzFyT1hNaldHQlNhQXJzVVFmTGk?oc=5",
       "source": "약업신문",
       "region": "국내",
@@ -7156,10 +5796,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-23T08:00:00+00:00",
-      "category": "공통·규제, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리",
-        "실사"
+        "품질관리"
       ]
     },
     {
@@ -7174,33 +5813,11 @@
       ]
     },
     {
-      "title": "다이이찌 산쿄, 중국 상하이에 엔허투 생산시설 건설...“2030년 가동”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdTZXWXhNUk40Zk5PWnlmcXh4cENyY2dwMk9LVnlCVk1VcnVjdEd0TDNuRWtKUTYyTS1kZHozNU9SVDlHZDBTVUI0bnZZSGhnbDdkQ21BaXVZQUZRTnRrVkIyQ0d5Y3Rod180aQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-12-23T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Nak9TM0txZHpHUjEzNFA5ekRnQkxzVDlmYWVveGRxellBMi1FX0hOLXc0bzdqaWJ2NERKRzMtaWZBUzgxRmVTcVFvdFpiSU5hNnpaQ3FXOUhUT0ktbTgzc29BVFE3MVk4eTYyWlZFZlRoQ2xGc3QwQWdLYw?oc=5",
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-23T01:20:16+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55T1VmSzNlT0dWYnhERnJ4UDMwZ3FRa0ZqWm8tNVdBSkNnZGdIZFB0a3hGaDNYd0FaMjFLSC1tMllJRFZNb1c3TmZoYllGVERuQ0lCdHpQWnI1WXBLUmFPSm1WSXF0MXBBS1JiU2xlbWpGWEVHdnJxRk9GWQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-23T01:04:14+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "규격"
@@ -7451,17 +6068,6 @@
       ]
     },
     {
-      "title": "식약처, 경미한 의약품 제조방법 변경 간소화",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XTHpVM1M4S3BLNmxtUkh6MjlsZXU3Vk1xbkJycFNkckhTWjFGaEFTbF9KcGx4b1NkVktMTDNjU19LU0dNZGloenhtTGZ1bkdmOER3QzMwSHFrQ3dwandyNWlDS0pGVndVMmNFNw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-12-18T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
-      ]
-    },
-    {
       "title": "휴온스 '칼세파라정25mg' 영업자 회수 처분",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13aWlfWXpROEpyWHJLcmhjY3Ixc0dRUTNpN2x5cHh6cXlYSFp3V2xmc3hQaWdNdjY1Rl8wa0NYSTF1ZXIwSWhVNlhINEYzM1ZLTkVvOXBUR1dBcHFGV3VSNnhkS1dKdw?oc=5",
       "source": "약업신문",
@@ -7496,6 +6102,17 @@
       ]
     },
     {
+      "title": "데일리팜코리아, 데일리팜 영문뉴스, dailypharmkorea",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51d1VMcTBVNExYWU1jWGo0SkNGdG5iTko2cnZLUUpBeFJ3OU44b2prOG91dTd4T3lLdW8tenc1U0NIbS1YcGo3OHlVbktpSElTd09FVktZMWE?oc=5",
+      "source": "데일리팜",
+      "region": "국내",
+      "published": "2024-12-11T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "고려제약 '이뮤골드액' 허위과대 광고로 행정처분",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFh3S1hPallBc0xnZTFQd1liUEVRa1dFbzQ3eWU1SGprZG5pUGVRSGVNbjAyVTZpUkp4MWNaMUpLMTJBNTNBSVRWd3d2NU5Ta2ZXSXdDWDlWekpubWFwNzhER2FVN0VGSi1DQUEwNzlQcEpuSDJHN3J4aEZ4NDlCLWVib21fQzIyb0ZHck1kMjc0bUExUDY2ZlNsbEJLdw?oc=5",
       "source": "약업신문",
@@ -7518,18 +6135,6 @@
       ]
     },
     {
-      "title": "암젠, 10억弗 투자 두 번째 원료의약품 제조시설",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZFNaUGlYb3RxU1ZHSVJQeFIzZUJDT3R3cjVPUXJXVXM1OG5ySlh0dnBtREp6NlRpa0tRMGZ3c3JmdS1hV1NEbEc2ZVNsSG1BWkQwcVc2a3F2YmktOUxLRXZFQVI0dVhmdDNMcGY2aw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-09T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조시설",
-        "원료의약품"
-      ]
-    },
-    {
       "title": "큐라클, ‘CU06’ FDA Type C 미팅 신청…후속 임상 및 허가까지 체계적인 개발 진행",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwcnhOclpZTHExYVVTOTdiZ3JpYjUxdHpINk01d0JZZUFmeEV4RWcya0pUYkcteXlfZHl3Q29iMEROR1ctTlJGU3A5NGVhZ1hheXYzUEZRSlF1LWFkd1BsWjNWQnAxOEotS0NmZw?oc=5",
       "source": "팜뉴스",
@@ -7549,39 +6154,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "비보존제약-에스피씨, 원료의약품 사업 MOU 체결",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFYWZKZ0pwTUV4UUF5ZGlSbGtDcnd2UXRscFJlZTRBbEd5dmZobENHOEZyWGZJQ3JpcTRkMlRmcUpIMXBmeXcwTjBYNDZpMVF5UU9hamZ1UWdLR2Q1ak1nOGYyYV8xc0V5V084Uw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-12-05T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWV4ckNaTVMxRUhnNlN0bXVLc1pHWU9icXhiNzhZUEwxY2dNd0M5Z0ZpMkwtRjRpdFMtWWpiS3F5cWM1ODh6VjNCVzBianJDbEdZc0QycGRlZjhXaTRMR2kzYmQ3VzhyVl9pdS1neTd5SENCaEozT1p3bURLMFQ5R1ZCcDE1eDg?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-02T00:59:46+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "바이오톡스텍, 국내 최초 '포유류 기반 Pig-a 유전자 돌연변이 시험' 식약처 GLP 인증",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tYWhaMkszc3k5b3otYnl4OVJOVGFnN1NfZ1Z1Zk5ZcDFQTmhyX09EQXpZaHFRTlZZWlhIQlEzRi0tdmYwMUZSNDUydUU0ckhiWEloaVVia2toY3ZXeFJxcy1hRjZsZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-11-27T08:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -7640,15 +6212,14 @@
       ]
     },
     {
-      "title": "OTC 제조시설 GMP 인증, 수출 전에 미리 대비해야",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RX2NPbl9GNmNXOVd3SlFVYVB1UVpvTXJleHoxWmhYVW54al9ZNnMzdmVTLVItM2JYUW1NeGdXR0RzODl0RTQ1Nm9vN1NJSGZJZmhwUi00RlR4NTF5cmVRV0NBOFFrMGVURzlIWXQ1SQ?oc=5",
+      "title": "씨알에스큐브, 임상시험 서비스 기업 Perceptive와 전략적 제휴 체결",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Pa3Fyb1ZWYzBjM3NnNmdnbTJpSTE0dzE3cjlNM3puM1JVZzBFN1V6bDRjRFF3cFIxbksyOU1vUWZERDVBc3RsdWsySWt4R2N0emtaZGR4S2x2MWNVakR0cGJIVTNQdw?oc=5",
       "source": "약업신문",
       "region": "국내",
-      "published": "2024-11-13T08:00:00+00:00",
-      "category": "생산·GMP",
+      "published": "2024-11-15T08:00:00+00:00",
+      "category": "개발·연구",
       "matched_keywords": [
-        "GMP",
-        "제조시설"
+        "CRO"
       ]
     },
     {
@@ -7671,18 +6242,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "미국 원료의약품(API) 공급망, 인도· 중국 집중",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NVlBFRFhwb1JmYmh4ejBfX2lPd1VUdG9hZW12MXVsZWFGYXBuSHM4aTExZE5GYXFMd09iMTVyUk5COFdJT1NOcHNGXy03QTdvWXF2ZWJEYmJzSTNHZ3lmUnFEZVdLUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-11-11T08:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품",
-        "API"
       ]
     },
     {
@@ -7719,25 +6278,14 @@
       ]
     },
     {
-      "title": "대봉엘에스, GMP 수준 ‘아미노산 제품화 기술 개발’ 공동협업 정부과제 선정",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pRFdES2lTZ19WQ3h3eEtMMWlMTUNhWk9BeUpwc2EzMWoyZkdxTkZ3U2dlb3J3emxjaVl5aHV1aWFsU21oN0hMdVdUUTdUR1VzcXJ0Y2FubTZXa3hoaXlCNFcyb3Vlc3hfeThueA?oc=5",
-      "source": "팜뉴스",
+      "title": "셀레믹스, 고형암 분석 패널 프랑스 임상시험수탁기관 공급",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNLU8wMVFMWTNFeXBoRXFad041djBOTzdiaWVGZU1PUElUQnZTRjRzc3paejNyVXAzay02VTk2QnI0eFo5Yy1HMU90WVQyWmdPdW1vREgyR29tcHIxMUFuZXhlTFR4QkpmZ2RzSlg0bw?oc=5",
+      "source": "약업신문",
       "region": "국내",
-      "published": "2024-11-01T07:00:00+00:00",
-      "category": "생산·GMP",
+      "published": "2024-10-31T07:00:00+00:00",
+      "category": "개발·연구",
       "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "엘앤케이바이오메드, ‘캐슬락-팩투스’ 美 FDA 허가 신청",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EWXhyTGUyWXdYZkp5TEpVMWJjaWhjczRPdmt4bTY4RnVwQzE4UFBGbnhiSWZYbzY2UmdfSUlHcEJxSkVtQmxhRWVoUDVKTVFzMEJHcmQ3STVkd0I2MXB3RHVpZ3FBNTlzT0FkZg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-10-29T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
+        "CRO"
       ]
     },
     {
@@ -7763,17 +6311,6 @@
       ]
     },
     {
-      "title": "바이오의약품 원료물질 GMP 인증 평가 신청하세요!",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GbmN1Q0NXNmRSNFZhaDMyZC1OVExWSUhvWTY0cm1ZMnFwWnNKOHRyRXJyX2hEdlh4bk45SEc0Z3VpSWQ5YXp4S0JFeERYZk52M2Y0VzRWQnVKVWM4aTdnQWQwR2w3NTVtUlNvWg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-10-22T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "한국바이오협회, ‘니트로사민(Nitrosamines) 위험평가 및 분석법' 교육 진행",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RYkQyaGIyZkZnVEtlQ2tPN2hPOGlWRUhfdms3ZWQxUkMyRnkxMFM2elNrUnRrTHNGMW9VSENseDBUVnV6dmJVSWFPWWlRZWFrenlYaGo2ZmRSRWZZX0pXMWZSZ1piMlJxa1dVYQ?oc=5",
       "source": "팜뉴스",
@@ -7796,14 +6333,14 @@
       ]
     },
     {
-      "title": "압타머사이언스-코아스템켐온, 바이오의약품 분석 개발-사업 확대 협약",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxeEJRMmhYdG1qS0FQVG92MTNhYmxlM1dHSmhMMEhUVTJsclZldXdPdzVQSTJlMEtrNThjRDY0NWpmdjVoY01fQUpUS1FDc1dJUGFDVDAxcEdKaVMtSzZfYTdsNVhHQQ?oc=5",
-      "source": "약업신문",
+      "title": "피플바이오, 알츠하이머 혈액검사 ‘알츠온 플러스’ 인도네시아 품목 허가 취득",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2VHNrOXktSG44YUFoTjhXRi1Qd1NWVWU4QjJHb2lUVFJDMWM5ZS1iNzBEWnlGeXZ1bkR3a3haN1ZpNlBQRl8yRl9pVXJoWElWdEJTNHFMMmxtc1g0UDJGRHZuYWREaE5CWXlpdA?oc=5",
+      "source": "팜뉴스",
       "region": "국내",
-      "published": "2024-10-11T07:00:00+00:00",
-      "category": "개발·연구",
+      "published": "2024-10-14T07:00:00+00:00",
+      "category": "공통·규제",
       "matched_keywords": [
-        "CRO"
+        "식약처"
       ]
     },
     {
@@ -7814,20 +6351,7 @@
       "published": "2024-10-10T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
-        "cGMP",
         "CDMO"
-      ]
-    },
-    {
-      "title": "나이벡, 비만치료제 등 펩타이드 원료의약품 글로벌 시장 확대",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hdUtUM29UY1ZrdHVla3JVTVRnbzF0d1JqNlVnYjh3dEg2RGY2WXRrWm5BczRSTHJmdkRhNzczV3dfTFQzWnFiWU1CUU1ycHZjT3RMZHAxZUE5YVNvMzR6ZnRtSHBORHk4THR5LQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2024-10-04T07:00:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "원료의약품"
       ]
     },
     {
@@ -7838,8 +6362,18 @@
       "published": "2024-09-26T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
         "CDMO"
+      ]
+    },
+    {
+      "title": "동아ST, 판매중인 심전도 모니터링 플랫폼 'Hicardi+ H100' 미국 FDA 인증 획득",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QUkRoZWxQbVdRS2RBSmkxRmRoZXhMdXFwSkNKUFpZdzFOVEtlMUJZRlJpbWtyZUk2bUJ5bmVoQnVuSkxfT3FmeVlvalJqVlNaU2JoRUlXUldtTXFTeEZvbF9BRmlZenlaQ19LVw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2024-09-26T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "FDA"
       ]
     },
     {
@@ -7884,7 +6418,6 @@
       "published": "2024-09-11T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP",
         "행정처분"
       ]
     },
@@ -7905,9 +6438,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2024-09-10T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "승인"
       ]
     },
     {
@@ -7930,6 +6464,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
+      ]
+    },
+    {
+      "title": "파로스아이바이오 “급성 골수성 백혈병 치료제 PHI-101, 식약처 희귀의약품 지정”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5faG5WbVF5cG81TGN5bFFIek4wQ1hsNGNXWFR3MlVCVzdrQXo0bk1tdWpSOTNhbW1NOGd5SUZPQkFKUXlROTNkbDI4dVBEM3hJbjZSczBGVUJhTkk0S2RIc05NU09xRkFhdklOZA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2024-09-04T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
       ]
     },
     {
