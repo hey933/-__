@@ -72,6 +72,9 @@ DOMESTIC_KEYWORD_CATEGORIES = {
 NOISE_KEYWORDS = [
     "주가", "목표주가", "실적", "매출", "영업이익", "인사", "임명",
     "인수합병", "투자유치", "후원", "ESG", "채용",
+    # 의료기기 신제품 출시, 학술상/시상식 등 R&D·품질·GMP와 무관한 홍보성 기사 제외
+    "의료기기 출시", "신제품 출시", "제품 출시", "출시 기념",
+    "학술상", "공로상", "시상식", "수상자", "우수논문상",
 ]
 
 # 검색 쿼리 길이를 적절히 유지하기 위해 카테고리 안에서도 필요시 나눠 검색
@@ -155,11 +158,15 @@ def chunked(seq, size):
 
 
 def build_or_query(keywords, domain: str, noise: list = None) -> str:
-    """(kw1 OR kw2 OR ...) site:domain -noise1 -noise2 ... 형태의 쿼리 생성."""
+    """(kw1 OR kw2 OR ...) site:domain -noise1 -"noise phrase" ... 형태의 쿼리 생성.
+    제외어에 공백이 있으면 따옴표로 감싸 구문(phrase) 단위로 제외한다."""
     or_part = "(" + " OR ".join(keywords) + ")"
     query = f"{or_part} site:{domain}"
     if noise:
-        query += " " + " ".join(f"-{n}" for n in noise)
+        excl = []
+        for n in noise:
+            excl.append(f'-"{n}"' if " " in n else f"-{n}")
+        query += " " + " ".join(excl)
     return query
 
 
