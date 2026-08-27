@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T01:18:53.464295+00:00",
-  "count": 1019,
+  "generated_at": "2026-08-27T01:21:55.615050+00:00",
+  "count": 1016,
   "articles": [
     {
       "title": "삼양그룹, 판교 삼양디스커버리센터서 '2026 R&D 잡페어' 개최",
@@ -1352,17 +1352,6 @@
       ]
     },
     {
-      "title": "케넥츠,중소벤처부 'AI기반 후보물질 탐색' R&D 사업‘ 선정",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlcHFJT1BDbzBnQUVaOXhkM0VvOFg2WVhpYTBpNzNhZnZsOFBLTkEwWTU5aFFYT2ZHSnZvMWJxZndReXo3QlppMlpVSEd3QXdyZjlBWnoxUUVoZGxRbVZvbnM1dml5QQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-07-23T22:29:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "후보물질"
-      ]
-    },
-    {
       "title": "국제약품, 개량신약 ‘레바아이2%’ 안구건조증 치료제 공급",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwc3RHbkJRajMxZF95YWwwN0VfMFkzOXVCeWZJWGVyaklub3ZsM25jOEozX1dCSU1CaUlIanFacUpDWGJ1U2Y0dEp6TzVLNmtUeGlBNVdiOGFZb0NuYlg1UW1acVZaejdIU3lnZA?oc=5",
       "source": "팜뉴스",
@@ -2222,17 +2211,6 @@
       "matched_keywords": [
         "품질관리",
         "FDA"
-      ]
-    },
-    {
-      "title": "[기고] 한국 임상시험 '속도 경쟁'에서 '신뢰 경쟁'으로 전환",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55aUpCa2cxY1otM1lxOXRMMkRCTmlSZTNVT1NnMm9tUWJRNkxMeVhsQ2FDZ2tWNEFTSFYteVJMUXBFbVM2UWNUSkgzWmlvVVo5VWNvX3Rsenlmd0lUZDctRnZYMmZwUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-05-25T21:30:23+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -3303,6 +3281,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상3상"
+      ]
+    },
+    {
+      "title": "소아 연골무형성증 치료제 FDA 심사기간 딜레이",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mZGw1c2N2OU5mTEFiLUE2WFVIeGswWnBnSVhxcld5UHdZeWEwMzlNTEF1WmtLZUs2S0FkV0k3bmU3ZXh2enljWm12dkt0cHNQUHkyNHRkd3U3SEVsNmY0RnFPdnVFb1pQX2RXQ0J2ak1mTTlNWFR2VzB0RTJKZw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-03-04T13:10:05+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "FDA"
       ]
     },
     {
@@ -4707,17 +4696,6 @@
       ]
     },
     {
-      "title": "소프트웨어 약할 땐 아웃소싱 해야",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbkpRU1RlUkpyT29WeXFqTGNwMkxzbTZHbEgtcmdGdjlEbUhPUV9jMjdSaVJjSnFkTC1UQWFMdVNXRzN2SVJBY2Z4LTBkTXRZQzRpU0E5YWhaaFlFNkVmNmZIdXpWOXNJbE82TlljdWk0TVFHMEtFSVRfR3ZHeVBrTkhZOWhNQ2F0VnJOT3pDc3duQUdiZGhUREllYmVWTlpUM0I4?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-10-02T02:07:40+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "씨엔알리서치, 임상시험 LNR 데이터 품질 관리 웨비나 개최",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfZ0RWZEhwQjZyMGgtelA5ZlV1RVAwRDh6U2lzX1E2UHNNVjhvX3RyemUxZDZUZVBiMTZRbjRmRUY1dVl1TS1icVVkT1lYVkhVUjBHd3lxa1cwR2pKS20tUGR4WHJ1WUs3aHNiOQ?oc=5",
       "source": "팜뉴스",
@@ -4917,6 +4895,17 @@
         "GMP",
         "quality",
         "guideline"
+      ]
+    },
+    {
+      "title": "인트론바이오,'SAL200' 수술전 처치 약물 임상시험 올해 식약처 신청",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rcUJ1OEZ0NlJTdDJMQ2VsSzBRS2xuOGIxMEtfWlNKbDVsWHh3OUxBeElOckhVYUp2blYtMzZJRW1vVnVVdlFMZ3pxU3RTNXVxbHo1SExxWERocHV3bGh2S2pCWTg3N2hEM1F0aVF5Zw?oc=5",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2025-09-03T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -5887,17 +5876,6 @@
       ]
     },
     {
-      "title": "코어라인,일본 최대 이미징 CRO 마이크론에 '에이뷰 씨오피디' 공급",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwQnhwbXo5a3UyS3FLWHFNY0dIM0ZveTE1eXNDRFRRQTVFQmFELTBzV3JXRXFhdjlxc3haRnRUMGozZUprU0lvTWZoOTY4b3JOTEV6bTVyNXFZdjl2QTJLeEszNVBxdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2025-04-19T07:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "AP헬스케어, 바이오시밀러 임상3상 면제로 조기 수익 실현 ‘기대’",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CQUczZ09PMHZKUy1xNjRvYmtYSkNtRWhTa0RfX3JEa21LSTdPYzA5aUFFWFpHX09hdXE1WHVlVUdGbUJnODJJWThKWE1Jd0RhMXVVMHBwT18zT21UbDFGTzZnVXVfVjNrUTJQdw?oc=5",
       "source": "팜뉴스",
@@ -6240,9 +6218,8 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-03-20T07:00:00+00:00",
-      "category": "개발·연구, 품질관리(QC/QA)",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "R&D",
         "회수"
       ]
     },
@@ -6334,6 +6311,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
+      ]
+    },
+    {
+      "title": "ICH M11 Updated Technical Specification Document Now Available on the ICH Website",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUl1Z0xFdDZvbWppVnIxa2VkUndMbkhPN3RwSnAxMFA5bUpKU090YlhScXdiS195Nmw3cEFleGxRWXJ3RzBxRVJUaTcxQ3g2Mm9MSTdFenJKeWZoai1Ja1ZXcXpBRGp5Sm9PZEhySkx1cjFFeGtQQzNFVXRNZ2s5M2VOZU5URFo4SklBVWtyRmZWZGZuZFVLc1k1TjdTenh4?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2025-03-14T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "guideline"
       ]
     },
     {
@@ -7860,8 +7848,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2024-09-24T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "개발·연구, 생산·GMP",
       "matched_keywords": [
+        "CRO",
         "CMO"
       ]
     },
@@ -8629,17 +8618,6 @@
       ]
     },
     {
-      "title": "Key Corporate Communications Opportunities 03/04 An outline proposal for the CET",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZUtJWU9VM1JEN0gydVFTWXRXTzV6N2RKRGZmVFFwaHFaVE1pWmpOSkc0RlVzTjd3cktTcnMxSTU1WXN1bm84SC1mUzhfWElaTFRmemdwN0VNcGIzV3VkSGVNSmoxWXpNekxxQmV0UDdKX2VEa3dwVUxURTEyZ3FZRTRqZzJJMWxJUEY0TlpKWDl6Zw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2022-11-20T12:30:01+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "inspection"
-      ]
-    },
-    {
       "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zTlFBQWFCSktVM0N5N1Fnemt2VktxR0QzZlJQZTdZRTJEXzNwdlRRSkZaMjN1RVpqb29zbS01aHZpXzNGc1Bkc2c3WG1NcUl4dWUyenkxMWxSTkk?oc=5",
       "source": "ICH",
@@ -8674,28 +8652,6 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline"
-      ]
-    },
-    {
-      "title": "Final Business Plan",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd21JU1lmSUhWMjJBVnBoeUVNSFA4YnZmNVI5dWNyNEpTWFNIN3ozLW1tQ21KUWVxZzZHMnE1VW1kdzhDV3FreHlNbXJhc01wSDJpZ2YtSG84bkJ1REtJV3RPVmRHcUdNbDNsejFJUGpxZUZWbXplUUI0djZYTzFXNFZ0d1hrRFdIX0p3aFdR?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2022-11-10T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
-      ]
-    },
-    {
-      "title": "The ICH Q5A(R2) draft Guideline reaches Step 2 of the ICH process",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWDd5YUVsOWxFZlhYUEdnU3lZM1FFX1pqczI3czNiQzlKVHJ0ckJGZWJBVUhCQkxVYUhuXzNoTXV3TXByVVdJdmZxMU9LdmlwbExJaFZpMThZWk05VGpFYW9ac0hoaWJnUjRGQmNpSmNpTk5lTjl6TlFYRmVsTXZxZjJSTQ?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2022-10-10T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
         "guideline"
       ]
     },
@@ -8848,7 +8804,8 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8983,7 +8940,17 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline",
+        "guideline"
+      ]
+    },
+    {
+      "title": "COVID-19_Risk Assessment for Inspection",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1URl8xY280MVkzak9nRVRILTQ0VnlPd0hiNllaRGV5NkRKU1ZoeDZTNlVtQ2RCdkVzcVpKRnMxRVJJdkFDd0JmY3NB?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2021-07-15T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
         "inspection"
       ]
     },
