@@ -168,6 +168,11 @@ def clean_google_title(title: str, source_name_hint: str = "") -> str:
     return re.sub(r"\s*-\s*[^-]+$", "", title).strip()
 
 
+def normalize_title(title: str) -> str:
+    """중복 판정을 위해 제목에서 공백/기호를 제거하고 소문자로 통일."""
+    return re.sub(r"[^0-9a-zA-Z가-힣]", "", title.strip().lower())
+
+
 # ----------------------------------------------------------------------
 # 수집 로직
 # ----------------------------------------------------------------------
@@ -269,15 +274,33 @@ def filter_domestic_by_age(articles: list, max_age_days: int) -> list:
 
 
 def dedupe(articles: list) -> list:
-    seen = set()
-    result = []
+    """같은 기사(같은 제목·같은 출처·같은 발행시각)를 하나로 합친다.
+
+    Google News RSS는 같은 기사라도 검색 쿼리(카테고리)마다 링크가 다르게
+    나오는 경우가 많아, 링크만으로는 중복이 걸러지지 않는다. 대신
+    (정규화한 제목, 출처, 발행시각-분단위)를 기준으로 판단한다.
+    중복인 경우 matched_keywords/category는 합쳐서 정보 손실 없이 보존한다.
+    """
+    merged = {}
+    order = []
     for a in articles:
-        key = a["link"].split("?")[0]
-        if key in seen:
+        minute_key = a["published"][:16]  # 'YYYY-MM-DDTHH:MM'
+        key = (normalize_title(a["title"]), a.get("source"), minute_key)
+        if key in merged:
+            existing = merged[key]
+            existing_mk = existing.get("matched_keywords", [])
+            for kw in a.get("matched_keywords", []):
+                if kw not in existing_mk:
+                    existing_mk.append(kw)
+            existing["matched_keywords"] = existing_mk
+            if a.get("category") and a.get("category") != existing.get("category"):
+                cats = {c for c in str(existing.get("category", "")).split(", ") if c}
+                cats.add(a["category"])
+                existing["category"] = ", ".join(sorted(cats))
             continue
-        seen.add(key)
-        result.append(a)
-    return result
+        merged[key] = a
+        order.append(key)
+    return [merged[k] for k in order]
 
 
 def main():
