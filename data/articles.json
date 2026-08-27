@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T01:09:19.972187+00:00",
-  "count": 1029,
+  "generated_at": "2026-08-27T01:18:53.464295+00:00",
+  "count": 1019,
   "articles": [
     {
       "title": "삼양그룹, 판교 삼양디스커버리센터서 '2026 R&D 잡페어' 개최",
@@ -121,18 +121,8 @@
       "published": "2026-08-26T01:29:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "메지온,폰탄치료제 '유데나필' 영국 임상 3상 시험 '첫발'",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02MGtZa2hpektVeDFia21qX1JPZ2lVbVRBYzZFUnF1X1FWemp4YXpyOS1zb1VOTFVqVmFPSlNfb3VKR3MtMmh4OG5mWGlzLTRTX1lWeERaS2FCZzFXUEJfOXRjeENSekdwakdnNm9qVktDYm9qVUlLZm5n?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T01:29:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "임상3상"
       ]
     },
     {
@@ -163,9 +153,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-26T00:30:22+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "규격"
+        "규격",
+        "식약처"
       ]
     },
     {
@@ -185,9 +176,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-26T00:26:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "시험법"
+        "시험법",
+        "식약처"
       ]
     },
     {
@@ -329,9 +321,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-25T03:18:33+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "FDA"
       ]
     },
     {
@@ -340,9 +333,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-25T01:56:53+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "FDA"
       ]
     },
     {
@@ -443,7 +437,8 @@
       "published": "2026-08-24T03:37:43+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "임상3상"
       ]
     },
     {
@@ -540,9 +535,11 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-23T23:18:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 생산·GMP",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "CRO",
+        "CDMO"
       ]
     },
     {
@@ -674,9 +671,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-08-20T04:40:32+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "규격"
+        "규격",
+        "승인",
+        "FDA"
       ]
     },
     {
@@ -1197,9 +1196,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-07-30T23:57:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "CRO"
+        "CRO",
+        "승인"
       ]
     },
     {
@@ -1210,7 +1210,8 @@
       "published": "2026-07-30T23:48:35+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -1221,7 +1222,8 @@
       "published": "2026-07-30T23:39:19+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -1303,17 +1305,6 @@
       ]
     },
     {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmYU4zekVuYnlucXBTN0FiVi1LSU5Fa2FWbXVzMkFPNnR1cnUxRENKd0tEelhCYzB0NFo1MzVpSUJwbWp0dmRCeVR0NzhfV2lNUlNQTHNiMkpLMmRXTm4xMUxYQ2NUcU1Wb2xfSjhoTEhqQQ?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2026-07-28T17:15:27+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
-      ]
-    },
-    {
       "title": "“임상 3상'서 주저 앉는 국내 신약개발… 4가지 족쇄 풀어라”",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VcmZXTTlmeU5mSl9rRFhLOWx5cU5jYlBVZ18zV0RjNXlhTGZHZzBhQmF1a1JPeTI2VWdtQkRFR3EydlZQSEJnc2d0VTB4WUdoVDRnX0lpeURpOUs3dk1HRG55cmJLZw?oc=5",
       "source": "약업신문",
@@ -1321,7 +1312,8 @@
       "published": "2026-07-28T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상3상"
+        "임상3상",
+        "CRO"
       ]
     },
     {
@@ -1341,9 +1333,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-07-24T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "바이오시밀러"
+        "바이오시밀러",
+        "승인",
+        "EMA"
       ]
     },
     {
@@ -1429,9 +1423,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-07-21T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "GMP"
       ]
     },
     {
@@ -1574,9 +1569,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-07-15T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "공통·규제, 생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "FDA"
       ]
     },
     {
@@ -1640,9 +1636,11 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-07-13T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "규격"
+        "규격",
+        "제조소",
+        "CMO"
       ]
     },
     {
@@ -1743,7 +1741,8 @@
       "published": "2026-07-07T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "CRO"
       ]
     },
     {
@@ -1952,7 +1951,8 @@
       "published": "2026-06-16T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -2083,9 +2083,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-06-05T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "공통·규제, 생산·GMP",
       "matched_keywords": [
-        "CDMO"
+        "CDMO",
+        "식약처"
       ]
     },
     {
@@ -2138,9 +2139,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-06-04T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "불순물"
+        "불순물",
+        "CMO"
       ]
     },
     {
@@ -2151,7 +2153,8 @@
       "published": "2026-06-04T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -2215,9 +2218,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-05-28T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "FDA"
       ]
     },
     {
@@ -2431,6 +2435,17 @@
       ]
     },
     {
+      "title": "디티앤씨 바이오그룹, '바이오 코리아 2026' 참가… 통합 CRO 역량 홍보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBodnY0YmFIZ21GSW5hbnYzUkVoNkVLckQwXzZKS3dWc3l4UDVaMHBaOGdCcTlKNWp3Zm0ycEtGUUs3VjRZUkNQMkVZTk9VTDBxQ25FelpzNlctWlZkWHdLckllWjRqSTBSSTdRVw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-05-06T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
       "title": "[Pharm 학술+] 차세대 약물 전달체 '지질 나노입자' 성능 가르는 핵심은 '제조 공정'",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUklOTklVbnpwRENORnZXS1VqWGV6Ti1ETXAtdTFielhFb2V5WkR5LUw4Z1BqVmZnSmxmQVpVQkdZX2Utal9nV2JVX1dkcS12OUVyZUNOWEQ4UndXOWt5Q1lkZlduSzJMSGdDXw?oc=5",
       "source": "팜뉴스",
@@ -2447,9 +2462,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-04-30T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "임상시험"
+        "임상시험",
+        "FDA"
       ]
     },
     {
@@ -2746,7 +2762,8 @@
       "published": "2026-04-08T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "R&D"
       ]
     },
     {
@@ -2909,9 +2926,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-03-27T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "바이오시밀러"
+        "바이오시밀러",
+        "식약처"
       ]
     },
     {
@@ -2931,9 +2949,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-03-26T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "공통·규제, 생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "FDA"
       ]
     },
     {
@@ -3010,7 +3029,8 @@
       "published": "2026-03-20T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상시험"
+        "임상시험",
+        "CRO"
       ]
     },
     {
@@ -3032,7 +3052,8 @@
       "published": "2026-03-20T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -3043,7 +3064,8 @@
       "published": "2026-03-19T23:48:43+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -3093,14 +3115,27 @@
       ]
     },
     {
+      "title": "씨엔알리서치, 인도네시아 지사 설립…아세안 임상 네트워크 확대",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuVUVzUWxoUE1SRTAtTndSZGhRb2Y3UnVKeWhQUzU4eEZJZHpSYlBBdUVGVlFDMUtkQlMzblRCZlB2NUh3b3RlZUZpQktUTmdoQTVsbG9GQjBEVWNjSlFRVGRMUUR5WUtEM3RrUg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-03-18T07:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
+      ]
+    },
+    {
       "title": "경보제약, 미국 FDA 현장 실사 통과…\"글로벌 품질 관리 체계 확보\"",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tLWZjQ3A4N2JGNlF2djQzWVNXdUNiMjB5N2lQTjBzNnhTNGNQRFA3bjRMeWpBR0hycmQtV2JXa0prNjd0dnY3YWtyQVp3RlVRNl9hSHJUeFZKZVNWaDR3OEZYb25xSmhtekJmcQ?oc=5",
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-03-18T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "실사",
+        "FDA"
       ]
     },
     {
@@ -3208,9 +3243,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-03-10T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "바이오시밀러"
+        "바이오시밀러",
+        "FDA"
       ]
     },
     {
@@ -3230,9 +3266,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-03-10T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "CDMO"
       ]
     },
     {
@@ -3266,17 +3303,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상3상"
-      ]
-    },
-    {
-      "title": "소아 연골무형성증 치료제 FDA 심사기간 딜레이",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mZGw1c2N2OU5mTEFiLUE2WFVIeGswWnBnSVhxcld5UHdZeWEwMzlNTEF1WmtLZUs2S0FkV0k3bmU3ZXh2enljWm12dkt0cHNQUHkyNHRkd3U3SEVsNmY0RnFPdnVFb1pQX2RXQ0J2ak1mTTlNWFR2VzB0RTJKZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-03-04T13:10:05+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
       ]
     },
     {
@@ -3329,9 +3355,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-02-24T21:07:20+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "FDA"
       ]
     },
     {
@@ -3486,7 +3513,8 @@
       "published": "2026-02-13T01:53:06+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -3497,7 +3525,8 @@
       "published": "2026-02-13T01:51:50+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -3508,7 +3537,8 @@
       "published": "2026-02-12T23:53:36+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -3596,7 +3626,8 @@
       "published": "2026-02-06T08:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "CMO"
       ]
     },
     {
@@ -3784,7 +3815,8 @@
       "published": "2026-01-15T17:37:42+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -4039,7 +4071,8 @@
       "published": "2025-12-16T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -4072,7 +4105,8 @@
       "published": "2025-12-12T23:05:31+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -4116,7 +4150,8 @@
       "published": "2025-12-10T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -4125,9 +4160,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-12-09T08:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "승인",
+        "FDA"
       ]
     },
     {
@@ -4138,7 +4175,9 @@
       "published": "2025-12-08T14:34:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -4246,9 +4285,11 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-11-27T08:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제, 생산·GMP",
       "matched_keywords": [
-        "임상3상"
+        "임상3상",
+        "제조소",
+        "식약처"
       ]
     },
     {
@@ -4524,9 +4565,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-10-31T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "GMP"
       ]
     },
     {
@@ -4604,7 +4646,8 @@
       "category": "개발·연구",
       "matched_keywords": [
         "비임상",
-        "임상시험"
+        "임상시험",
+        "CRO"
       ]
     },
     {
@@ -4615,7 +4658,8 @@
       "published": "2025-10-20T21:32:13+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -4714,7 +4758,8 @@
       "published": "2025-09-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -4869,7 +4914,9 @@
       "published": "2025-09-03T09:02:56+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -4878,9 +4925,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-09-03T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "임상시험"
+        "임상시험",
+        "FDA"
       ]
     },
     {
@@ -4891,7 +4939,9 @@
       "published": "2025-09-03T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -5013,7 +5063,8 @@
       "published": "2025-08-06T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -5056,9 +5107,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-07-30T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "CMO"
       ]
     },
     {
@@ -5149,7 +5201,8 @@
       "published": "2025-07-17T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "CDMO"
       ]
     },
     {
@@ -5217,7 +5270,9 @@
       "published": "2025-07-12T11:06:46+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -5228,7 +5283,8 @@
       "published": "2025-07-08T07:00:00+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "NDMA"
+        "NDMA",
+        "회수"
       ]
     },
     {
@@ -5237,9 +5293,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-07-03T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 생산·GMP",
       "matched_keywords": [
-        "CRO"
+        "CRO",
+        "CMO"
       ]
     },
     {
@@ -5314,9 +5371,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-06-23T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "임상시험"
+        "임상시험",
+        "승인"
       ]
     },
     {
@@ -5548,9 +5606,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-05-23T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 생산·GMP",
       "matched_keywords": [
-        "바이오시밀러"
+        "바이오시밀러",
+        "CDMO"
       ]
     },
     {
@@ -5573,7 +5632,8 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "GMP",
-        "cGMP"
+        "cGMP",
+        "CMO"
       ]
     },
     {
@@ -5651,7 +5711,9 @@
       "published": "2025-05-14T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -5751,7 +5813,8 @@
       "published": "2025-04-29T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "CRO"
       ]
     },
     {
@@ -5762,7 +5825,8 @@
       "published": "2025-04-28T07:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "개량신약"
+        "개량신약",
+        "임상3상"
       ]
     },
     {
@@ -5815,9 +5879,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-21T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "GMP",
+        "제조시설"
       ]
     },
     {
@@ -5881,9 +5947,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-16T07:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "GMP"
       ]
     },
     {
@@ -5903,9 +5970,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-04-14T07:00:00+00:00",
-      "category": "생산·GMP",
+      "category": "공통·규제, 생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "제조정지",
+        "식약처"
       ]
     },
     {
@@ -5969,9 +6038,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2025-04-06T10:03:50+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "GMP"
       ]
     },
     {
@@ -6170,9 +6240,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-03-20T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 품질관리(QC/QA)",
       "matched_keywords": [
-        "R&D"
+        "R&D",
+        "회수"
       ]
     },
     {
@@ -6228,7 +6299,8 @@
       "published": "2025-03-17T07:00:00+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "회수"
       ]
     },
     {
@@ -6325,9 +6397,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2025-03-10T07:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "FDA"
       ]
     },
     {
@@ -6504,7 +6577,8 @@
       "published": "2025-02-12T08:00:00+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "불순물"
+        "불순물",
+        "회수"
       ]
     },
     {
@@ -6515,7 +6589,8 @@
       "published": "2025-02-11T08:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "개량신약"
+        "개량신약",
+        "임상3상"
       ]
     },
     {
@@ -6713,7 +6788,10 @@
       "published": "2025-01-06T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -6768,7 +6846,9 @@
       "published": "2025-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -6779,18 +6859,9 @@
       "published": "2025-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "guide for accession to pic",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1GQURjQXVjVlBYQjVobnVTdWJKTUVGZFRJZkVCR1NFTDg2UVQxOXRVZFJ4S1MtSmNuVlRtTFZTMEU2aGc2Yl94Q2N3?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2025-01-01T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -6832,9 +6903,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2024-12-31T08:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 생산·GMP",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "GMP"
       ]
     },
     {
@@ -7004,28 +7076,6 @@
     },
     {
       "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE44Yl9kWUtCSE5TVjEzUjUtVGhVNXdNRWxDU1pJYzNSaFQ0aUhJMWNodXp0dHprbFptMUNyS0h0blJMQjJKaHV3QTlsLW81QW9sSHpja0d1VXJOSnpSd21PT3I5dVNRMTBEMFEtVXhrRWMtR055SjJxN2hWYW9pZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-25T13:48:32+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WSHVDeHNSYXZlamlUWWszZUltYU1PaE5YSUJ1dnRaUlJMQmxQZ1lINkVYekpTUExmRi1VMW16VzNfOUQyYlFxVm8xYW5UcXlodTJZX3RfTFptcG5ydzlRRmNCZy0zMTI0N0xwR0FpUFRWMk9RSFVFb3BnSnRUUQ?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-25T13:48:31+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KMUFEZ19lTGYtc1ZEYWpkcVpXWjA3ZXF2NUVXR2x4b3JpNHVhenJlc1ZQSU1NUjFYeHJyOW9RT0k1b0tLMFFRRkpFZm1KaU1UZGFWZ0hlUjVXajRqajQ3VTZ2YUs0bHNhRTZJZjhhcm0xWnRqY2VCRnB3aTQyZw?oc=5",
       "source": "약업신문",
       "region": "국내",
@@ -7118,9 +7168,10 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-23T08:00:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "공통·규제, 품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "실사"
       ]
     },
     {
@@ -7195,17 +7246,6 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-22T22:18:10+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGT1Z1Rk5oM3BXYVY1aVlVSjRSMkpWSS1nNEMzVUdQQ2t6N0pVdno4Xy12WXVVWTJwbER5Z2tuZkNIS3pGUjRiT2ZtRTloeTZKcl9yajJKbTFQdUhWVUc1VEo4MTVROEd6cHQtRFNrcVA4dmJvdENjMGpKdw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-22T21:22:42+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "규격"
@@ -7349,9 +7389,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2024-12-20T08:00:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "식약처",
+        "가이드라인"
       ]
     },
     {
@@ -7382,17 +7424,6 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2024-12-20T04:08:46+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
-      "title": "약업닷컴 - 보건의약계를 대표하는 전문신문 - 약사, 의사, 제약사",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15OF95NXZYSGpQMUFQWlNwRDFzVnJEcGsycWlYNFpLZG5DaU5SM2JLREZKNDc5ZF9sS3dHNlhKTEtRSWgwVEJueWFmcmFkeEI1UGswVnh1TGVXaVlOTENpYS1rWGNfUzQtWnY4T0RPQ0NKczBUemNGUkJXZw?oc=5",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2024-12-20T03:00:09+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "규격"
@@ -7450,7 +7481,8 @@
       "published": "2024-12-17T08:00:00+00:00",
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "품질관리"
+        "품질관리",
+        "회수"
       ]
     },
     {
@@ -7795,7 +7827,8 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "GMP",
-        "cGMP"
+        "cGMP",
+        "CDMO"
       ]
     },
     {
@@ -7817,7 +7850,8 @@
       "published": "2024-09-26T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "CDMO"
       ]
     },
     {
@@ -7861,7 +7895,8 @@
       "published": "2024-09-11T07:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "행정처분"
       ]
     },
     {
@@ -8048,7 +8083,8 @@
       "published": "2024-07-03T06:18:32+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8070,7 +8106,8 @@
       "published": "2024-06-13T16:05:47+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8125,7 +8162,8 @@
       "published": "2024-03-28T09:39:34+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -8158,7 +8196,8 @@
       "published": "2024-02-09T08:43:36+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8191,7 +8230,8 @@
       "published": "2024-01-26T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8213,7 +8253,8 @@
       "published": "2024-01-04T18:32:58+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8235,7 +8276,9 @@
       "published": "2023-12-03T22:11:45+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8246,7 +8289,9 @@
       "published": "2023-12-03T05:26:50+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8257,7 +8302,8 @@
       "published": "2023-12-02T05:28:28+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8301,7 +8347,9 @@
       "published": "2023-10-26T05:36:45+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8334,7 +8382,10 @@
       "published": "2023-08-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8345,7 +8396,10 @@
       "published": "2023-08-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8356,7 +8410,10 @@
       "published": "2023-08-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8367,7 +8424,10 @@
       "published": "2023-08-12T12:05:08+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8466,7 +8526,8 @@
       "published": "2023-02-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8477,7 +8538,9 @@
       "published": "2023-02-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8488,7 +8551,9 @@
       "published": "2023-01-26T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8510,7 +8575,9 @@
       "published": "2023-01-20T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8532,7 +8599,9 @@
       "published": "2022-12-06T17:46:16+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8543,7 +8612,9 @@
       "published": "2022-11-26T19:06:09+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8565,7 +8636,7 @@
       "published": "2022-11-20T12:30:01+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "inspection"
       ]
     },
     {
@@ -8576,7 +8647,9 @@
       "published": "2022-11-18T14:49:13+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8587,7 +8660,8 @@
       "published": "2022-11-16T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8598,7 +8672,9 @@
       "published": "2022-11-11T23:06:55+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8642,7 +8718,10 @@
       "published": "2022-09-23T23:33:45+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8686,7 +8765,8 @@
       "published": "2022-04-26T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -8697,7 +8777,9 @@
       "published": "2022-04-19T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8708,7 +8790,8 @@
       "published": "2022-04-11T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8741,7 +8824,8 @@
       "published": "2022-03-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8763,7 +8847,8 @@
       "published": "2022-03-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -8774,7 +8859,8 @@
       "published": "2022-02-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8785,7 +8871,10 @@
       "published": "2022-01-26T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8796,7 +8885,8 @@
       "published": "2021-12-07T17:24:59+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8818,7 +8908,9 @@
       "published": "2021-11-09T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8829,7 +8921,9 @@
       "published": "2021-11-09T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8840,7 +8934,8 @@
       "published": "2021-10-06T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8851,7 +8946,8 @@
       "published": "2021-08-16T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -8862,7 +8958,8 @@
       "published": "2021-07-27T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8884,7 +8981,10 @@
       "published": "2021-07-15T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8895,7 +8995,10 @@
       "published": "2021-07-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8906,7 +9009,8 @@
       "published": "2021-07-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -8917,7 +9021,9 @@
       "published": "2021-06-15T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8939,7 +9045,10 @@
       "published": "2021-06-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8950,7 +9059,9 @@
       "published": "2021-06-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8961,7 +9072,9 @@
       "published": "2021-04-29T21:22:12+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -8983,7 +9096,8 @@
       "published": "2021-03-12T14:43:01+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -9005,7 +9119,10 @@
       "published": "2021-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9016,7 +9133,9 @@
       "published": "2021-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9027,7 +9146,10 @@
       "published": "2021-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9038,7 +9160,9 @@
       "published": "2021-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9104,7 +9228,10 @@
       "published": "2020-09-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9115,7 +9242,8 @@
       "published": "2020-08-14T06:51:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9126,7 +9254,8 @@
       "published": "2020-08-04T03:09:36+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -9137,7 +9266,8 @@
       "published": "2020-07-23T22:23:32+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -9148,7 +9278,9 @@
       "published": "2020-07-17T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9181,7 +9313,8 @@
       "published": "2020-07-10T19:59:44+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9192,7 +9325,8 @@
       "published": "2020-07-10T19:40:52+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9225,7 +9359,8 @@
       "published": "2020-07-08T08:30:21+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9280,7 +9415,9 @@
       "published": "2020-07-07T07:45:41+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9291,7 +9428,8 @@
       "published": "2020-07-06T22:38:22+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9324,7 +9462,8 @@
       "published": "2020-07-01T22:37:08+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9346,7 +9485,8 @@
       "published": "2020-07-01T12:32:23+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9368,7 +9508,8 @@
       "published": "2020-06-29T05:35:16+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -9379,7 +9520,8 @@
       "published": "2020-06-28T20:53:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -9401,7 +9543,9 @@
       "published": "2020-06-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9412,7 +9556,9 @@
       "published": "2020-06-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9423,7 +9569,9 @@
       "published": "2020-04-16T15:01:12+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9467,7 +9615,8 @@
       "published": "2019-12-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9478,7 +9627,8 @@
       "published": "2019-12-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9511,7 +9661,8 @@
       "published": "2019-11-20T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9544,7 +9695,8 @@
       "published": "2019-11-12T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9566,7 +9718,8 @@
       "published": "2019-10-04T06:56:48+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -9577,7 +9730,9 @@
       "published": "2019-10-04T06:55:39+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9610,7 +9765,9 @@
       "published": "2019-10-04T06:49:39+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9621,18 +9778,9 @@
       "published": "2019-10-03T12:11:13+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "Case Study - xyz",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMHI3WmRfRzlkRS1uWEhSa1FndDU4SW1rTjhySDNtdWtiZ0ZQOS1MVHhpODRsV3ROM1B6WUhIZEdTNmZZM2p2NXFKQjN6aVpoSHduUTlTTHNGNHRpaVNNZEN2UFUzd0NvRXEyTV9GamJOYmhUNmhSNVBsWWk2OVp6RW1n?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-03T12:10:12+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9643,7 +9791,9 @@
       "published": "2019-10-03T12:10:08+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9676,7 +9826,8 @@
       "published": "2019-10-03T12:06:17+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9742,18 +9893,8 @@
       "published": "2019-10-02T20:09:27+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "ICH Q9 Quality Risk Management",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVRWTjc1LUFjNzAxUmdJcDI5R3QwaDhUSkp3dkVTSURCaVJ5bFhXT2J2dWxTaEdBMGp3YV9aZ05nZlE4ME9La0dicmNKTTE5dGRRNFNobjRWdFpVRDRpT2FIcHhXOGpyYmQ0WHNTQkVaSW5VeEVOaU8wVWFGc20tUGZrTEZqcy1PdERN?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-02T20:09:09+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9764,18 +9905,9 @@
       "published": "2019-10-02T20:06:50+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "Quality Risk Management ICH Q9",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YT1pfeEFKeGpmWkZ4b2Zzc0c2Y0FEeE9SWTZqMkF1LVJ0S3RwMlA3NWRGTy1xbHVxSHhvZlZ3dERwcjhySW16aDgyUUVsZmFyM2tlMno5Tnozc0ZqSm4wZkgwRHVMM3NSMnFjcGU3Z0RDb0l0N2hsQg?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-02T20:06:29+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9808,7 +9940,8 @@
       "published": "2019-10-02T14:37:24+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -9841,7 +9974,10 @@
       "published": "2019-10-02T00:21:19+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -9852,7 +9988,9 @@
       "published": "2019-10-01T16:07:03+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9874,7 +10012,8 @@
       "published": "2019-10-01T15:43:56+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -9885,7 +10024,9 @@
       "published": "2019-10-01T15:40:40+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9907,7 +10048,8 @@
       "published": "2019-10-01T15:37:24+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -9918,7 +10060,8 @@
       "published": "2019-10-01T15:32:08+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -9929,7 +10072,8 @@
       "published": "2019-10-01T13:42:42+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9940,7 +10084,8 @@
       "published": "2019-10-01T13:41:37+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -9951,7 +10096,10 @@
       "published": "2019-10-01T13:40:46+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10006,7 +10154,8 @@
       "published": "2019-06-12T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10017,7 +10166,8 @@
       "published": "2019-06-11T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10028,7 +10178,8 @@
       "published": "2019-03-19T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10072,7 +10223,9 @@
       "published": "2018-10-16T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10083,7 +10236,9 @@
       "published": "2018-07-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10094,7 +10249,10 @@
       "published": "2018-07-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10105,7 +10263,8 @@
       "published": "2018-07-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10127,7 +10286,8 @@
       "published": "2018-06-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10149,7 +10309,8 @@
       "published": "2018-06-15T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10193,7 +10354,9 @@
       "published": "2017-06-30T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10204,7 +10367,9 @@
       "published": "2017-06-19T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10248,7 +10413,9 @@
       "published": "2016-08-16T18:23:56+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10259,7 +10426,9 @@
       "published": "2016-08-10T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10270,7 +10439,8 @@
       "published": "2016-07-20T09:21:40+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10281,7 +10451,9 @@
       "published": "2016-07-20T00:54:47+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10292,7 +10464,8 @@
       "published": "2016-07-19T22:08:44+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10303,7 +10476,9 @@
       "published": "2016-07-19T22:07:24+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10314,7 +10489,9 @@
       "published": "2016-07-19T22:04:38+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10325,7 +10502,9 @@
       "published": "2016-07-19T20:04:16+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10336,7 +10515,8 @@
       "published": "2016-07-19T20:04:09+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -10347,7 +10527,9 @@
       "published": "2016-07-19T19:04:56+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10358,7 +10540,8 @@
       "published": "2016-07-19T18:03:40+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10369,7 +10552,8 @@
       "published": "2016-07-19T17:03:41+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -10380,7 +10564,8 @@
       "published": "2016-07-19T14:35:30+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10391,7 +10576,8 @@
       "published": "2016-07-19T09:40:38+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -10435,7 +10621,10 @@
       "published": "2016-07-19T09:40:30+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10468,7 +10657,9 @@
       "published": "2016-07-19T09:40:20+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10490,7 +10681,10 @@
       "published": "2016-07-19T09:40:11+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10501,7 +10695,8 @@
       "published": "2016-07-19T09:40:07+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10512,7 +10707,8 @@
       "published": "2016-07-19T09:40:06+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -10545,7 +10741,8 @@
       "published": "2016-07-19T09:40:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10567,7 +10764,10 @@
       "published": "2016-07-19T09:39:55+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10589,7 +10789,8 @@
       "published": "2016-07-19T09:39:37+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10600,7 +10801,10 @@
       "published": "2016-07-19T09:39:35+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10622,7 +10826,8 @@
       "published": "2016-07-19T09:39:29+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -10644,7 +10849,9 @@
       "published": "2016-07-19T09:39:23+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10666,7 +10873,10 @@
       "published": "2016-07-19T09:39:01+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10710,7 +10920,8 @@
       "published": "2016-06-27T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10721,7 +10932,8 @@
       "published": "2016-03-21T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10732,7 +10944,8 @@
       "published": "2015-12-10T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "inspection"
       ]
     },
     {
@@ -10787,7 +11000,9 @@
       "published": "2015-06-19T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10809,7 +11024,8 @@
       "published": "2015-04-13T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -10820,7 +11036,9 @@
       "published": "2015-02-05T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10831,7 +11049,8 @@
       "published": "2014-07-08T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10842,7 +11061,8 @@
       "published": "2014-06-05T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10864,7 +11084,9 @@
       "published": "2014-06-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10886,7 +11108,10 @@
       "published": "2014-03-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -10930,7 +11155,9 @@
       "published": "2012-10-17T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -10963,7 +11190,8 @@
       "published": "2012-05-10T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -10974,7 +11202,8 @@
       "published": "2012-05-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -10985,7 +11214,10 @@
       "published": "2012-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11029,7 +11261,8 @@
       "published": "2011-03-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11040,7 +11273,10 @@
       "published": "2011-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11106,7 +11342,8 @@
       "published": "2009-05-15T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11117,7 +11354,9 @@
       "published": "2009-03-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11128,7 +11367,8 @@
       "published": "2008-05-28T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11139,7 +11379,9 @@
       "published": "2007-09-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11150,7 +11392,10 @@
       "published": "2007-09-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11161,7 +11406,10 @@
       "published": "2007-09-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11172,7 +11420,9 @@
       "published": "2007-09-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -11183,7 +11433,10 @@
       "published": "2007-09-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11205,7 +11458,9 @@
       "published": "2006-03-16T11:47:12+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -11216,7 +11471,10 @@
       "published": "2006-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11227,7 +11485,9 @@
       "published": "2005-10-14T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11238,7 +11498,8 @@
       "published": "2003-11-11T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -11264,17 +11525,6 @@
       ]
     },
     {
-      "title": "USA\\SMF-Center 2000 (Jan",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9wOXd1dG5sZW9xUFdYZjBYQ0NDaEQ3d2tnVGk2VUxQV2tsNGM4M0U4TDZlUEQ5QjcxUUYtVnpNR2M5MEhEQVlEejdR?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2003-07-15T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "inspection"
-      ]
-    },
-    {
       "title": "PIC/S INSPECTION REPORT FORMAT",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SYVFPT0Ftbjc2X2t5c2Zfc3QxZjktUFRNOGpFNlIzWmtQZTU0VFlhRDd5N0xsWTZEc0pVR0ktVmN2aVJZUExtXzM2cjNJU2l5NmxGdHBfM1FBelJN?oc=5",
       "source": "PIC/S",
@@ -11282,7 +11532,9 @@
       "published": "2002-11-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11293,7 +11545,8 @@
       "published": "2002-05-06T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -11304,7 +11557,8 @@
       "published": "2002-04-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -11315,7 +11569,8 @@
       "published": "2002-04-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11326,7 +11581,8 @@
       "published": "2001-05-22T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "guideline"
       ]
     },
     {
@@ -11348,7 +11604,9 @@
       "published": "2000-04-17T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -11370,7 +11628,8 @@
       "published": "1998-09-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     }
   ]
