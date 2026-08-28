@@ -4,7 +4,7 @@ on:
   schedule:
     # 매일 00:07 UTC 실행 = 한국시간 오전 9시 7분
     # (정각(00:00)은 전세계 예약 작업이 몰려 지연/누락되기 쉬워 살짝 비껴둠)
-    - cron: "7 0 * * *"
+    - cron: "8 0 * * *"
   workflow_dispatch: {}   # 수동 실행 버튼 (Actions 탭에서 Run workflow)
   push:
     branches: [main]
