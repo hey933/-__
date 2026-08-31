@@ -13,8 +13,12 @@
 
 필터링:
   - NOISE_KEYWORDS(주가/실적/인사 등)는 검색 쿼리 단계에서 -제외어 로 걸러낸다.
-  - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 730일=2년)보다 오래된 것은 제외한다.
+  - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 31일=1개월)보다 오래된 것은 제외한다.
     (해외는 절대량이 적어 기간 제한 없음)
+  - 약업신문 기사는 Google 뉴스가 주는 날짜가 실제 게재일과 다를 때가 있어(오래된
+    기사를 최근 날짜로 잘못 표시), news_print.html 원문 페이지의 "기사입력" 날짜를
+    다시 조회해 정확한 날짜로 덮어쓴다. (다른 3개 사이트는 아직 이런 문제가 보고되지
+    않아 우선 약업신문에만 적용)
 
 결과: data/articles.json 에 저장 (list of dict)
   { title, link, source, region, published, category, matched_keywords }
@@ -28,6 +32,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from functools import lru_cache
 
 import feedparser
 
@@ -80,8 +85,11 @@ NOISE_KEYWORDS = [
 # 검색 쿼리 길이를 적절히 유지하기 위해 카테고리 안에서도 필요시 나눠 검색
 KEYWORD_CHUNK_SIZE = 10
 
-# 국내 기사는 양이 많으므로 최근 N일(기본 2년=730일) 이내 기사만 남긴다.
-DOMESTIC_MAX_AGE_DAYS = 730
+# 국내 기사는 양이 많으므로 최근 N일(기본 31일=1개월) 이내 기사만 남긴다.
+DOMESTIC_MAX_AGE_DAYS = 31
+
+# 한국 표준시(약업신문 원문의 "기사입력" 시각은 KST 기준으로 표기됨)
+KST = timezone(timedelta(hours=9))
 
 # 해외 공식 RSS 피드 (직접 파싱)
 FOREIGN_OFFICIAL_FEEDS = [
@@ -125,6 +133,23 @@ def fetch_feed(url: str):
     except Exception as e:
         print(f"[WARN] fetch 실패: {url} ({e})", file=sys.stderr)
         return feedparser.parse(b"")
+
+
+def fetch_url_text(url: str) -> str:
+    """URL의 HTML을 텍스트로 가져온다. (날짜 검증 등 가벼운 원문 대조용)"""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+        for enc in ("utf-8", "euc-kr", "cp949"):
+            try:
+                return raw.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[WARN] fetch_url_text 실패: {url} ({e})", file=sys.stderr)
+        return ""
 
 
 def to_iso(entry) -> str:
@@ -178,6 +203,44 @@ def clean_google_title(title: str, source_name_hint: str = "") -> str:
 def normalize_title(title: str) -> str:
     """중복 판정을 위해 제목에서 공백/기호를 제거하고 소문자로 통일."""
     return re.sub(r"[^0-9a-zA-Z가-힣]", "", title.strip().lower())
+
+
+YAKUP_NID_RE = re.compile(r"[?&]nid=(\d+)")
+YAKUP_DATE_RE = re.compile(r"기사입력\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})")
+
+
+@lru_cache(maxsize=None)
+def fetch_yakup_real_date(nid: str):
+    """nid로 news_print.html을 조회해 실제 게재일(UTC ISO)을 반환. 실패 시 None.
+    같은 기사가 여러 키워드 카테고리에서 중복으로 걸릴 수 있어 nid 기준으로 캐시한다."""
+    html = fetch_url_text(f"https://www.yakup.com/news/news_print.html?nid={nid}")
+    time.sleep(0.2)  # 원문 서버 과부하 방지 (캐시 미스일 때만 실행됨)
+    if not html:
+        return None
+    m_date = YAKUP_DATE_RE.search(html)
+    if not m_date:
+        return None
+    try:
+        dt_kst = datetime.strptime(f"{m_date.group(1)} {m_date.group(2)}", "%Y-%m-%d %H:%M")
+        dt_kst = dt_kst.replace(tzinfo=KST)
+        return dt_kst.astimezone(timezone.utc).isoformat()
+    except Exception:
+        return None
+
+
+def verify_yakup_date(article: dict) -> None:
+    """약업신문 기사만, 원문 인쇄용 페이지(news_print.html)의 '기사입력' 날짜로
+    published 값을 다시 맞춘다. Google 뉴스가 오래된 기사를 최근 날짜로 잘못
+    표시하는 경우가 있어서(예: 2019년 기사가 오늘 날짜로 표시), 원문을 직접
+    대조해 바로잡는다. 원문을 못 가져오거나 날짜를 못 찾으면 기존 값을 유지한다."""
+    if article.get("source") != "약업신문":
+        return
+    m_nid = YAKUP_NID_RE.search(article["link"])
+    if not m_nid:
+        return
+    real_date = fetch_yakup_real_date(m_nid.group(1))
+    if real_date:
+        article["published"] = real_date
 
 
 # ----------------------------------------------------------------------
@@ -318,6 +381,11 @@ def main():
     all_articles += collect_foreign_official()
     print("해외 소스 수집 중 (ICH/PIC/S)...")
     all_articles += collect_foreign_google_news()
+
+    print("약업신문 기사 날짜 원문 대조 중...")
+    for a in all_articles:
+        if a["region"] == "국내" and a.get("source") == "약업신문":
+            verify_yakup_date(a)
 
     all_articles = dedupe(all_articles)
     all_articles = filter_domestic_by_age(all_articles, DOMESTIC_MAX_AGE_DAYS)
