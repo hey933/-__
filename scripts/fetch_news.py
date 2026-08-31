@@ -228,19 +228,26 @@ def fetch_yakup_real_date(nid: str):
         return None
 
 
-def verify_yakup_date(article: dict) -> None:
+def verify_yakup_date(article: dict) -> bool:
     """약업신문 기사만, 원문 인쇄용 페이지(news_print.html)의 '기사입력' 날짜로
     published 값을 다시 맞춘다. Google 뉴스가 오래된 기사를 최근 날짜로 잘못
     표시하는 경우가 있어서(예: 2019년 기사가 오늘 날짜로 표시), 원문을 직접
-    대조해 바로잡는다. 원문을 못 가져오거나 날짜를 못 찾으면 기존 값을 유지한다."""
+    대조해 바로잡는다.
+
+    반환값: 검증에 성공하면 True(날짜를 실제 값으로 교체). 원문을 못 가져오거나
+    형식이 달라 날짜를 못 찾으면 False — 이 경우 신뢰할 수 없는 날짜를 그대로
+    보여주지 않도록 호출부에서 해당 기사를 제외시킨다.
+    약업신문이 아닌 기사는 검증 대상이 아니므로 항상 True."""
     if article.get("source") != "약업신문":
-        return
+        return True
     m_nid = YAKUP_NID_RE.search(article["link"])
     if not m_nid:
-        return
+        return False
     real_date = fetch_yakup_real_date(m_nid.group(1))
-    if real_date:
-        article["published"] = real_date
+    if not real_date:
+        return False
+    article["published"] = real_date
+    return True
 
 
 # ----------------------------------------------------------------------
@@ -383,9 +390,16 @@ def main():
     all_articles += collect_foreign_google_news()
 
     print("약업신문 기사 날짜 원문 대조 중...")
+    verified = []
+    dropped = 0
     for a in all_articles:
-        if a["region"] == "국내" and a.get("source") == "약업신문":
-            verify_yakup_date(a)
+        if verify_yakup_date(a):
+            verified.append(a)
+        else:
+            dropped += 1
+    all_articles = verified
+    if dropped:
+        print(f"  -> 날짜 검증 실패로 {dropped}건 제외")
 
     all_articles = dedupe(all_articles)
     all_articles = filter_domestic_by_age(all_articles, DOMESTIC_MAX_AGE_DAYS)
