@@ -174,6 +174,13 @@ def google_news_rss_url(query: str, lang: str) -> str:
 
 _RESOLVE_CACHE = {}
 
+# 브라우저처럼 보이는 User-Agent를 써야 Google이 자동화 요청과 다르게
+# 취급하지 않고 일반적인 리다이렉트 동작을 보여주는 경우가 많다.
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -182,30 +189,70 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
 
 _NO_REDIRECT_OPENER = urllib.request.build_opener(_NoRedirect)
 
+# Google이 리다이렉트 헤더 없이 "이동 중입니다" 같은 중간 페이지를 200으로
+# 먼저 돌려주는 경우, 그 본문 안에서 실제 원문 링크를 찾기 위한 패턴들.
+_REAL_URL_PATTERNS = [
+    re.compile(r'<link rel="canonical" href="(https?://(?!news\.google\.com)[^"]+)"'),
+    re.compile(r'content="0;\s*url=(https?://(?!news\.google\.com)[^"\']+)"', re.IGNORECASE),
+    re.compile(r'property="og:url" content="(https?://(?!news\.google\.com)[^"]+)"'),
+    re.compile(r'(?:window\.location(?:\.href)?|location\.replace)\s*=?\s*\(?["\'](https?://(?!news\.google\.com)[^"\']+)["\']'),
+    re.compile(r'href="(https?://(?!news\.google\.com)[^"]+)"'),
+]
+
+
+def _extract_real_url(html: str):
+    for pattern in _REAL_URL_PATTERNS:
+        m = pattern.search(html)
+        if m:
+            return m.group(1)
+    return None
+
 
 def resolve_google_news_link(link: str) -> str:
     """news.google.com/rss/articles/... 형태의 리다이렉트 링크를 실제 원문
-    URL로 바꾼다. Google 서버가 돌려주는 Location 헤더만 읽기 때문에 원문
-    사이트(약업신문 등) 서버에는 요청이 가지 않는다 — 그쪽이 접속을 막아둬도
-    문제없다. 같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다.
-    실패하면 원래 링크를 그대로 반환한다."""
+    URL로 바꾼다. 1) 먼저 HTTP 리다이렉트 헤더(Location)만 읽어본다 —
+    원문 사이트 서버까지 요청이 가지 않아 접속 차단과 무관하다.
+    2) Google이 헤더 없이 200으로 중간 페이지를 주는 경우, 그 페이지
+    본문에서 실제 링크 패턴을 찾는다 (이때는 Google 서버 응답만 읽는 것이라
+    마찬가지로 원문 사이트 서버 요청은 아니다).
+    같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다.
+    끝내 못 찾으면 원래 링크를 그대로 반환한다."""
     if "news.google.com" not in link:
         return link
     if link in _RESOLVE_CACHE:
         return _RESOLVE_CACHE[link]
+
     resolved = link
     try:
-        req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT})
+        req = urllib.request.Request(link, headers={"User-Agent": BROWSER_USER_AGENT})
         try:
             resp = _NO_REDIRECT_OPENER.open(req, timeout=10)
-            resolved = resp.geturl()  # 리다이렉트가 아예 없었던 경우
+            final_url = resp.geturl()
+            if "news.google.com" not in final_url:
+                resolved = final_url
+            else:
+                html = resp.read().decode("utf-8", errors="ignore")
+                found = _extract_real_url(html)
+                if found:
+                    resolved = found
         except urllib.error.HTTPError as e:
-            if e.code in (301, 302, 303, 307, 308):
-                loc = e.headers.get("Location")
-                if loc:
-                    resolved = loc
+            loc = e.headers.get("Location") if e.code in (301, 302, 303, 307, 308) else None
+            if loc and "news.google.com" not in loc:
+                resolved = loc
+            elif loc:
+                # 리다이렉트 목적지도 여전히 google 도메인이면 그 페이지 본문을 파싱
+                try:
+                    req2 = urllib.request.Request(loc, headers={"User-Agent": BROWSER_USER_AGENT})
+                    with urllib.request.urlopen(req2, timeout=10) as resp2:
+                        html = resp2.read().decode("utf-8", errors="ignore")
+                    found = _extract_real_url(html)
+                    if found:
+                        resolved = found
+                except Exception:
+                    pass
     except Exception as e:
         print(f"[WARN] google 뉴스 링크 해석 실패: {e}", file=sys.stderr)
+
     _RESOLVE_CACHE[link] = resolved
     return resolved
 
@@ -418,6 +465,14 @@ def main():
     all_articles += collect_foreign_google_news()
 
     print("약업신문 오래된 기사(nid 기준) 필터링 중...")
+    yakup_total = sum(1 for a in all_articles if a.get("source") == "약업신문")
+    yakup_unresolved = sum(
+        1 for a in all_articles
+        if a.get("source") == "약업신문" and "news.google.com" in a.get("link", "")
+    )
+    if yakup_total:
+        print(f"  -> 약업신문 링크 해석 결과: {yakup_total - yakup_unresolved}/{yakup_total}건 원문 주소 확보"
+              + (f" ({yakup_unresolved}건은 google 링크로 남음 -> nid 필터 적용 못 함)" if yakup_unresolved else ""))
     all_articles = filter_yakup_by_nid_recency(all_articles)
 
     all_articles = dedupe(all_articles)
