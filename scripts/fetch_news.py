@@ -16,12 +16,14 @@
   - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 31일=1개월)보다 오래된 것은 제외한다.
     (해외는 절대량이 적어 기간 제한 없음)
   - 약업신문은 Google 뉴스가 오래된 기사를 최근 날짜로 잘못 표시하는 경우가 있다.
-    원문 페이지를 다시 조회해 대조하는 방식은 GitHub Actions 서버 IP가 차단돼
-    있어 쓸 수 없었다. 대신 약업신문 URL의 nid(기사 번호)가 시간순으로 증가하는
-    성질을 이용해, 고정된 기준점(YAKUP_ANCHOR_NID/DATE)에서 오늘까지 며칠
-    지났는지로 "예상 현재 nid"를 계산하고, 거기서 한참 떨어진 nid를 가진 기사를
-    제외한다. (이번 실행의 검색 결과에만 기대는 상대 기준이 아니라 절대 기준이라
-    그날그날 검색 결과가 부실해도 안정적으로 걸러진다)
+    이를 걸러내려면 URL의 nid(기사 번호)가 필요한데, Google 뉴스 RSS의 link는
+    실제 원문 주소가 아니라 news.google.com/rss/articles/... 형태로 암호화된
+    리다이렉트 주소라 nid를 바로 읽을 수 없었다. 그래서 이 리다이렉트 주소에
+    HTTP 요청을 보내 Google 서버가 응답 헤더로 알려주는 진짜 목적지 주소를
+    읽어온다 (원문 사이트 서버에는 요청이 가지 않으므로 접속 차단과 무관하다).
+    이렇게 알아낸 실제 URL에서 nid를 뽑아, 고정된 기준점(YAKUP_ANCHOR_NID/DATE)
+    에서 오늘까지 며칠 지났는지로 계산한 "예상 현재 nid"보다 한참 떨어진 기사를
+    제외한다.
 
 결과: data/articles.json 에 저장 (list of dict)
   { title, link, source, region, published, category, matched_keywords }
@@ -31,6 +33,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -169,6 +172,44 @@ def google_news_rss_url(query: str, lang: str) -> str:
     return f"https://news.google.com/rss/search?q={q}&{lang}"
 
 
+_RESOLVE_CACHE = {}
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None  # 리다이렉트를 따라가지 않고 HTTPError로 멈춘다
+
+
+_NO_REDIRECT_OPENER = urllib.request.build_opener(_NoRedirect)
+
+
+def resolve_google_news_link(link: str) -> str:
+    """news.google.com/rss/articles/... 형태의 리다이렉트 링크를 실제 원문
+    URL로 바꾼다. Google 서버가 돌려주는 Location 헤더만 읽기 때문에 원문
+    사이트(약업신문 등) 서버에는 요청이 가지 않는다 — 그쪽이 접속을 막아둬도
+    문제없다. 같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다.
+    실패하면 원래 링크를 그대로 반환한다."""
+    if "news.google.com" not in link:
+        return link
+    if link in _RESOLVE_CACHE:
+        return _RESOLVE_CACHE[link]
+    resolved = link
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT})
+        try:
+            resp = _NO_REDIRECT_OPENER.open(req, timeout=10)
+            resolved = resp.geturl()  # 리다이렉트가 아예 없었던 경우
+        except urllib.error.HTTPError as e:
+            if e.code in (301, 302, 303, 307, 308):
+                loc = e.headers.get("Location")
+                if loc:
+                    resolved = loc
+    except Exception as e:
+        print(f"[WARN] google 뉴스 링크 해석 실패: {e}", file=sys.stderr)
+    _RESOLVE_CACHE[link] = resolved
+    return resolved
+
+
 def matched_keywords(text: str, keywords) -> list:
     text_low = text.lower()
     return [kw for kw in keywords if kw.lower() in text_low]
@@ -250,6 +291,10 @@ def collect_domestic() -> list:
                     link = entry.get("link", "")
                     if not title or not link:
                         continue
+                    if name == "약업신문":
+                        # nid 기반 오래된 기사 필터가 동작하려면 실제 원문
+                        # 주소가 필요하다 (Google 리다이렉트 주소엔 nid가 없음)
+                        link = resolve_google_news_link(link)
                     mk = matched_keywords(title, kw_chunk) or kw_chunk[:1]
                     articles.append({
                         "title": title,
