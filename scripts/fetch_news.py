@@ -15,10 +15,12 @@
   - NOISE_KEYWORDS(주가/실적/인사 등)는 검색 쿼리 단계에서 -제외어 로 걸러낸다.
   - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 31일=1개월)보다 오래된 것은 제외한다.
     (해외는 절대량이 적어 기간 제한 없음)
-  - 약업신문 기사는 Google 뉴스가 주는 날짜가 실제 게재일과 다를 때가 있어(오래된
-    기사를 최근 날짜로 잘못 표시), news_print.html 원문 페이지의 "기사입력" 날짜를
-    다시 조회해 정확한 날짜로 덮어쓴다. (다른 3개 사이트는 아직 이런 문제가 보고되지
-    않아 우선 약업신문에만 적용)
+  - 약업신문은 Google 뉴스가 오래된 기사를 최근 날짜로 잘못 표시하는 경우가 있다.
+    원문 페이지를 다시 조회해 대조하는 방식은 GitHub Actions 서버 IP가 차단돼
+    있어 쓸 수 없었다. 대신 약업신문 URL의 nid(기사 번호)가 시간순으로 증가하는
+    성질을 이용해, 이번에 수집된 약업신문 기사 중 가장 큰 nid를 기준으로 거기서
+    한참 떨어진(=명백히 오래된) nid를 가진 기사만 제외한다. (네트워크 요청 없이
+    계산만으로 판단하므로 차단 걱정이 없다)
 
 결과: data/articles.json 에 저장 (list of dict)
   { title, link, source, region, published, category, matched_keywords }
@@ -32,7 +34,6 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from functools import lru_cache
 
 import feedparser
 
@@ -88,8 +89,14 @@ KEYWORD_CHUNK_SIZE = 10
 # 국내 기사는 양이 많으므로 최근 N일(기본 31일=1개월) 이내 기사만 남긴다.
 DOMESTIC_MAX_AGE_DAYS = 31
 
-# 한국 표준시(약업신문 원문의 "기사입력" 시각은 KST 기준으로 표기됨)
-KST = timezone(timedelta(hours=9))
+# 약업신문 nid 기반 오래된 기사 판별용 마진.
+# 실측 결과 nid는 하루 평균 대략 25~40씩 증가한다. 오탐(진짜 최근 기사를
+# 잘못 제외하는 것)을 피하기 위해 넉넉하게 잡은 값 — 이 정도 차이면 최소
+# 수개월~1년 이상 차이 나는 명백히 오래된 기사만 걸러진다.
+YAKUP_NID_STALE_MARGIN = 5000
+# 이 정도 표본은 있어야 "이번 배치에서 가장 큰 nid"를 신뢰할 수 있다고 보고
+# 필터를 적용한다. 표본이 너무 적으면 우연히 튄 값일 수 있어 필터를 건너뛴다.
+YAKUP_MIN_SAMPLE_FOR_FILTER = 5
 
 # 해외 공식 RSS 피드 (직접 파싱)
 FOREIGN_OFFICIAL_FEEDS = [
@@ -133,23 +140,6 @@ def fetch_feed(url: str):
     except Exception as e:
         print(f"[WARN] fetch 실패: {url} ({e})", file=sys.stderr)
         return feedparser.parse(b"")
-
-
-def fetch_url_text(url: str) -> str:
-    """URL의 HTML을 텍스트로 가져온다. (날짜 검증 등 가벼운 원문 대조용)"""
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            raw = resp.read()
-        for enc in ("utf-8", "euc-kr", "cp949"):
-            try:
-                return raw.decode(enc)
-            except UnicodeDecodeError:
-                continue
-        return raw.decode("utf-8", errors="ignore")
-    except Exception as e:
-        print(f"[WARN] fetch_url_text 실패: {url} ({e})", file=sys.stderr)
-        return ""
 
 
 def to_iso(entry) -> str:
@@ -206,48 +196,44 @@ def normalize_title(title: str) -> str:
 
 
 YAKUP_NID_RE = re.compile(r"[?&]nid=(\d+)")
-YAKUP_DATE_RE = re.compile(r"기사입력\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})")
 
 
-@lru_cache(maxsize=None)
-def fetch_yakup_real_date(nid: str):
-    """nid로 news_print.html을 조회해 실제 게재일(UTC ISO)을 반환. 실패 시 None.
-    같은 기사가 여러 키워드 카테고리에서 중복으로 걸릴 수 있어 nid 기준으로 캐시한다."""
-    html = fetch_url_text(f"https://www.yakup.com/news/news_print.html?nid={nid}")
-    time.sleep(0.2)  # 원문 서버 과부하 방지 (캐시 미스일 때만 실행됨)
-    if not html:
-        return None
-    m_date = YAKUP_DATE_RE.search(html)
-    if not m_date:
-        return None
-    try:
-        dt_kst = datetime.strptime(f"{m_date.group(1)} {m_date.group(2)}", "%Y-%m-%d %H:%M")
-        dt_kst = dt_kst.replace(tzinfo=KST)
-        return dt_kst.astimezone(timezone.utc).isoformat()
-    except Exception:
-        return None
+def filter_yakup_by_nid_recency(articles: list) -> list:
+    """약업신문은 Google 뉴스가 오래된 기사에 최근 날짜를 잘못 붙이는 경우가
+    있다. 원문을 다시 조회해 대조하고 싶었지만 GitHub Actions 서버 IP가
+    약업신문에 막혀 있어(요청이 계속 실패) 그 방식은 쓸 수 없었다.
 
+    대신 약업신문 URL의 nid(기사 번호)가 대체로 시간순으로 증가한다는 점을
+    이용한다. 이번 실행에서 수집된 약업신문 기사들 중 가장 큰 nid를 "현재
+    시점"으로 보고, 거기서 YAKUP_NID_STALE_MARGIN 이상 떨어진 nid를 가진
+    기사는 명백히 오래된 기사로 보고 제외한다. 네트워크 요청이 필요 없어
+    차단될 일이 없고, 마진을 넉넉히 잡아서 진짜 최근 기사까지 잘못 제외하는
+    일은 없도록 했다."""
+    nids = {}
+    for a in articles:
+        if a.get("source") == "약업신문":
+            m = YAKUP_NID_RE.search(a.get("link", ""))
+            if m:
+                nids[id(a)] = int(m.group(1))
 
-def verify_yakup_date(article: dict) -> bool:
-    """약업신문 기사만, 원문 인쇄용 페이지(news_print.html)의 '기사입력' 날짜로
-    published 값을 다시 맞춘다. Google 뉴스가 오래된 기사를 최근 날짜로 잘못
-    표시하는 경우가 있어서(예: 2019년 기사가 오늘 날짜로 표시), 원문을 직접
-    대조해 바로잡는다.
+    if len(nids) < YAKUP_MIN_SAMPLE_FOR_FILTER:
+        # 표본이 너무 적으면 판단하지 않고 그대로 둔다 (오탐 방지)
+        return articles
 
-    반환값: 검증에 성공하면 True(날짜를 실제 값으로 교체). 원문을 못 가져오거나
-    형식이 달라 날짜를 못 찾으면 False — 이 경우 신뢰할 수 없는 날짜를 그대로
-    보여주지 않도록 호출부에서 해당 기사를 제외시킨다.
-    약업신문이 아닌 기사는 검증 대상이 아니므로 항상 True."""
-    if article.get("source") != "약업신문":
-        return True
-    m_nid = YAKUP_NID_RE.search(article["link"])
-    if not m_nid:
-        return False
-    real_date = fetch_yakup_real_date(m_nid.group(1))
-    if not real_date:
-        return False
-    article["published"] = real_date
-    return True
+    max_nid = max(nids.values())
+    cutoff_nid = max_nid - YAKUP_NID_STALE_MARGIN
+
+    result = []
+    dropped = 0
+    for a in articles:
+        nid = nids.get(id(a))
+        if nid is not None and nid < cutoff_nid:
+            dropped += 1
+            continue
+        result.append(a)
+    if dropped:
+        print(f"  -> 약업신문 오래된 기사(nid 기준) {dropped}건 제외 (기준 nid >= {cutoff_nid})")
+    return result
 
 
 # ----------------------------------------------------------------------
@@ -389,17 +375,8 @@ def main():
     print("해외 소스 수집 중 (ICH/PIC/S)...")
     all_articles += collect_foreign_google_news()
 
-    print("약업신문 기사 날짜 원문 대조 중...")
-    verified = []
-    dropped = 0
-    for a in all_articles:
-        if verify_yakup_date(a):
-            verified.append(a)
-        else:
-            dropped += 1
-    all_articles = verified
-    if dropped:
-        print(f"  -> 날짜 검증 실패로 {dropped}건 제외")
+    print("약업신문 오래된 기사(nid 기준) 필터링 중...")
+    all_articles = filter_yakup_by_nid_recency(all_articles)
 
     all_articles = dedupe(all_articles)
     all_articles = filter_domestic_by_age(all_articles, DOMESTIC_MAX_AGE_DAYS)
