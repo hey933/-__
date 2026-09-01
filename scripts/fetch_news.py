@@ -200,27 +200,34 @@ _REAL_URL_PATTERNS = [
 ]
 
 
-def _extract_real_url(html: str):
+def _extract_real_url(html: str, expected_domain: str):
+    """본문에서 실제 링크 후보를 모두 찾은 뒤, expected_domain이 포함된
+    것만 신뢰한다 (구글 파비콘/썸네일 같은 엉뚱한 링크를 걸러내기 위함)."""
     for pattern in _REAL_URL_PATTERNS:
-        m = pattern.search(html)
-        if m:
-            return m.group(1)
+        for candidate in pattern.findall(html):
+            if expected_domain in candidate:
+                return candidate
     return None
 
 
-def resolve_google_news_link(link: str) -> str:
+def resolve_google_news_link(link: str, expected_domain: str) -> str:
     """news.google.com/rss/articles/... 형태의 리다이렉트 링크를 실제 원문
     URL로 바꾼다. 1) 먼저 HTTP 리다이렉트 헤더(Location)만 읽어본다 —
     원문 사이트 서버까지 요청이 가지 않아 접속 차단과 무관하다.
     2) Google이 헤더 없이 200으로 중간 페이지를 주는 경우, 그 페이지
     본문에서 실제 링크 패턴을 찾는다 (이때는 Google 서버 응답만 읽는 것이라
     마찬가지로 원문 사이트 서버 요청은 아니다).
-    같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다.
-    끝내 못 찾으면 원래 링크를 그대로 반환한다."""
+
+    expected_domain(예: "yakup.com")이 포함되지 않은 결과는 전부 버리고
+    원래 구글 링크를 그대로 둔다 — 파비콘·썸네일 같은 엉뚱한 주소를
+    기사 링크로 잘못 채택하는 사고를 막기 위한 안전장치.
+
+    같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다."""
     if "news.google.com" not in link:
         return link
-    if link in _RESOLVE_CACHE:
-        return _RESOLVE_CACHE[link]
+    cache_key = (link, expected_domain)
+    if cache_key in _RESOLVE_CACHE:
+        return _RESOLVE_CACHE[cache_key]
 
     resolved = link
     try:
@@ -228,16 +235,16 @@ def resolve_google_news_link(link: str) -> str:
         try:
             resp = _NO_REDIRECT_OPENER.open(req, timeout=10)
             final_url = resp.geturl()
-            if "news.google.com" not in final_url:
+            if "news.google.com" not in final_url and expected_domain in final_url:
                 resolved = final_url
             else:
                 html = resp.read().decode("utf-8", errors="ignore")
-                found = _extract_real_url(html)
+                found = _extract_real_url(html, expected_domain)
                 if found:
                     resolved = found
         except urllib.error.HTTPError as e:
             loc = e.headers.get("Location") if e.code in (301, 302, 303, 307, 308) else None
-            if loc and "news.google.com" not in loc:
+            if loc and "news.google.com" not in loc and expected_domain in loc:
                 resolved = loc
             elif loc:
                 # 리다이렉트 목적지도 여전히 google 도메인이면 그 페이지 본문을 파싱
@@ -245,7 +252,7 @@ def resolve_google_news_link(link: str) -> str:
                     req2 = urllib.request.Request(loc, headers={"User-Agent": BROWSER_USER_AGENT})
                     with urllib.request.urlopen(req2, timeout=10) as resp2:
                         html = resp2.read().decode("utf-8", errors="ignore")
-                    found = _extract_real_url(html)
+                    found = _extract_real_url(html, expected_domain)
                     if found:
                         resolved = found
                 except Exception:
@@ -253,7 +260,7 @@ def resolve_google_news_link(link: str) -> str:
     except Exception as e:
         print(f"[WARN] google 뉴스 링크 해석 실패: {e}", file=sys.stderr)
 
-    _RESOLVE_CACHE[link] = resolved
+    _RESOLVE_CACHE[cache_key] = resolved
     return resolved
 
 
@@ -341,7 +348,7 @@ def collect_domestic() -> list:
                     if name == "약업신문":
                         # nid 기반 오래된 기사 필터가 동작하려면 실제 원문
                         # 주소가 필요하다 (Google 리다이렉트 주소엔 nid가 없음)
-                        link = resolve_google_news_link(link)
+                        link = resolve_google_news_link(link, "yakup.com")
                     mk = matched_keywords(title, kw_chunk) or kw_chunk[:1]
                     articles.append({
                         "title": title,
