@@ -18,9 +18,10 @@
   - 약업신문은 Google 뉴스가 오래된 기사를 최근 날짜로 잘못 표시하는 경우가 있다.
     원문 페이지를 다시 조회해 대조하는 방식은 GitHub Actions 서버 IP가 차단돼
     있어 쓸 수 없었다. 대신 약업신문 URL의 nid(기사 번호)가 시간순으로 증가하는
-    성질을 이용해, 이번에 수집된 약업신문 기사 중 가장 큰 nid를 기준으로 거기서
-    한참 떨어진(=명백히 오래된) nid를 가진 기사만 제외한다. (네트워크 요청 없이
-    계산만으로 판단하므로 차단 걱정이 없다)
+    성질을 이용해, 고정된 기준점(YAKUP_ANCHOR_NID/DATE)에서 오늘까지 며칠
+    지났는지로 "예상 현재 nid"를 계산하고, 거기서 한참 떨어진 nid를 가진 기사를
+    제외한다. (이번 실행의 검색 결과에만 기대는 상대 기준이 아니라 절대 기준이라
+    그날그날 검색 결과가 부실해도 안정적으로 걸러진다)
 
 결과: data/articles.json 에 저장 (list of dict)
   { title, link, source, region, published, category, matched_keywords }
@@ -89,14 +90,20 @@ KEYWORD_CHUNK_SIZE = 10
 # 국내 기사는 양이 많으므로 최근 N일(기본 31일=1개월) 이내 기사만 남긴다.
 DOMESTIC_MAX_AGE_DAYS = 31
 
-# 약업신문 nid 기반 오래된 기사 판별용 마진.
-# 실측 결과 nid는 하루 평균 대략 25~40씩 증가한다. 오탐(진짜 최근 기사를
-# 잘못 제외하는 것)을 피하기 위해 넉넉하게 잡은 값 — 이 정도 차이면 최소
-# 수개월~1년 이상 차이 나는 명백히 오래된 기사만 걸러진다.
-YAKUP_NID_STALE_MARGIN = 5000
-# 이 정도 표본은 있어야 "이번 배치에서 가장 큰 nid"를 신뢰할 수 있다고 보고
-# 필터를 적용한다. 표본이 너무 적으면 우연히 튄 값일 수 있어 필터를 건너뛴다.
-YAKUP_MIN_SAMPLE_FOR_FILTER = 5
+# 약업신문 nid는 시간순으로 증가한다. "이번 실행에서 수집된 기사 중 최댓값"을
+# 기준으로 삼으면, 그날 Google 검색이 하필 진짜 최신 기사를 못 찾아온 경우
+# 기준점 자체가 낮아져서 오래된 기사를 걸러내지 못하는 문제가 있었다.
+# 그래서 배치와 무관한 고정 기준점(연-nid 쌍)에서 출발해, 오늘 날짜까지의
+# 경과일 수만큼 예상 nid를 계산하는 방식으로 바꿨다.
+#
+# ANCHOR_NID/ANCHOR_DATE: 확인된 최근 정상 기사의 (nid, 날짜) 한 쌍.
+#   *** 몇 달에 한 번씩 최근 정상 기사로 이 값을 갱신해주면 정확도가 유지된다 ***
+# NID_PER_DAY: 하루 평균 nid 증가폭(실측 기반 추정치, 다소 보수적으로 낮게 잡음)
+YAKUP_ANCHOR_NID = 331758
+YAKUP_ANCHOR_DATE = datetime(2026, 8, 28, tzinfo=timezone.utc)
+YAKUP_NID_PER_DAY = 30
+# 추정치 오차를 흡수하기 위한 여유분
+YAKUP_NID_SAFETY_BUFFER = 3000
 
 # 해외 공식 RSS 피드 (직접 파싱)
 FOREIGN_OFFICIAL_FEEDS = [
@@ -203,36 +210,26 @@ def filter_yakup_by_nid_recency(articles: list) -> list:
     있다. 원문을 다시 조회해 대조하고 싶었지만 GitHub Actions 서버 IP가
     약업신문에 막혀 있어(요청이 계속 실패) 그 방식은 쓸 수 없었다.
 
-    대신 약업신문 URL의 nid(기사 번호)가 대체로 시간순으로 증가한다는 점을
-    이용한다. 이번 실행에서 수집된 약업신문 기사들 중 가장 큰 nid를 "현재
-    시점"으로 보고, 거기서 YAKUP_NID_STALE_MARGIN 이상 떨어진 nid를 가진
-    기사는 명백히 오래된 기사로 보고 제외한다. 네트워크 요청이 필요 없어
-    차단될 일이 없고, 마진을 넉넉히 잡아서 진짜 최근 기사까지 잘못 제외하는
-    일은 없도록 했다."""
-    nids = {}
-    for a in articles:
-        if a.get("source") == "약업신문":
-            m = YAKUP_NID_RE.search(a.get("link", ""))
-            if m:
-                nids[id(a)] = int(m.group(1))
-
-    if len(nids) < YAKUP_MIN_SAMPLE_FOR_FILTER:
-        # 표본이 너무 적으면 판단하지 않고 그대로 둔다 (오탐 방지)
-        return articles
-
-    max_nid = max(nids.values())
-    cutoff_nid = max_nid - YAKUP_NID_STALE_MARGIN
+    이번 실행에서 수집된 기사들 중 최댓값을 기준으로 삼는 방식은, 그날
+    Google 검색이 하필 진짜 최신 기사를 못 찾아오면 기준 자체가 낮아져서
+    오래된 기사를 놓치는 문제가 있었다. 그래서 배치와 무관하게, 고정된
+    기준점(YAKUP_ANCHOR_NID/DATE)에서 오늘까지 경과일 수만큼 nid가
+    늘어났으리라고 계산한 "예상 현재 nid"를 기준으로 컷오프를 정한다."""
+    days_elapsed = (datetime.now(timezone.utc) - YAKUP_ANCHOR_DATE).days
+    expected_current_nid = YAKUP_ANCHOR_NID + YAKUP_NID_PER_DAY * days_elapsed
+    cutoff_nid = expected_current_nid - (YAKUP_NID_PER_DAY * DOMESTIC_MAX_AGE_DAYS) - YAKUP_NID_SAFETY_BUFFER
 
     result = []
     dropped = 0
     for a in articles:
-        nid = nids.get(id(a))
-        if nid is not None and nid < cutoff_nid:
-            dropped += 1
-            continue
+        if a.get("source") == "약업신문":
+            m = YAKUP_NID_RE.search(a.get("link", ""))
+            if m and int(m.group(1)) < cutoff_nid:
+                dropped += 1
+                continue
         result.append(a)
     if dropped:
-        print(f"  -> 약업신문 오래된 기사(nid 기준) {dropped}건 제외 (기준 nid >= {cutoff_nid})")
+        print(f"  -> 약업신문 오래된 기사(nid 기준) {dropped}건 제외 (기준 nid >= {int(cutoff_nid)})")
     return result
 
 
