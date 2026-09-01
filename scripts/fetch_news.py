@@ -4,26 +4,30 @@
 제약 개발/연구/품질/GMP 뉴스 클리핑 수집 스크립트
 
 국내 소스 (약업신문, 데일리팜, 메디파나, 팜뉴스):
-  - 각 사이트 자체 RSS가 불안정/비공개인 경우가 많아 Google News RSS의
-    site: 필터 + 키워드 조합으로 수집한다. (사이트 구조 변경에 안전)
+  - 데일리팜/메디파나/팜뉴스는 자체 RSS가 불안정/비공개라 Google News RSS의
+    site: 필터 + 키워드 조합으로 수집한다.
+  - 약업신문은 Google 뉴스를 거치면 두 가지 문제가 있었다: (1) 오래된 기사에
+    최근 날짜를 잘못 붙이는 경우가 있고 (2) 링크가 news.google.com/rss/articles/...
+    형태로 암호화돼 있어 실제 원문 주소를 알아내기가 계속 불안정했다(Google이
+    리다이렉트 처리 방식을 자꾸 바꿔서 해석 성공률이 들쭉날쭉했음). 그래서
+    약업신문만 Google을 완전히 건너뛰고, 약업신문 자체 검색 페이지
+    (www.yakup.com/search/index.html)에서 키워드별로 직접 검색해 실제 링크와
+    제목을 가져온다. 이러면 애초에 리다이렉트 자체가 없다.
 
 해외 소스 (FDA, EMA, ICH, PIC/S):
   - FDA, EMA는 공식 RSS 피드를 직접 사용
   - ICH, PIC/S는 공식 RSS가 없어 Google News RSS의 site: 필터로 수집
 
 필터링:
-  - NOISE_KEYWORDS(주가/실적/인사 등)는 검색 쿼리 단계에서 -제외어 로 걸러낸다.
+  - NOISE_KEYWORDS(주가/실적/인사 등)는 데일리팜 등 Google 검색 쿼리 단계에서
+    -제외어 로, 약업신문 직접 검색 결과에서는 제목에 포함되면 걸러낸다.
   - 국내 기사는 DOMESTIC_MAX_AGE_DAYS(기본 31일=1개월)보다 오래된 것은 제외한다.
     (해외는 절대량이 적어 기간 제한 없음)
-  - 약업신문은 Google 뉴스가 오래된 기사를 최근 날짜로 잘못 표시하는 경우가 있다.
-    이를 걸러내려면 URL의 nid(기사 번호)가 필요한데, Google 뉴스 RSS의 link는
-    실제 원문 주소가 아니라 news.google.com/rss/articles/... 형태로 암호화된
-    리다이렉트 주소라 nid를 바로 읽을 수 없었다. 그래서 이 리다이렉트 주소에
-    HTTP 요청을 보내 Google 서버가 응답 헤더로 알려주는 진짜 목적지 주소를
-    읽어온다 (원문 사이트 서버에는 요청이 가지 않으므로 접속 차단과 무관하다).
-    이렇게 알아낸 실제 URL에서 nid를 뽑아, 고정된 기준점(YAKUP_ANCHOR_NID/DATE)
-    에서 오늘까지 며칠 지났는지로 계산한 "예상 현재 nid"보다 한참 떨어진 기사를
-    제외한다.
+  - 약업신문은 실제 링크에서 바로 nid(기사 번호)를 얻을 수 있으므로, 고정된
+    기준점(YAKUP_ANCHOR_NID/DATE)에서 오늘까지 며칠 지났는지로 계산한 "예상
+    현재 nid"보다 한참 떨어진 기사를 제외한다. 발행일도 같은 방식(nid ->
+    날짜 역산)으로 추정한다 — 검색 결과 페이지의 날짜 표기가 들쭉날쭉해도
+    안정적으로 동작한다.
 
 결과: data/articles.json 에 저장 (list of dict)
   { title, link, source, region, published, category, matched_keywords }
@@ -33,7 +37,6 @@ import json
 import re
 import sys
 import time
-import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -45,13 +48,17 @@ import feedparser
 # 설정
 # ----------------------------------------------------------------------
 
-# 국내 소스: (표시이름, 도메인)
+# Google News로 수집하는 국내 소스: (표시이름, 도메인) — 약업신문은 제외
+# (약업신문은 자체 검색 페이지에서 직접 수집한다. 아래 YAKUP_SEARCH_URL 참고)
 DOMESTIC_SOURCES = [
-    ("약업신문", "yakup.com"),
     ("데일리팜", "dailypharm.com"),
     ("메디파나", "medipana.com"),
     ("팜뉴스", "pharmnews.com"),
 ]
+
+# 약업신문 자체 검색 페이지 (모바일판은 robots.txt로 자동화 접근이 막혀 있어
+# 데스크톱판을 쓴다 — 데스크톱판은 접근 제한이 없는 것을 확인했다)
+YAKUP_SEARCH_URL = "https://www.yakup.com/search/index.html"
 
 # 국내 검색 키워드 - 카테고리별로 정리. 카테고리 단위로 OR 검색을 묶어서
 # 요청 수를 줄이고, 어떤 카테고리에 매칭됐는지 결과에 태그로 남긴다.
@@ -172,96 +179,61 @@ def google_news_rss_url(query: str, lang: str) -> str:
     return f"https://news.google.com/rss/search?q={q}&{lang}"
 
 
-_RESOLVE_CACHE = {}
-
-# 브라우저처럼 보이는 User-Agent를 써야 Google이 자동화 요청과 다르게
-# 취급하지 않고 일반적인 리다이렉트 동작을 보여주는 경우가 많다.
-BROWSER_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-)
-
-
-class _NoRedirect(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        return None  # 리다이렉트를 따라가지 않고 HTTPError로 멈춘다
-
-
-_NO_REDIRECT_OPENER = urllib.request.build_opener(_NoRedirect)
-
-# Google이 리다이렉트 헤더 없이 "이동 중입니다" 같은 중간 페이지를 200으로
-# 먼저 돌려주는 경우, 그 본문 안에서 실제 원문 링크를 찾기 위한 패턴들.
-_REAL_URL_PATTERNS = [
-    re.compile(r'<link rel="canonical" href="(https?://(?!news\.google\.com)[^"]+)"'),
-    re.compile(r'content="0;\s*url=(https?://(?!news\.google\.com)[^"\']+)"', re.IGNORECASE),
-    re.compile(r'property="og:url" content="(https?://(?!news\.google\.com)[^"]+)"'),
-    re.compile(r'(?:window\.location(?:\.href)?|location\.replace)\s*=?\s*\(?["\'](https?://(?!news\.google\.com)[^"\']+)["\']'),
-    re.compile(r'href="(https?://(?!news\.google\.com)[^"]+)"'),
-]
-
-
-def _extract_real_url(html: str, expected_domain: str):
-    """본문에서 실제 링크 후보를 모두 찾은 뒤, expected_domain이 포함된
-    것만 신뢰한다 (구글 파비콘/썸네일 같은 엉뚱한 링크를 걸러내기 위함)."""
-    for pattern in _REAL_URL_PATTERNS:
-        for candidate in pattern.findall(html):
-            if expected_domain in candidate:
-                return candidate
-    return None
-
-
-def resolve_google_news_link(link: str, expected_domain: str) -> str:
-    """news.google.com/rss/articles/... 형태의 리다이렉트 링크를 실제 원문
-    URL로 바꾼다. 1) 먼저 HTTP 리다이렉트 헤더(Location)만 읽어본다 —
-    원문 사이트 서버까지 요청이 가지 않아 접속 차단과 무관하다.
-    2) Google이 헤더 없이 200으로 중간 페이지를 주는 경우, 그 페이지
-    본문에서 실제 링크 패턴을 찾는다 (이때는 Google 서버 응답만 읽는 것이라
-    마찬가지로 원문 사이트 서버 요청은 아니다).
-
-    expected_domain(예: "yakup.com")이 포함되지 않은 결과는 전부 버리고
-    원래 구글 링크를 그대로 둔다 — 파비콘·썸네일 같은 엉뚱한 주소를
-    기사 링크로 잘못 채택하는 사고를 막기 위한 안전장치.
-
-    같은 링크가 여러 키워드 카테고리에서 중복으로 나올 수 있어 캐시한다."""
-    if "news.google.com" not in link:
-        return link
-    cache_key = (link, expected_domain)
-    if cache_key in _RESOLVE_CACHE:
-        return _RESOLVE_CACHE[cache_key]
-
-    resolved = link
+def fetch_url_text(url: str) -> str:
+    """URL의 HTML을 텍스트로 가져온다. 약업신문 직접 검색용."""
     try:
-        req = urllib.request.Request(link, headers={"User-Agent": BROWSER_USER_AGENT})
-        try:
-            resp = _NO_REDIRECT_OPENER.open(req, timeout=10)
-            final_url = resp.geturl()
-            if "news.google.com" not in final_url and expected_domain in final_url:
-                resolved = final_url
-            else:
-                html = resp.read().decode("utf-8", errors="ignore")
-                found = _extract_real_url(html, expected_domain)
-                if found:
-                    resolved = found
-        except urllib.error.HTTPError as e:
-            loc = e.headers.get("Location") if e.code in (301, 302, 303, 307, 308) else None
-            if loc and "news.google.com" not in loc and expected_domain in loc:
-                resolved = loc
-            elif loc:
-                # 리다이렉트 목적지도 여전히 google 도메인이면 그 페이지 본문을 파싱
-                try:
-                    req2 = urllib.request.Request(loc, headers={"User-Agent": BROWSER_USER_AGENT})
-                    with urllib.request.urlopen(req2, timeout=10) as resp2:
-                        html = resp2.read().decode("utf-8", errors="ignore")
-                    found = _extract_real_url(html, expected_domain)
-                    if found:
-                        resolved = found
-                except Exception:
-                    pass
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+        for enc in ("utf-8", "euc-kr", "cp949"):
+            try:
+                return raw.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("utf-8", errors="ignore")
     except Exception as e:
-        print(f"[WARN] google 뉴스 링크 해석 실패: {e}", file=sys.stderr)
+        print(f"[WARN] fetch_url_text 실패: {url} ({e})", file=sys.stderr)
+        return ""
 
-    _RESOLVE_CACHE[cache_key] = resolved
-    return resolved
+
+# 약업신문 검색 결과 안의 기사 링크(nid 포함) + 링크 텍스트(제목)를 뽑는 패턴.
+# href 안에 mode=view...nid=숫자 가 있는 <a> 태그만 대상으로 한다 — 메뉴/배너
+# 링크 등에는 nid가 없어서 자연히 제외된다.
+_YAKUP_RESULT_LINK_RE = re.compile(
+    r'<a[^>]+href="(https://www\.yakup\.com/news/index\.html\?[^"]*?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>',
+    re.DOTALL,
+)
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def fetch_yakup_search_results(keyword: str) -> list:
+    """약업신문 자체 검색(csearch_type=news)에서 (nid, 실제 URL, 제목) 목록을
+    가져온다. Google을 거치지 않으므로 링크 해석 문제 자체가 없다."""
+    results = []
+    params = urllib.parse.urlencode({"csearch_word": keyword, "csearch_type": "news"})
+    html = fetch_url_text(f"{YAKUP_SEARCH_URL}?{params}")
+    if not html:
+        return results
+    seen_nid = set()
+    for m in _YAKUP_RESULT_LINK_RE.finditer(html):
+        link, nid, inner = m.group(1), m.group(2), m.group(3)
+        if nid in seen_nid:
+            continue
+        title = _TAG_RE.sub("", inner)
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 4:
+            continue
+        seen_nid.add(nid)
+        results.append({"nid": int(nid), "link": link, "title": title})
+    return results
+
+
+def estimate_yakup_date(nid: int) -> str:
+    """nid를 고정 기준점(YAKUP_ANCHOR_NID/DATE) 기반으로 역산해 발행일을
+    추정한다. 검색 결과 페이지마다 날짜 표기가 들쭉날쭉해도 안정적으로 동작한다."""
+    days_offset = (nid - YAKUP_ANCHOR_NID) / YAKUP_NID_PER_DAY
+    dt = YAKUP_ANCHOR_DATE + timedelta(days=days_offset)
+    return dt.isoformat()
 
 
 def matched_keywords(text: str, keywords) -> list:
@@ -333,6 +305,8 @@ def filter_yakup_by_nid_recency(articles: list) -> list:
 # ----------------------------------------------------------------------
 
 def collect_domestic() -> list:
+    """Google News RSS로 수집하는 국내 소스(데일리팜/메디파나/팜뉴스).
+    약업신문은 collect_yakup_direct()가 별도로 처리한다."""
     articles = []
     for name, domain in DOMESTIC_SOURCES:
         for category, keywords in DOMESTIC_KEYWORD_CATEGORIES.items():
@@ -345,10 +319,6 @@ def collect_domestic() -> list:
                     link = entry.get("link", "")
                     if not title or not link:
                         continue
-                    if name == "약업신문":
-                        # nid 기반 오래된 기사 필터가 동작하려면 실제 원문
-                        # 주소가 필요하다 (Google 리다이렉트 주소엔 nid가 없음)
-                        link = resolve_google_news_link(link, "yakup.com")
                     mk = matched_keywords(title, kw_chunk) or kw_chunk[:1]
                     articles.append({
                         "title": title,
@@ -360,6 +330,31 @@ def collect_domestic() -> list:
                         "matched_keywords": mk,
                     })
                 time.sleep(0.3)  # Google News 요청 과부하 방지
+    return articles
+
+
+def collect_yakup_direct() -> list:
+    """약업신문은 Google을 거치지 않고 자체 검색 페이지에서 직접 수집한다."""
+    articles = []
+    seen_nid = set()
+    for category, keywords in DOMESTIC_KEYWORD_CATEGORIES.items():
+        for kw in keywords:
+            for r in fetch_yakup_search_results(kw):
+                if r["nid"] in seen_nid:
+                    continue
+                if any(noise.lower() in r["title"].lower() for noise in NOISE_KEYWORDS):
+                    continue  # 주가/실적/인사 등 무관한 기사 제외
+                seen_nid.add(r["nid"])
+                articles.append({
+                    "title": r["title"],
+                    "link": r["link"],
+                    "source": "약업신문",
+                    "region": "국내",
+                    "published": estimate_yakup_date(r["nid"]),
+                    "category": category,
+                    "matched_keywords": [kw],
+                })
+            time.sleep(0.3)  # 약업신문 서버 과부하 방지
     return articles
 
 
@@ -464,22 +459,16 @@ def dedupe(articles: list) -> list:
 
 def main():
     all_articles = []
-    print("국내 소스 수집 중 (약업신문/데일리팜/메디파나/팜뉴스)...")
+    print("국내 소스 수집 중 (데일리팜/메디파나/팜뉴스)...")
     all_articles += collect_domestic()
+    print("약업신문 직접 수집 중 (자체 검색 페이지)...")
+    all_articles += collect_yakup_direct()
     print("해외 공식 피드 수집 중 (FDA/EMA)...")
     all_articles += collect_foreign_official()
     print("해외 소스 수집 중 (ICH/PIC/S)...")
     all_articles += collect_foreign_google_news()
 
     print("약업신문 오래된 기사(nid 기준) 필터링 중...")
-    yakup_total = sum(1 for a in all_articles if a.get("source") == "약업신문")
-    yakup_unresolved = sum(
-        1 for a in all_articles
-        if a.get("source") == "약업신문" and "news.google.com" in a.get("link", "")
-    )
-    if yakup_total:
-        print(f"  -> 약업신문 링크 해석 결과: {yakup_total - yakup_unresolved}/{yakup_total}건 원문 주소 확보"
-              + (f" ({yakup_unresolved}건은 google 링크로 남음 -> nid 필터 적용 못 함)" if yakup_unresolved else ""))
     all_articles = filter_yakup_by_nid_recency(all_articles)
 
     all_articles = dedupe(all_articles)
