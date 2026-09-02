@@ -212,6 +212,9 @@ _TAG_RE = re.compile(r"<[^>]+>")
 
 _YAKUP_DEBUG_PRINTED = False
 _YAKUP_DEBUG_PRINTED_TITLES = [0]
+_YAKUP_DEBUG_RAW_INNER = [0]
+_YAKUP_TRAILING_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})")
+_YAKUP_BYLINE_CUT_RE = re.compile(r"\s*[가-힣]{2,4}\s*기자.*$")
 
 
 def fetch_yakup_search_results(keyword: str) -> list:
@@ -239,7 +242,7 @@ def fetch_yakup_search_results(keyword: str) -> list:
     seen_nid = set()
     match_count = 0
     for m in _YAKUP_RESULT_LINK_RE.finditer(html):
-        _, nid_str, inner = m.group(1), m.group(2), m.group(3)
+        raw_link, nid_str, inner = m.group(1), m.group(2), m.group(3)
         match_count += 1
         nid = int(nid_str)
         # 검색결과 페이지에는 PEOPLE(부고/인사)·오피니언·컬쳐 같은 사이드바
@@ -250,13 +253,39 @@ def fetch_yakup_search_results(keyword: str) -> list:
             continue
         if nid_str in seen_nid:
             continue
-        title = _TAG_RE.sub("", inner)
-        title = re.sub(r"\s+", " ", title).strip()
-        if not title or len(title) < 4:
+
+        if _YAKUP_DEBUG_RAW_INNER[0] < 1:
+            _YAKUP_DEBUG_RAW_INNER[0] += 1
+            print(f"[DEBUG] 원본 inner HTML (태그 안 지움, 800자):\n{inner[:800]}", file=sys.stderr)
+
+        raw_text = _TAG_RE.sub("", inner)
+        raw_text = re.sub(r"\s+", " ", raw_text).strip()
+        if not raw_text or len(raw_text) < 4:
             continue
+
+        # 본문 안에 이미 있는 실제 날짜("2026-09-02 09:29")를 직접 읽는다.
+        # nid로 역산 추정하는 것보다 훨씬 정확하다(추정치는 미래로 밀릴 수 있음).
+        published = None
+        date_m = _YAKUP_TRAILING_DATE_RE.search(raw_text)
+        if date_m:
+            try:
+                dt_kst = datetime.strptime(f"{date_m.group(1)} {date_m.group(2)}", "%Y-%m-%d %H:%M")
+                dt_kst = dt_kst.replace(tzinfo=timezone(timedelta(hours=9)))
+                published = dt_kst.astimezone(timezone.utc).isoformat()
+            except Exception:
+                published = None
+        if published is None:
+            published = estimate_yakup_date(nid)
+
+        # 기자명+날짜(뒷부분 잡문)는 일단 잘라내고, 나머지(제목+본문요약 섞인 것)를
+        # title로 쓴다 — 완전한 제목 분리는 다음 라운드에서 위 디버그 로그를 보고 마무리.
+        title = _YAKUP_BYLINE_CUT_RE.sub("", raw_text).strip()
+        if not title:
+            title = raw_text
+
         seen_nid.add(nid_str)
         link = f"https://www.yakup.com/news/index.html?mode=view&nid={nid}"
-        results.append({"nid": nid, "link": link, "title": title})
+        results.append({"nid": nid, "link": link, "title": title, "published": published})
 
     if _YAKUP_DEBUG_PRINTED_TITLES[0] < 1 and results:
         _YAKUP_DEBUG_PRINTED_TITLES[0] += 1
@@ -392,7 +421,7 @@ def collect_yakup_direct() -> list:
                     "link": r["link"],
                     "source": "약업신문",
                     "region": "국내",
-                    "published": estimate_yakup_date(r["nid"]),
+                    "published": r["published"],
                     "category": category,
                     "matched_keywords": [kw],
                 })
