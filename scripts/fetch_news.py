@@ -239,17 +239,24 @@ def fetch_yakup_search_results(keyword: str) -> list:
     seen_nid = set()
     match_count = 0
     for m in _YAKUP_RESULT_LINK_RE.finditer(html):
-        _, nid, inner = m.group(1), m.group(2), m.group(3)
+        _, nid_str, inner = m.group(1), m.group(2), m.group(3)
         match_count += 1
-        if nid in seen_nid:
+        nid = int(nid_str)
+        # 검색결과 페이지에는 PEOPLE(부고/인사)·오피니언·컬쳐 같은 사이드바
+        # 위젯도 같이 실려있는데, 이들은 nid가 완전히 다른 체계(10자리,
+        # 예: 1700148129)를 쓴다. 뉴스 기사 nid는 현재 30만대 수준이므로
+        # 넉넉하게 범위를 잡아 그 밖은 다른 체계로 보고 제외한다.
+        if not (1000 <= nid <= 900000):
+            continue
+        if nid_str in seen_nid:
             continue
         title = _TAG_RE.sub("", inner)
         title = re.sub(r"\s+", " ", title).strip()
         if not title or len(title) < 4:
             continue
-        seen_nid.add(nid)
+        seen_nid.add(nid_str)
         link = f"https://www.yakup.com/news/index.html?mode=view&nid={nid}"
-        results.append({"nid": int(nid), "link": link, "title": title})
+        results.append({"nid": nid, "link": link, "title": title})
 
     if _YAKUP_DEBUG_PRINTED_TITLES[0] < 1 and results:
         _YAKUP_DEBUG_PRINTED_TITLES[0] += 1
@@ -260,10 +267,15 @@ def fetch_yakup_search_results(keyword: str) -> list:
 
 def estimate_yakup_date(nid: int) -> str:
     """nid를 고정 기준점(YAKUP_ANCHOR_NID/DATE) 기반으로 역산해 발행일을
-    추정한다. 검색 결과 페이지마다 날짜 표기가 들쭉날쭉해도 안정적으로 동작한다."""
-    days_offset = (nid - YAKUP_ANCHOR_NID) / YAKUP_NID_PER_DAY
-    dt = YAKUP_ANCHOR_DATE + timedelta(days=days_offset)
-    return dt.isoformat()
+    추정한다. 검색 결과 페이지마다 날짜 표기가 들쭉날쭉해도 안정적으로 동작한다.
+    혹시 범위를 벗어난 nid가 들어와도(방어적으로) 죽지 않고 현재 시각으로
+    대체한다."""
+    try:
+        days_offset = (nid - YAKUP_ANCHOR_NID) / YAKUP_NID_PER_DAY
+        dt = YAKUP_ANCHOR_DATE + timedelta(days=days_offset)
+        return dt.isoformat()
+    except OverflowError:
+        return datetime.now(timezone.utc).isoformat()
 
 
 def matched_keywords(text: str, keywords) -> list:
