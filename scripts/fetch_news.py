@@ -267,18 +267,19 @@ def fetch_yakup_search_results(keyword: str) -> list:
             continue
 
         # 본문 안에 이미 있는 실제 날짜("2026-09-02 09:29")를 직접 읽는다.
-        # nid로 역산 추정하는 것보다 훨씬 정확하다(추정치는 미래로 밀릴 수 있음).
-        published = None
+        # 못 찾으면 nid 추정치로 채우지 않고 그냥 제외한다 — 추정치는 실제
+        # nid 증가 속도가 가정과 다르면 미래 날짜로 튈 수 있는데, 이런
+        # 항목은 대부분 "인기기사" 순위 위젯처럼 날짜 정보 자체가 없는
+        # 항목들이라 검색 결과가 아닐 가능성이 높다.
         date_m = _YAKUP_TRAILING_DATE_RE.search(raw_text)
-        if date_m:
-            try:
-                dt_kst = datetime.strptime(f"{date_m.group(1)} {date_m.group(2)}", "%Y-%m-%d %H:%M")
-                dt_kst = dt_kst.replace(tzinfo=timezone(timedelta(hours=9)))
-                published = dt_kst.astimezone(timezone.utc).isoformat()
-            except Exception:
-                published = None
-        if published is None:
-            published = estimate_yakup_date(nid)
+        if not date_m:
+            continue
+        try:
+            dt_kst = datetime.strptime(f"{date_m.group(1)} {date_m.group(2)}", "%Y-%m-%d %H:%M")
+            dt_kst = dt_kst.replace(tzinfo=timezone(timedelta(hours=9)))
+            published = dt_kst.astimezone(timezone.utc).isoformat()
+        except Exception:
+            continue
 
         # title_con div 안의 텍스트만 제목으로 쓴다 (본문요약이 안 섞임).
         # 혹시 못 찾으면(구조가 바뀌었으면) 예전 방식(기자명 이후 잘라내기)으로 대체.
@@ -290,6 +291,7 @@ def fetch_yakup_search_results(keyword: str) -> list:
             title = _YAKUP_BYLINE_CUT_RE.sub("", raw_text).strip()
         if not title:
             title = raw_text
+        title = re.sub(r"^\d{1,2}\s+", "", title)  # 혹시 남을 수 있는 순위 숫자 제거
 
         seen_nid.add(nid_str)
         link = f"https://www.yakup.com/news/index.html?mode=view&nid={nid}"
