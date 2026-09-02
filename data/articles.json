@@ -1,73 +1,7 @@
 {
-  "generated_at": "2026-09-02T04:38:01.856294+00:00",
-  "count": 682,
+  "generated_at": "2026-09-02T04:44:57.639190+00:00",
+  "count": 678,
   "articles": [
-    {
-      "title": "3 셀리드, 알티큐어와 '레트로바이러스벡터' 안정성시험·보관 위수탁계약",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331958",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-03T16:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "2 “AI 잘 쓰는 것보다 판단력 중요”…제약업계 MA 인재상 변화",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331932",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T19:12:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "7 ‘100억 유산균’보다 먼저 볼 것은 이름…프로바이오틱스의 핵심 ‘균주’",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331927",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T15:12:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "10 장질환 치료도 ‘정밀 타깃’ 시대…TNF 넘어 IL-23·JAK으로 전선 확대",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331925",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T13:36:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "6 420일→240일…식약처, ‘다인 병렬심사+AI 보조’로 신약 허가체계 바꾼다",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331922",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T11:12:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "5 유한양행, 1310억원 규모 원료의약품 공급계약",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331915",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T05:36:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
     {
       "title": "네오이뮨텍, 미국 메릴랜드 의약품 유통 점검 완료…지적사항 없어",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331984",
@@ -247,6 +181,17 @@
       ]
     },
     {
+      "title": "셀리드, 알티큐어와 '레트로바이러스벡터' 안정성시험·보관 위수탁계약",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331958",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-02T00:24:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상시험"
+      ]
+    },
+    {
       "title": "경동제약·아울바이오, 월 1회 세마글루타이드 'AUL009' 임상 1상 IND 신청",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331954",
       "source": "약업신문",
@@ -390,6 +335,17 @@
       ]
     },
     {
+      "title": "420일→240일…식약처, ‘다인 병렬심사+AI 보조’로 신약 허가체계 바꾼다",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331922",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-01T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "비임상"
+      ]
+    },
+    {
       "title": "막거나 밀어내는 것만이 아니다…설사·변비약도 ‘기전 맞춤’ 시대",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331926",
       "source": "약업신문",
@@ -398,6 +354,28 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상시험"
+      ]
+    },
+    {
+      "title": "‘100억 유산균’보다 먼저 볼 것은 이름…프로바이오틱스의 핵심 ‘균주’",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331927",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-01T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상시험"
+      ]
+    },
+    {
+      "title": "장질환 치료도 ‘정밀 타깃’ 시대…TNF 넘어 IL-23·JAK으로 전선 확대",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331925",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-01T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "바이오시밀러"
       ]
     },
     {
@@ -453,6 +431,17 @@
       "category": "공통·규제",
       "matched_keywords": [
         "(공식 규제 피드)"
+      ]
+    },
+    {
+      "title": "유한양행, 1310억원 규모 원료의약품 공급계약",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331915",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-01T07:40:00+00:00",
+      "category": "생산·GMP",
+      "matched_keywords": [
+        "원료의약품"
       ]
     },
     {
@@ -1449,17 +1438,6 @@
       ]
     },
     {
-      "title": "8 “면역항암제, 치료기간 장기화로 다학제 협력 더욱 중요”",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331823",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-30T04:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
       "title": "헥토헬스케어, ‘드시모네 키즈 요거트’ 현대백화점 식품관 입점",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331740",
       "source": "약업신문",
@@ -1633,17 +1611,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "신약개발"
-      ]
-    },
-    {
-      "title": "테즈파이어, 호산구성 식도염 임상 3상 일차지표 충족",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnbExnbFlibmZwTTR2dTN3b1VGdEtxdV9UU2FqTDgyVV8tRWxyS3Bqcjlhb18xejdrN0xnelZTR3RUZW40UDNHN2NybVJOQ3R6d2E0TERodjdtMHlONlhvcGpxTENwMXdHeFozcg?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-28T00:16:15+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상3상"
       ]
     },
     {
@@ -2426,17 +2393,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
-      ]
-    },
-    {
-      "title": "한미약품, 제넨텍에 비만신약 'HM17321' 라이선스 아웃...3.5조원 '잭팟'",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yc1lYNVdlNFlsQ09QUVkyTm84eHZvbFFwNU1PWFVXbGgtR3hHUFQ2cENkcVRmYnVMQjdMOW5zWGIwb0NLRFhqX09ON1kzVndXMUExUE9LbUtIV1ZaVEh3Xy1kMXgwRVJnWmVJcA?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-24T03:37:43+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상3상"
       ]
     },
     {
@@ -4850,8 +4806,7 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "guideline",
-        "inspection"
+        "guideline"
       ]
     },
     {
@@ -6326,17 +6281,6 @@
       ]
     },
     {
-      "title": "ICH Assembly, Charlotte, NC, USA, November 2018",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTljeXB2d0VrYUtsT2cyaS1PWmJ5YXEwMG8tUU9lQmdNaFB1a05ua1Ffb0MwamdMS0FUNkZ5NUthRFJQQjJTSi1MX1RNYkIzblZiUE1ObXNqTVRwRjhZbUZ6MjFNLWFQWHZEZWR4Y012cWFsU3Y0NGpqcFh1X19fYnhB?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2018-11-22T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
       "title": "ICH Q13",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HMlo2eDFGdlozUjliblZEOGhHRkZscVhJQUE1eldqR2pHaGRHQTlfSVBQQ1h4VVhKamh0cDd0ckp1dmJleXhwRVhyT05ZQVRsOFlqZUE2NEV5a1dvcEs3TXRqa2VWV1ljYlBTQmZoYnI1Q3l1YWNZTFhB?oc=5",
       "source": "ICH",
@@ -6451,7 +6395,8 @@
       "published": "2018-06-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality"
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -6534,6 +6479,17 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
+      ]
+    },
+    {
+      "title": "The M4(R4) presentation available now on the ICH Website",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pSHdMRDN2SXhrN09icnUtNzdUalIxc05fV2hpWHlZeVV1TERrRHJIZ2RfRWFvRFJ6VnA0ZE95d1RvbThMajZMUkN1NUlWWDdQVWRGaHdkaUQzM04wdWdPRzBNeW1haG1ESjhPZUFReEZGdw?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2017-01-23T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
       ]
     },
     {
