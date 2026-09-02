@@ -199,14 +199,19 @@ def fetch_url_text(url: str) -> str:
 # 약업신문 검색 결과 안의 기사 링크(nid 포함) + 링크 텍스트(제목)를 뽑는 패턴.
 # href 안에 mode=view...nid=숫자 가 있는 <a> 태그만 대상으로 한다 — 메뉴/배너
 # 링크 등에는 nid가 없어서 자연히 제외된다.
+# 약업신문 검색 결과의 실제 링크는 절대경로가 아니라 "/news/index.html?...nid=NNN..."
+# 형태의 상대경로다 (Actions 로그로 실측 확인). nid만 뽑아서 깔끔한 절대 URL을
+# 직접 조립한다 — 검색 파라미터(num_start, csearch_word 등)가 섞인 지저분한
+# URL을 그대로 쓰지 않기 위함이기도 하다.
 _YAKUP_RESULT_LINK_RE = re.compile(
-    r'<a[^>]+href="(https://www\.yakup\.com/news/index\.html\?[^"]*?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>',
+    r'<a[^>]+href="(/news/index\.html\?[^"]*?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>',
     re.DOTALL,
 )
 _TAG_RE = re.compile(r"<[^>]+>")
 
 
 _YAKUP_DEBUG_PRINTED = False
+_YAKUP_DEBUG_PRINTED_TITLES = [0]
 
 
 def fetch_yakup_search_results(keyword: str) -> list:
@@ -232,8 +237,10 @@ def fetch_yakup_search_results(keyword: str) -> list:
     if not html:
         return results
     seen_nid = set()
+    match_count = 0
     for m in _YAKUP_RESULT_LINK_RE.finditer(html):
-        link, nid, inner = m.group(1), m.group(2), m.group(3)
+        _, nid, inner = m.group(1), m.group(2), m.group(3)
+        match_count += 1
         if nid in seen_nid:
             continue
         title = _TAG_RE.sub("", inner)
@@ -241,7 +248,13 @@ def fetch_yakup_search_results(keyword: str) -> list:
         if not title or len(title) < 4:
             continue
         seen_nid.add(nid)
+        link = f"https://www.yakup.com/news/index.html?mode=view&nid={nid}"
         results.append({"nid": int(nid), "link": link, "title": title})
+
+    if _YAKUP_DEBUG_PRINTED_TITLES[0] < 1 and results:
+        _YAKUP_DEBUG_PRINTED_TITLES[0] += 1
+        print(f"[DEBUG] 정규식 매칭 {match_count}건, 유효 결과 {len(results)}건. "
+              f"샘플: nid={results[0]['nid']} title={results[0]['title'][:60]!r}", file=sys.stderr)
     return results
 
 
