@@ -215,6 +215,9 @@ _YAKUP_DEBUG_PRINTED_TITLES = [0]
 _YAKUP_DEBUG_RAW_INNER = [0]
 _YAKUP_TRAILING_DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})")
 _YAKUP_BYLINE_CUT_RE = re.compile(r"\s*[가-힣]{2,4}\s*기자.*$")
+# 실제 구조 확인 결과, 제목은 title_con div 안에 따로 들어있고 그 다음
+# text_con div에 본문 요약이 별도로 들어있다. title_con만 정확히 뽑는다.
+_YAKUP_TITLE_CON_RE = re.compile(r'<div class="title_con"[^>]*>(.*?)</div>', re.DOTALL)
 
 
 def fetch_yakup_search_results(keyword: str) -> list:
@@ -277,9 +280,14 @@ def fetch_yakup_search_results(keyword: str) -> list:
         if published is None:
             published = estimate_yakup_date(nid)
 
-        # 기자명+날짜(뒷부분 잡문)는 일단 잘라내고, 나머지(제목+본문요약 섞인 것)를
-        # title로 쓴다 — 완전한 제목 분리는 다음 라운드에서 위 디버그 로그를 보고 마무리.
-        title = _YAKUP_BYLINE_CUT_RE.sub("", raw_text).strip()
+        # title_con div 안의 텍스트만 제목으로 쓴다 (본문요약이 안 섞임).
+        # 혹시 못 찾으면(구조가 바뀌었으면) 예전 방식(기자명 이후 잘라내기)으로 대체.
+        title_con_m = _YAKUP_TITLE_CON_RE.search(inner)
+        if title_con_m:
+            title = _TAG_RE.sub("", title_con_m.group(1))
+            title = re.sub(r"\s+", " ", title).strip()
+        else:
+            title = _YAKUP_BYLINE_CUT_RE.sub("", raw_text).strip()
         if not title:
             title = raw_text
 
