@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T04:44:57.639190+00:00",
-  "count": 678,
+  "generated_at": "2026-09-02T04:48:30.658978+00:00",
+  "count": 680,
   "articles": [
     {
       "title": "네오이뮨텍, 미국 메릴랜드 의약품 유통 점검 완료…지적사항 없어",
@@ -1614,6 +1614,17 @@
       ]
     },
     {
+      "title": "테즈파이어, 호산구성 식도염 임상 3상 일차지표 충족",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnbExnbFlibmZwTTR2dTN3b1VGdEtxdV9UU2FqTDgyVV8tRWxyS3Bqcjlhb18xejdrN0xnelZTR3RUZW40UDNHN2NybVJOQ3R6d2E0TERodjdtMHlONlhvcGpxTENwMXdHeFozcg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-08-28T00:16:15+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상3상"
+      ]
+    },
+    {
       "title": "리가켐바이오 ROR1 ADC ‘LCB71’, 1차 치료 DLBCL 병용임상서 ORR·CR 100% 확인",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331705",
       "source": "약업신문",
@@ -2393,6 +2404,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "CRO"
+      ]
+    },
+    {
+      "title": "한미약품, 제넨텍에 비만신약 'HM17321' 라이선스 아웃...3.5조원 '잭팟'",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yc1lYNVdlNFlsQ09QUVkyTm84eHZvbFFwNU1PWFVXbGgtR3hHUFQ2cENkcVRmYnVMQjdMOW5zWGIwb0NLRFhqX09ON1kzVndXMUExUE9LbUtIV1ZaVEh3Xy1kMXgwRVJnWmVJcA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-08-24T03:37:43+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상3상"
       ]
     },
     {
@@ -4806,7 +4828,8 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -6281,6 +6304,17 @@
       ]
     },
     {
+      "title": "ICH Assembly, Charlotte, NC, USA, November 2018",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTljeXB2d0VrYUtsT2cyaS1PWmJ5YXEwMG8tUU9lQmdNaFB1a05ua1Ffb0MwamdMS0FUNkZ5NUthRFJQQjJTSi1MX1RNYkIzblZiUE1ObXNqTVRwRjhZbUZ6MjFNLWFQWHZEZWR4Y012cWFsU3Y0NGpqcFh1X19fYnhB?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2018-11-22T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
       "title": "ICH Q13",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HMlo2eDFGdlozUjliblZEOGhHRkZscVhJQUE1eldqR2pHaGRHQTlfSVBQQ1h4VVhKamh0cDd0ckp1dmJleXhwRVhyT05ZQVRsOFlqZUE2NEV5a1dvcEs3TXRqa2VWV1ljYlBTQmZoYnI1Q3l1YWNZTFhB?oc=5",
       "source": "ICH",
@@ -6395,8 +6429,7 @@
       "published": "2018-06-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
-        "inspection"
+        "quality"
       ]
     },
     {
@@ -6479,17 +6512,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "The M4(R4) presentation available now on the ICH Website",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pSHdMRDN2SXhrN09icnUtNzdUalIxc05fV2hpWHlZeVV1TERrRHJIZ2RfRWFvRFJ6VnA0ZE95d1RvbThMajZMUkN1NUlWWDdQVWRGaHdkaUQzM04wdWdPRzBNeW1haG1ESjhPZUFReEZGdw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2017-01-23T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
       ]
     },
     {
