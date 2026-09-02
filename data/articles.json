@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T00:52:50.700767+00:00",
-  "count": 671,
+  "generated_at": "2026-09-02T00:56:47.226393+00:00",
+  "count": 669,
   "articles": [
     {
       "title": "4 “AI 잘 쓰는 것보다 판단력 중요”…제약업계 MA 인재상 변화",
@@ -2228,17 +2228,6 @@
       "matched_keywords": [
         "승인",
         "FDA"
-      ]
-    },
-    {
-      "title": "씨엔알리서치, 'RBQM 기반 임상 데이터 관리' 제8회 웨비나 개최",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hQkozWjNxR3UwbWl3akY5OVpZbzR5ZzdzMEZ3UDZYUU43ZlRiWDZkblVvOTlGbEtabkFibnpkbEU4M3NOWGtTSERsNlc3VWlabmVPYnhJVm9XS0hZNU1Gcjg4MF9wcUg5MFJmSw?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-08-25T00:11:40+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -4624,6 +4613,17 @@
       ]
     },
     {
+      "title": "The ICH Q9(R1) Introductory Training Presentation is now available on the ICH website",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTRrQXk3ZjQ0VWtVeWYtZ1FMS1QyU1VHZVd5UnVNQkt3MTN0bFF3blF1OXBHT1UyM29nRnNDUFQza0RXYTB0ZC04aWZzeXE4bzJMdlZOdlhJZ08yVllVRG5TU0FXVTBwOTlxdmNrVnBPNUZuNmJxZTRaTnBqX2hIa2lIQ1FVVXZtUWtqQy1wMFJXOFZKd2ptc3Rn?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2023-03-20T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
       "title": "Questions & Answers for PIC/S GDP Guide Q&A Document",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9YaHN0dGgwQ2xwN0JjX3BSLXVRWXRpbHFEbWZxajVUVjk2eFptV2s5WFlwOWdUQTU1X3ktWHdPOVJHQ1BYdldjbkx3?oc=5",
       "source": "PIC/S",
@@ -4752,7 +4752,8 @@
       "published": "2022-11-20T13:59:49+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -5712,17 +5713,6 @@
       ]
     },
     {
-      "title": "15 November 2019 SUMMARY REPORT ICH MC TELECONFERENCE – POLICY 3 23 October 2019",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ19hX2ZIMTJUeDN3MkcxaXF5em1DOU9GeXM3TEFKcDU4SEk3RDdDSmlXWHlVS3JhakdHX044aEpGRVFGR012WUtaRjhSVVM2WDh2ZWR5X3hzMDdBVERHVzRuQ2ZTWkFqTEloaEN3ZkRueUdMelZqQ0FzX19VQ2VYZXNINk9yLTNMWEtnaHNLNE4wVUh6Y1hES2FmaTdEaE9yZ2wwRTJ3N1YtalpVUkhEX0ln?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-11-15T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "inspection"
-      ]
-    },
-    {
       "title": "PIC Scheme",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4tdkpxb1BMT0U3Sk9wV1JqMkJ3TEc0MjhIS3JQZVVhM3dXSlRxMUpqeW5td09sdnVsd1oxX3MwajF4Qkl6UllZZEp3?oc=5",
       "source": "PIC/S",
@@ -5796,17 +5786,6 @@
       "source": "ICH",
       "region": "해외",
       "published": "2019-10-04T06:53:20+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "AGENDA PAPERS",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmZueEhZWUpneXczTXc1S0ZVSUp1TjhUYzZlLTJMWWd4cTJ4YUV0R01yQzl4U2pPN19WWllnWUxNdmdxOHQzZjdHNlZRUzFkckhZN2lLV2JOcVVTWHVoU1lWVnh6dkI3Y00wYUpZVThGanQtUWlvcWEwNmpGb2FKZy1mRFJMcV81ZUdhS0FSMlgxNmVDUXNGazdiWk5FZ0JMdHZZcUJLMVVFcmpSWUNzMnhqTlZmOUxPQUE?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-03T12:12:11+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
@@ -6367,6 +6346,17 @@
       ]
     },
     {
+      "title": "ICH Training - Flyer - CK",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRzVfeEhFdjFhdlRhbEZaN19xajJBUUFYTnVKVUxxVmIyNEluWWFPbGNrRXdkZmJIdGZ1QWQ4MlA0bUtSdkFRZ0x2WXZmM3RCT2c3SENhN1VSVXp1UkNuSlAxRWQ1dzlqbl9hMWN1TThFZUtkOThhU19iUE54c2NMeDVfTG04bUdHM01JUmZKdXRlRGxkTGN5ckxab1pvcm1VY3FYSklWdGQ?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2017-10-17T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "inspection"
+      ]
+    },
+    {
       "title": "PHARMACEUTICAL INSPECTION CONVENTION",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8ybDU4ZURyZGhCX1o4dHFETXROazJDQUlQWlVDLVg0VWVlcXVYRVNKMUwtbTNudEZwR2hVdGhva2hqMHdMdDgwX0Z3?oc=5",
       "source": "PIC/S",
@@ -6401,17 +6391,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "The M4(R4) presentation available now on the ICH Website",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pSHdMRDN2SXhrN09icnUtNzdUalIxc05fV2hpWHlZeVV1TERrRHJIZ2RfRWFvRFJ6VnA0ZE95d1RvbThMajZMUkN1NUlWWDdQVWRGaHdkaUQzM04wdWdPRzBNeW1haG1ESjhPZUFReEZGdw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2017-01-23T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
       ]
     },
     {
