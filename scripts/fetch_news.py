@@ -206,12 +206,29 @@ _YAKUP_RESULT_LINK_RE = re.compile(
 _TAG_RE = re.compile(r"<[^>]+>")
 
 
+_YAKUP_DEBUG_PRINTED = False
+
+
 def fetch_yakup_search_results(keyword: str) -> list:
     """약업신문 자체 검색(csearch_type=news)에서 (nid, 실제 URL, 제목) 목록을
     가져온다. Google을 거치지 않으므로 링크 해석 문제 자체가 없다."""
+    global _YAKUP_DEBUG_PRINTED
     results = []
     params = urllib.parse.urlencode({"csearch_word": keyword, "csearch_type": "news"})
-    html = fetch_url_text(f"{YAKUP_SEARCH_URL}?{params}")
+    url = f"{YAKUP_SEARCH_URL}?{params}"
+    html = fetch_url_text(url)
+
+    if not _YAKUP_DEBUG_PRINTED:
+        _YAKUP_DEBUG_PRINTED = True
+        print(f"[DEBUG] 약업신문 검색 요청: {url}", file=sys.stderr)
+        print(f"[DEBUG] 응답 길이: {len(html)}자 / 'nid=' 개수: {html.count('nid=')} / "
+              f"'yakup.com/news/index.html' 개수: {html.count('yakup.com/news/index.html')}",
+              file=sys.stderr)
+        print(f"[DEBUG] 응답 앞 800자:\n{html[:800]}", file=sys.stderr)
+        idx = html.find("nid=")
+        if idx != -1:
+            print(f"[DEBUG] 첫 'nid=' 주변 400자:\n{html[max(0, idx-200):idx+200]}", file=sys.stderr)
+
     if not html:
         return results
     seen_nid = set()
@@ -462,7 +479,9 @@ def main():
     print("국내 소스 수집 중 (데일리팜/메디파나/팜뉴스)...")
     all_articles += collect_domestic()
     print("약업신문 직접 수집 중 (자체 검색 페이지)...")
-    all_articles += collect_yakup_direct()
+    yakup_articles = collect_yakup_direct()
+    print(f"  -> 약업신문 수집: {len(yakup_articles)}건")
+    all_articles += yakup_articles
     print("해외 공식 피드 수집 중 (FDA/EMA)...")
     all_articles += collect_foreign_official()
     print("해외 소스 수집 중 (ICH/PIC/S)...")
