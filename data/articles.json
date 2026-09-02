@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T00:34:11.157540+00:00",
-  "count": 639,
+  "generated_at": "2026-09-02T00:37:32.289465+00:00",
+  "count": 642,
   "articles": [
     {
       "title": "코아스템켐온, CFO에 김운길 전 휴젤 부사장 영입 \"신약·CRO 사업화 뒷받침\" 코아스템켐온 신임 CFO로 선임된 김운길 전 휴젤 부사장.©코아스템켐온코아스템켐온(대표 양길안, 코스닥 166480)은 신임 최고재무책임자(CFO)로 김운길 전 ... 양혜인 기자--> 2026-09-02 09:29",
@@ -286,6 +286,17 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "품질관리"
+      ]
+    },
+    {
+      "title": "파로스아이바이오, 코오롱제약과 'PHI-701' 공동연구개발",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAza19tOHRBWkhwWmkzZlFTczZ4NWxnN2lvbXphQk54WV9QYThqNlBCYWVzQUJuQUNVWHNGSlV5aU9aQkRfMVd6dHNrVTBuOHROVXlzUTRHSEVvM21ZWHJKMU43R1RfWEdSMldtNw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-02T00:31:27+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
       ]
     },
     {
@@ -1731,6 +1742,17 @@
       "matched_keywords": [
         "승인",
         "FDA"
+      ]
+    },
+    {
+      "title": "씨엔알리서치, 'RBQM 기반 임상 데이터 관리' 제8회 웨비나 개최",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hQkozWjNxR3UwbWl3akY5OVpZbzR5ZzdzMEZ3UDZYUU43ZlRiWDZkblVvOTlGbEtabkFibnpkbEU4M3NOWGtTSERsNlc3VWlabmVPYnhJVm9XS0hZNU1Gcjg4MF9wcUg5MFJmSw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-08-25T00:11:40+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "CRO"
       ]
     },
     {
@@ -4281,17 +4303,6 @@
       ]
     },
     {
-      "title": "The ICH Q9(R1) Introductory Training Presentation is now available on the ICH website",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTRrQXk3ZjQ0VWtVeWYtZ1FMS1QyU1VHZVd5UnVNQkt3MTN0bFF3blF1OXBHT1UyM29nRnNDUFQza0RXYTB0ZC04aWZzeXE4bzJMdlZOdlhJZ08yVllVRG5TU0FXVTBwOTlxdmNrVnBPNUZuNmJxZTRaTnBqX2hIa2lIQ1FVVXZtUWtqQy1wMFJXOFZKd2ptc3Rn?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2023-03-20T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
       "title": "Questions & Answers for PIC/S GDP Guide Q&A Document",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9YaHN0dGgwQ2xwN0JjX3BSLXVRWXRpbHFEbWZxajVUVjk2eFptV2s5WFlwOWdUQTU1X3ktWHdPOVJHQ1BYdldjbkx3?oc=5",
       "source": "PIC/S",
@@ -4397,7 +4408,8 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -4419,8 +4431,7 @@
       "published": "2022-11-20T13:59:49+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
-        "quality"
+        "GMP"
       ]
     },
     {
@@ -4733,8 +4744,7 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline",
-        "inspection"
+        "guideline"
       ]
     },
     {
@@ -5212,7 +5222,8 @@
       "published": "2020-07-01T12:32:23+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -5464,6 +5475,17 @@
       "source": "ICH",
       "region": "해외",
       "published": "2019-10-04T06:53:20+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
+      "title": "AGENDA PAPERS",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmZueEhZWUpneXczTXc1S0ZVSUp1TjhUYzZlLTJMWWd4cTJ4YUV0R01yQzl4U2pPN19WWllnWUxNdmdxOHQzZjdHNlZRUzFkckhZN2lLV2JOcVVTWHVoU1lWVnh6dkI3Y00wYUpZVThGanQtUWlvcWEwNmpGb2FKZy1mRFJMcV81ZUdhS0FSMlgxNmVDUXNGazdiWk5FZ0JMdHZZcUJLMVVFcmpSWUNzMnhqTlZmOUxPQUE?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2019-10-03T12:12:11+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
@@ -5986,8 +6008,7 @@
       "published": "2018-06-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
-        "inspection"
+        "quality"
       ]
     },
     {
@@ -6059,6 +6080,17 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
+      ]
+    },
+    {
+      "title": "The M4(R4) presentation available now on the ICH Website",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pSHdMRDN2SXhrN09icnUtNzdUalIxc05fV2hpWHlZeVV1TERrRHJIZ2RfRWFvRFJ6VnA0ZE95d1RvbThMajZMUkN1NUlWWDdQVWRGaHdkaUQzM04wdWdPRzBNeW1haG1ESjhPZUFReEZGdw?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2017-01-23T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
       ]
     },
     {
@@ -6408,8 +6440,7 @@
       "published": "2016-07-19T09:40:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
-        "inspection"
+        "GMP"
       ]
     },
     {
