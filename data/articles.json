@@ -1,7 +1,392 @@
 {
-  "generated_at": "2026-09-17T00:29:35.870697+00:00",
-  "count": 807,
+  "generated_at": "2026-09-18T00:29:16.246703+00:00",
+  "count": 799,
   "articles": [
+    {
+      "title": "동아제약, 피지 조절 여드름 치료제 '애크린비타겔' 출시",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332738",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-18T00:18:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
+    {
+      "title": "대원제약 '대원헬스', 흡수 빠른 액상형 '마그네슘킹' 출시",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332737",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-18T00:14:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
+    {
+      "title": "한국요꼬가와전기, 'Biologics Manufacturing Korea' 참가",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332735",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-18T00:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "바이오시밀러"
+      ]
+    },
+    {
+      "title": "로슈 ‘룬수미오’, 여포성 림프종 3상 임상시험 결과 발표",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QanBDRm1ielBOOXd4aGJiQVZma2xHay12dE51LXRtVlBRTktuSWhjYXllNlVDd3IzSlZaZmlsOEw2RXBrQkVnT0lzc05KR0xILTFPM01oUVh4YjhvZkJWY3NOb21wY1A3S0V1Rw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-17T23:48:41+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상시험"
+      ]
+    },
+    {
+      "title": "디엑스앤브이엑스, 이용구 대표이사 선임…중국 사업 리딩",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332734",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T23:32:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "파이프라인"
+      ]
+    },
+    {
+      "title": "에이비엘바이오 “조사 성실히 협조…글로벌 파트너십·신약개발 정상 진행”",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332731",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:39:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "오름테라퓨틱, BMS ‘ORM-6151’ 개발 중단…1억 달러 선급금 반환 의무 없어",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332730",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:13:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "후보물질"
+      ]
+    },
+    {
+      "title": "[BMK2026]삼성바이오로직스, ADC 상업화 앞당긴다…제형·공정 최적화 전략 제시",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332729",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:09:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
+    {
+      "title": "릴리, CNS 유전자치료제 전달기술 확보…최대 2억3700만달러 협력",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332722",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "[ODC26]오가노이드사이언스 ‘ODISEI’ 바이오헬스 효능·독성·질환 모델링 평가 플랫폼 완성",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332725",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "[영상] 한국유나이티드제약, 상반기 순익 516억 ‘어닝 서프라이즈’",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332723",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "개량신약"
+      ]
+    },
+    {
+      "title": "노바티스, 혈뇌장벽 통과 플랫폼 기술 인수키로",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332720",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "후보물질"
+      ]
+    },
+    {
+      "title": "[BMK2026]롯데바이오로직스 ‘데이터 완전성 2.0’ 전략 공개 “투명한 데이터, 속도 높인다”",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332724",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "품질관리"
+      ]
+    },
+    {
+      "title": "레킷(舊 레킷벤키저) 美서 최대 6억弗 투자계획",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332714",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T21:00:00+00:00",
+      "category": "생산·GMP",
+      "matched_keywords": [
+        "제조시설"
+      ]
+    },
+    {
+      "title": "Discovery by Design: 한국 바이오의 성공 확률을 설계하다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04clFQZ1hQZ0EwTC1fZ09heWJ6LU5hMXg1ODNqZWV2ZjN6TE8zWmw2VUtLM0lMdlYwWXJFZVRqT1lRSlk2RmQ2R3RGQzR5bUprUVF0ZXNKalhsZWpHZWlMM0FpREZwUFotUE1pYg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-17T20:50:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "인벤테라, 나노-MRI 조영제 ‘INV-003’ 美 1상 IND 신청",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Dbkpac2sxWFk4LUU0MUp6OXVJUk5QZWQyclhkTmszX2Jodms0TXR4YVR0a3NUX1NIZjJIVUZkSDJfbnVaMXBRV3A3ejJBME83bVVEcVA5SDRYMi1JeW9zZ3EyREREOTBSYU1qNg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-17T08:45:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "‘ODC26’ 판교서 개막…오가노이드 상용화·임상 적용 해법 모색",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332719",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T08:36:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "인벤테라 \"췌담관 영상 선명도 높인다…‘INV-003’ FDA 1상 IND 제출\"",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332715",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T06:56:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "후보물질"
+      ]
+    },
+    {
+      "title": "그래디언트 바이오컨버전스, 이우형 CSO 영입…PDO 기반 CRO 사업화 속도",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332713",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T06:51:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "SK바이오팜, 퍼스트바이오와 4308억 규모 계약…파킨슨병 DMT 신약후보 확보",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332712",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T06:41:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "한미약품 '맥시부펜' 3종, 국내 최초 이부프로펜 종합감기약 약국가 호평",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332711",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T06:12:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
+    {
+      "title": "일동제약, 전립선 건강 · 지구력 증진 ‘일동 쏘팔리토 포텐’ 출시",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332709",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T06:03:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
+      "title": "FDA, 임상시험계획 승인 가속 파일럿 프로그램",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332708",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T05:46:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "[BMK 2026]샤페론과 삼성바이오로직스 ‘이유 있는 만남’…신약개발·생산 잇는다",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332707",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T05:39:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "노보, 신약 발굴‧개발 가속화 AI 전문기업과 제휴",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332705",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T04:24:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "[ODC26] 오가노이드 치료제, 어디까지 왔나…한국은 임상, 일본은 상용화",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332703",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T03:23:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상1상"
+      ]
+    },
+    {
+      "title": "바이오엔테크 고티스토바트 총 생존기간 2배 ↑",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332702",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T03:04:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상시험"
+      ]
+    },
+    {
+      "title": "국내기업 美 자회사 담관암 치료제 EU 허가신청",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332700",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T02:11:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "후보물질"
+      ]
+    },
+    {
+      "title": "앱튼, 가동화제 ‘GPC-100’ 글로벌 임상 3상 본격 착수",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332699",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T01:40:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
+      "title": "신신제약, 노인 학대 예방 ‘나비새김 캠페인’ 7년 연속 동참",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332698",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T01:39:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
+    {
+      "title": "신경내분비종양 방사성 리간드 치료제 FDA 승인",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332696",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T01:38:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "승인"
+      ]
+    },
+    {
+      "title": "휴온스엔, 비타민 브랜드 메리트C '뉴메릿'으로 리뉴얼 단장",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84LV9WSGxaRElkY2NTekIyM25Bdmsza3BXZi01LW82czhYNnNqUWcxTzlFbzkzWFp5V0pIX3Rjcjd2OW9xOHptaU5yWW1IQ1RiWV9rSkpONlJLWE1zSlZjN05BRnJWVEx4T0ZSTg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-17T01:36:51+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "규격"
+      ]
+    },
+    {
+      "title": "JW중외제약, ‘프렌즈 렌즈용액·렌즈보존액’ 패키지 리뉴얼 출시",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332693",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T01:27:00+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "규격"
+      ]
+    },
+    {
+      "title": "대웅제약 펙수클루,헬리코박터 제균율 92%…항생제 내성 치료 근거 확대",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332690",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T00:50:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "임상3상"
+      ]
+    },
+    {
+      "title": "백스다임, 단백질 발현 및 나노입자 제조 핵심 플랫폼 일본 특허 3건 확보 융합",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332687",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-17T00:27:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "제형"
+      ]
+    },
     {
       "title": "동구바이오제약, ‘청력 유지’ 건강기능식품 사업 본격화",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332685",
@@ -300,17 +685,6 @@
       ]
     },
     {
-      "title": "알테오젠바이오로직스, HPV 감염·자궁경부 병변 관리 의료기 도입",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332642",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-16T01:41:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상시험"
-      ]
-    },
-    {
       "title": "제네셀, 코스맥스와 화장품 ODM 맞손…줄기세포 배양 상청액 사업 본격화",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332641",
       "source": "약업신문",
@@ -327,9 +701,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-16T01:30:00+00:00",
-      "category": "개발·연구",
+      "category": "공통·규제",
       "matched_keywords": [
-        "후보물질"
+        "FDA"
       ]
     },
     {
@@ -340,7 +714,7 @@
       "published": "2026-09-16T01:25:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "임상3상"
       ]
     },
     {
@@ -349,9 +723,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-16T01:24:00+00:00",
-      "category": "개발·연구",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "후보물질"
+        "시험법"
       ]
     },
     {
@@ -366,17 +740,6 @@
       ]
     },
     {
-      "title": "한국파스퇴르연구소, UST 스쿨 연구진 \"항섬유화 후보물질 ‘ABRL8301’ 기전 규명\"",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332630",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-16T01:09:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
       "title": "에스알파테라퓨틱스,소아 근시 진행억제 디지털치료기 'MyoHabit' 품목허가",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332629",
       "source": "약업신문",
@@ -384,7 +747,7 @@
       "published": "2026-09-16T01:03:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상시험"
+        "기술이전"
       ]
     },
     {
@@ -494,7 +857,7 @@
       "published": "2026-09-15T23:50:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "파이프라인"
       ]
     },
     {
@@ -542,17 +905,6 @@
       ]
     },
     {
-      "title": "(단독)충북창조경제혁신센터, 한-북유럽 '바이오 공동개발 회랑' 구축 본격화",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332604",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-15T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
       "title": "R&D 투자 20% 늘렸다는 제약업계, '무늬만 신약' 꼬리표 언제 떼나",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332605",
       "source": "약업신문",
@@ -560,7 +912,18 @@
       "published": "2026-09-15T21:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "개량신약"
+      ]
+    },
+    {
+      "title": "(단독)충북창조경제혁신센터, 한-북유럽 '바이오 공동개발 회랑' 구축 본격화",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332604",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-15T21:00:00+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "비임상"
       ]
     },
     {
@@ -669,9 +1032,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-15T08:48:00+00:00",
-      "category": "개발·연구",
+      "category": "공통·규제",
       "matched_keywords": [
-        "임상시험"
+        "품목허가"
       ]
     },
     {
@@ -680,9 +1043,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-15T07:22:00+00:00",
-      "category": "개발·연구",
+      "category": "공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "실사"
       ]
     },
     {
@@ -693,7 +1056,7 @@
       "published": "2026-09-15T06:49:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "후보물질"
+        "기술이전"
       ]
     },
     {
@@ -704,7 +1067,7 @@
       "published": "2026-09-15T06:31:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상시험"
+        "임상3상"
       ]
     },
     {
@@ -715,7 +1078,7 @@
       "published": "2026-09-15T06:30:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "후보물질"
+        "임상1상"
       ]
     },
     {
@@ -748,7 +1111,7 @@
       "published": "2026-09-15T05:12:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "후보물질"
+        "임상2상"
       ]
     },
     {
@@ -785,17 +1148,6 @@
       ]
     },
     {
-      "title": "\"뇌 전이 효능도 확보\" 보로노이 ‘VRN110755’ 3세대 EGFR 내성 환자 6명 모두 종양 감소",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332576",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-15T03:06:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
       "title": "식약처, 동물병원 의료용 마약류 안전관리 교육 강화",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332575",
       "source": "약업신문",
@@ -804,17 +1156,6 @@
       "category": "생산·GMP",
       "matched_keywords": [
         "행정처분"
-      ]
-    },
-    {
-      "title": "식약처, 우즈베키스탄과 의료제품 규제협력 MOU 체결",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332574",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-15T03:03:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "식약처"
       ]
     },
     {
@@ -836,18 +1177,7 @@
       "published": "2026-09-15T02:39:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "FDA"
-      ]
-    },
-    {
-      "title": "페니트리움, 글로벌 석학 FDA 2a상 참여 의사…‘가짜내성’ 임상 진입",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332569",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-15T02:28:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "FDA"
+        "EMA"
       ]
     },
     {
@@ -856,20 +1186,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-15T02:27:00+00:00",
-      "category": "개발·연구",
+      "category": "품질관리(QC/QA)",
       "matched_keywords": [
-        "신약개발"
-      ]
-    },
-    {
-      "title": "SK바이오팜 이동훈 사장, 자사 주식 1,000주 추가 매입",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332564",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-15T02:22:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "파이프라인"
+        "품질관리"
       ]
     },
     {
@@ -935,7 +1254,7 @@
       "published": "2026-09-15T00:20:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "파이프라인"
+        "임상3상"
       ]
     },
     {
@@ -979,7 +1298,7 @@
       "published": "2026-09-14T23:21:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "파이프라인"
+        "기술이전"
       ]
     },
     {
@@ -1010,31 +1329,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-14T23:03:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "품질관리"
-      ]
-    },
-    {
-      "title": "120억달러 베팅 흔들린 노바티스…임상 실패가 ‘이사회 책임론’으로",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332534",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-14T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "후보물질"
-      ]
-    },
-    {
-      "title": "‘1년 두 번’ HIV 예방주사, 영국 NHS 문턱 못 넘었다",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332535",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-14T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "후보물질"
+        "GMP"
       ]
     },
     {
@@ -1045,7 +1342,7 @@
       "published": "2026-09-14T21:00:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "파이프라인"
+        "바이오시밀러"
       ]
     },
     {
@@ -1087,9 +1384,11 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-09-14T20:55:00+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "신약개발"
+        "신약개발",
+        "승인",
+        "FDA"
       ]
     },
     {
@@ -1109,9 +1408,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-14T15:44:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "품질관리"
+        "GMP"
       ]
     },
     {
@@ -1156,7 +1455,7 @@
       "published": "2026-09-14T11:23:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "비임상"
       ]
     },
     {
@@ -1167,7 +1466,7 @@
       "published": "2026-09-14T08:33:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "신약개발"
+        "비임상"
       ]
     },
     {
@@ -1190,6 +1489,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상1상"
+      ]
+    },
+    {
+      "title": "페니트리움바이오사이언스, '가짜내성' 타깃 FDA 임상 개시",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SZl9ncXJJMG8tSVBPQnY3cjlybU1mQnhteklGMzNNei02dFFPd3ZDTkljQ0p6VWdlNUsxbXFua0RpTzNHb3luek1SbUFZRE1mLUpLOFhXejFGR0JYVk9yMTE1NHQta184dG9yUg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-14T07:25:54+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "FDA"
       ]
     },
     {
@@ -1259,17 +1569,6 @@
       ]
     },
     {
-      "title": "코어라인소프트, 일본 PMDA 관문 넘어…아시아 핵심 의료기기 시장 공략 본격화",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332509",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-14T03:20:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "품질관리"
-      ]
-    },
-    {
       "title": "DIA, 인도네시아 의약품연구협회와 동남아 임상시험 역량 강화 나선다",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332507",
       "source": "약업신문",
@@ -1319,9 +1618,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-14T01:37:00+00:00",
-      "category": "품질관리(QC/QA)",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "품질관리"
+        "cGMP"
       ]
     },
     {
@@ -1402,6 +1701,17 @@
       ]
     },
     {
+      "title": "식약처, 필수의약품 14종 공적 공급… 환자 치료기회 보장",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2STNZbmx5U3VfSThJSEpUWUdNZUxzSUFtUjRzaHBtWHd0ZG9kVG5QZ0JvUHpNcWpWelFyZkFUcF9LU2VDRFZabnRvRFV4YXNsZ0p1SWVFSlllY0NneVZYS0xzNTlkb2M3RHgzdg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-13T23:44:07+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "진매트릭스, 보건복지부 A형간염백신 임상시험 지원 협약",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332474",
       "source": "약업신문",
@@ -1409,7 +1719,7 @@
       "published": "2026-09-13T23:28:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "비임상"
+        "임상1상"
       ]
     },
     {
@@ -1435,28 +1745,6 @@
       ]
     },
     {
-      "title": "셀타스퀘어, 중기부 디딤돌 초격차 R&D 선정",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vYXdWSnJkX2I4dVVPRWlNZG5HTktHdEl4LS1pTXh3ekxfWUxNOGF1LVlzaW5DWncxWkNwQ3JSSktYRWtRb1NvbEZpM05yeFdUbGIycmxKU3Vkc01VcFNQNzdqX3ZGcURialZvVQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-09-13T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "R&D"
-      ]
-    },
-    {
-      "title": "인투셀 박태교 대표 “ADC 링커, 혈중 안정성·세포 내 절단 동시에 잡아야”",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332464",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-13T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상1상"
-      ]
-    },
-    {
       "title": "모더나 흑색종 백신 2031년 10억弗 등정 전망",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332442",
       "source": "약업신문",
@@ -1465,17 +1753,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상2상"
-      ]
-    },
-    {
-      "title": "MSD서 키트루다 병용 꿰뚫은 한진환 CTO…리가켐바이오 ADC 전략 ‘면역·독성 설계’",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332453",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-13T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상3상"
       ]
     },
     {
@@ -1501,39 +1778,6 @@
       ]
     },
     {
-      "title": "항암치료 130여년, ‘더 많이’에서 ‘더 정밀하게’…표적치료·ADC로 확장",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332451",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-11T09:04:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상1상"
-      ]
-    },
-    {
-      "title": "난 한 놈만 패? 美 단일성분 보충제 기업 눈길",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332450",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-11T08:40:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제형"
-      ]
-    },
-    {
-      "title": "와이바이오로직스 박영우 대표, 탈진 T세포 깨우는 ‘삼중특이’ 면역항암제 전면에",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332447",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-11T07:50:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "품질관리"
-      ]
-    },
-    {
       "title": "미니쉬테크놀로지, 19회 미니쉬코스 개최…\"프로바이더 원장이 밀착 지도\"",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332439",
       "source": "약업신문",
@@ -1552,18 +1796,7 @@
       "published": "2026-09-11T05:05:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상1상"
-      ]
-    },
-    {
-      "title": "티핏(TFIT), ‘무신사 뷰티 홍대’ 입점 오프라인 고객 접점 확대",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332436",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-11T03:36:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제형"
+        "물질특허"
       ]
     },
     {
@@ -1575,17 +1808,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "EMA"
-      ]
-    },
-    {
-      "title": "주 1회 경구 펩타이드 GLP-1 임상 1상 스타트",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332431",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-11T02:17:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제형"
       ]
     },
     {
@@ -1605,9 +1827,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-11T00:41:00+00:00",
-      "category": "개발·연구",
+      "category": "공통·규제",
       "matched_keywords": [
-        "제형"
+        "고시"
       ]
     },
     {
@@ -1674,9 +1896,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-10T23:24:00+00:00",
-      "category": "개발·연구",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "제형"
+        "GMP"
       ]
     },
     {
@@ -1691,28 +1913,6 @@
       ]
     },
     {
-      "title": "[화장품신문 34주년 특집] ⑦ 안전성·효능 모두 갖춰야 '진짜 더마'",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332325",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-10T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제형"
-      ]
-    },
-    {
-      "title": "美 루브리졸, 고효능 생분해성 증점제 선보여",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332389",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-10T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제형"
-      ]
-    },
-    {
       "title": "MSD 본사 추가 감원…‘키트루다 이후’ 준비 중",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332399",
       "source": "약업신문",
@@ -1721,6 +1921,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "바이오시밀러"
+      ]
+    },
+    {
+      "title": "[화장품신문 34주년 특집] ⑦ 안전성·효능 모두 갖춰야 '진짜 더마'",
+      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332325",
+      "source": "약업신문",
+      "region": "국내",
+      "published": "2026-09-10T21:00:00+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "불순물"
       ]
     },
     {
@@ -1757,17 +1968,6 @@
       ]
     },
     {
-      "title": "알테오젠 ‘테르가제주’, 프리갈리앵 코리아 최우수 바이오제품 선정",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332404",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-10T20:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
-      ]
-    },
-    {
       "title": "삼성바이오로직스,유럽 제약사와 3507억원 규모 위탁생산 계약",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332391",
       "source": "약업신문",
@@ -1779,17 +1979,6 @@
       ]
     },
     {
-      "title": "삼성바이오로직스, 유럽 제약사와 3508억원 위탁생산 계약 체결",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RbDdqN2gtV3V0Y0ZXSEo0Ti1XVUY3ckU3dmZsN0RLRWRBZWdoeWlEZjJjWU9mNHk2QUlaeDNYYXZya2FuZC1COTk2ZlVob3pfaGRTV2RDbXI5RlRPVVZaRXlKNXBnck9aangzaQ?oc=5",
-      "source": "팜뉴스",
-      "region": "국내",
-      "published": "2026-09-10T07:25:35+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "위탁생산"
-      ]
-    },
-    {
       "title": "치료 패러다임 바꾸는 'GLP-1'…\"막는 규제서 관리 규제 전환 필요\"",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332388",
       "source": "약업신문",
@@ -1798,17 +1987,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "실사"
-      ]
-    },
-    {
-      "title": "UCB ‘심지아’ 유산 위험 감소용 적응증 확대?",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332382",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-10T04:49:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상2상"
       ]
     },
     {
@@ -1878,17 +2056,6 @@
       ]
     },
     {
-      "title": "\"틈새시장 벗어난 희귀의약품\"… 한국 제약시장 '고성장 섹터' 부상",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332355",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-10T00:18:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
-      ]
-    },
-    {
       "title": "생명연, 프랑스 3개 기관과 생명공학·식물과학·양자기술 협력",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332352",
       "source": "약업신문",
@@ -1908,17 +2075,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "실사"
-      ]
-    },
-    {
-      "title": "제놀루션,글로벌 RNA 농약’ 시장 공략…박과작물 바이러스 방제 특허 출원",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332348",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-09T23:50:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "품목허가"
       ]
     },
     {
@@ -1988,17 +2144,6 @@
       ]
     },
     {
-      "title": "유정민 보험급여과장 “건보료 동결, 보장성 축소 아냐… '중증·혁신신약' 이동”",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332327",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-09T21:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "고시"
-      ]
-    },
-    {
       "title": "한독·웰트·에이슬립, ‘수면 생태계’ 디지털 헬스케어로 혁신 정조준",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332328",
       "source": "약업신문",
@@ -2028,7 +2173,7 @@
       "published": "2026-09-09T09:14:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "임상2상"
+        "CRO"
       ]
     },
     {
@@ -2073,28 +2218,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "라이선스아웃"
-      ]
-    },
-    {
-      "title": "BMS, 알로-셀 다발성 골수종 임상 2상 “긍정적”",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332305",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-09T05:04:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상2상"
-      ]
-    },
-    {
-      "title": "COPD 완화 AZ 토조라키맙 FDA 허가 “성큼”",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332304",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-09T04:25:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "임상2상"
       ]
     },
     {
@@ -2160,7 +2283,7 @@
       "published": "2026-09-08T21:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
-        "GMP"
+        "제조공정"
       ]
     },
     {
@@ -2180,9 +2303,9 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-08T20:50:00+00:00",
-      "category": "개발·연구",
+      "category": "생산·GMP",
       "matched_keywords": [
-        "임상2상"
+        "제조공정"
       ]
     },
     {
@@ -2454,17 +2577,6 @@
       ]
     },
     {
-      "title": "세계 화장품 규제 수장 서울 집결…'지코라스' 첫발",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332197",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-07T07:59:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "CDMO"
-      ]
-    },
-    {
       "title": "EU서 철분 주사제 골질환 위험성 검토 스타트",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332182",
       "source": "약업신문",
@@ -2627,7 +2739,7 @@
       "published": "2026-09-04T07:28:00+00:00",
       "category": "개발·연구",
       "matched_keywords": [
-        "R&D"
+        "위탁연구"
       ]
     },
     {
@@ -2906,17 +3018,6 @@
       ]
     },
     {
-      "title": "셀트리온, ‘스테키마’ 등 신규 제품군 미국 시장 처방 확대",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=332025",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-02T22:55:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "바이오시밀러"
-      ]
-    },
-    {
       "title": "“신규 모달리티 CMC, 개발 초기부터 FDA 실사 대비해야”",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332021",
       "source": "약업신문",
@@ -3090,17 +3191,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "시험법"
-      ]
-    },
-    {
-      "title": "프레스티지바이오파마, IDC 고상석 대표 45,600주 장내 매수",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331938",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-09-01T22:57:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "바이오시밀러"
       ]
     },
     {
@@ -3379,17 +3469,6 @@
       ]
     },
     {
-      "title": "엠비디, 증권신고서 제출…코스닥 상장 공모 절차 본격화",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331794",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-31T01:48:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
-      ]
-    },
-    {
       "title": "대한민국약전(KP) 제13개정판 및 핸드북 발간",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331793",
       "source": "약업신문",
@@ -3398,17 +3477,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "시험법"
-      ]
-    },
-    {
-      "title": "입셀, ‘첨단바이오 자율실험실’ 성과교류…iPSC 자동화 추진",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331802",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-31T01:46:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
       ]
     },
     {
@@ -3479,17 +3547,6 @@
       ]
     },
     {
-      "title": "식약처, ‘비침습 자동전자혈압계 임상정확도 평가 가이드라인’ 제정",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331762",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-30T23:54:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "규격"
-      ]
-    },
-    {
       "title": "대웅제약,1회 ‘서울바이오헬스대상’ 수상…R&D·오픈이노베이션 성과 인정",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331757",
       "source": "약업신문",
@@ -3498,17 +3555,6 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "시험법"
-      ]
-    },
-    {
-      "title": "\"중국은 글로벌 딜 38%, 일본은 100억 달러 기업 4곳\" K-바이오 해법은",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331743",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-30T21:00:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "CRO"
       ]
     },
     {
@@ -3930,17 +3976,6 @@
       ]
     },
     {
-      "title": "제넨테크, 美 서부 오리건州에 7.5억弗 투자계획",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331389",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-21T05:17:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조시설"
-      ]
-    },
-    {
       "title": "디앤디파마텍, MASH 치료제 ‘자보페그두타이드’ 임상 2상 CSR 수령",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331380",
       "source": "약업신문",
@@ -4128,17 +4163,6 @@
       ]
     },
     {
-      "title": "메디포스트, 큐스템과 hiPSC 기반 모유두세포배약액 CDMO 계약 체결",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331177",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-17T23:49:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "무균"
-      ]
-    },
-    {
       "title": "News",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdm1ITzcycGFJUzhTSjFjMEVqN0tCYnJsek5LMjlYcm80aWQ3LWZ5OHkyUS0tT3dhZzBRcUlRUWFTVWJRYlY4WTJfMEdyM0hwenZ2MHdiZEU3MkVJODYtdUhNMGFVVGtnTUhGLW5hYTFPVDF2dk1ULTgtUFZmNllXa1RIOUMzUVZzUU42X2VHa0JmYzI0?oc=5",
       "source": "PIC/S",
@@ -4170,6 +4194,7 @@
       "published": "2026-07-28T17:15:27+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "guideline"
       ]
     },
@@ -4694,7 +4719,6 @@
       "published": "2025-06-24T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "quality"
       ]
     },
@@ -4818,6 +4842,7 @@
       "published": "2025-01-20T06:08:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality"
       ]
     },
@@ -4880,6 +4905,7 @@
       "published": "2025-01-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "guideline",
         "inspection"
@@ -4926,6 +4952,7 @@
       "published": "2024-11-22T03:32:44+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "guideline"
       ]
     },
@@ -4948,7 +4975,6 @@
       "published": "2024-11-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
         "inspection"
       ]
     },
@@ -5022,6 +5048,17 @@
     },
     {
       "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DQTZrbm9WenlMeVoxRTMyNnFVR0QyX0FORVBBWERNUEJpM2F2UjdjZzJHT1pXOS1jSG1IbjYwQ1E3aTdGbG1NNWQ2V1QydmV4bW1ZZ3kwRWMzZEdNa1lYREJVVTFzc09CMDlfZ1VNX1M?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2024-08-03T19:11:18+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "guideline"
+      ]
+    },
+    {
+      "title": "News",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1a1RCQTM4cWxzM3A4N3U0NHo3T2g2WXNsMUJ2cDM3NXhaYWRfRG9SaF9maENrOVNYTl9TMmtzWUk2V0Z4Q3RTWUNGbEFPNTdqVkRZU0JHaVBjaXBSVDFrWlBxTE91YnJHOWxHZ3oxcGlQTWFFSk91N3FtbnZpQQ?oc=5",
       "source": "PIC/S",
       "region": "해외",
@@ -5078,18 +5115,6 @@
       ]
     },
     {
-      "title": "ICH PQKM Task Force – 2024-2025",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91RUZTOFU5clNxNENJbXJjei1BR2hBVzFxaWxISWYwdFNIY25PeUtLaWpTbS15WGx2bklDV1JEWUd4QlhsU093Yl96djVFRUFRSU9Mazlvbw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2024-06-13T16:05:47+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality",
-        "inspection"
-      ]
-    },
-    {
       "title": "PIC/S Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZm5ZUGJZajZYQUFLN2FWU1NOQ0ZsazdPOG5OakVVbXo1dnRzcTRnNUNoaDVsSTN0QWZLa2VHUUNkQkNHY21DWl9mRTZOT282MGlyZ2hXSjJHQ28xeVljZXpWblJSWER4UDNIRHF0dU1YbmJVSGlFaldHbUpxdDl6dE9CRnR1NlpiZXJKcw?oc=5",
       "source": "PIC/S",
@@ -5141,7 +5166,6 @@
       "published": "2024-03-28T09:39:34+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "quality"
       ]
     },
@@ -5192,6 +5216,17 @@
       ]
     },
     {
+      "title": "ICH M10: Bioanalytical Method Validation and Study Sample Analysis Training Material",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVF9XRmlJR3FZVkRQMVVWOUpqMjZlQWlTM1hrQkNhRVRpT1FfaVF5blVETHJfWUNiYW9xSW8yRW9SVVg3R2VHQURFRl9ybEhRdldURmR3ckpxd2lsT3BPZVotZFU3U01yQmEtUm5Xb0FHT3Qzb2J5eWhibi1VYWdfTEtqZHFoTmJwMHZRb1lhUGVxZw?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2024-01-27T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "inspection"
+      ]
+    },
+    {
       "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVc2dBblJyS0MxY0dVTkVnWkRWRlBaWm8yN01PSXd2X3VzeHl3Qm1QR1ZVREp5bFkxdVgxVHZCRkRDQmt4NllZLW5zeVA5Z1NDanVoTXhfM3BSSmlaNWNxWXNmTVR4TjcxQ1lHZFh1cVZGbGZLeVhMYnI5UDlzd0k?oc=5",
       "source": "ICH",
@@ -5235,7 +5270,6 @@
       "published": "2023-12-12T09:51:11+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline"
       ]
     },
@@ -5323,13 +5357,14 @@
     },
     {
       "title": "ANALYTICAL PROCEDURE DEVELOPMENT Q14",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlZZZVJhMjhXUm5nbGNYRzR4ZWw1ZWVOUUZoT0x4X2VLczVNZk5ienM3bDd0S0I2Q0M0T0ZsLW1iNFFMLWZuY1hjYkFPT2E0SHRXc0xuUG5nakkzaklXQ0NUNU4tMnh1Y2RCc3Z1WEVOaWdmRnZydmtpd0RTcVJRNUI4bXFtRkNiRWRIRGZiNHIwRS1jV3VOSS1iZWRYQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa3VfSWFoV3B2Rjk3UTNRZDkxUnZReEtSZjU1RVpqdHQ5YV9uRzRXMHZoazJMTUd2NzRld3dkS29xd3hmS1dUOXZKdEdXd2tUTFJreFRONTRRWXhDRVNCYkI4LVFYUEhyNVd2VmZqX3lTLS1idVhCMVo0YjNHaEZqcUVR?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "2023-11-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -5539,17 +5574,6 @@
       ]
     },
     {
-      "title": "Q9(R1)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM3Bma24tTGwwRXM2aGQtU1pVU08tcU84MzgtWW5TZTF6NThXNWRUV0FWQnZLakZQVndYTHVvdHNDS2YyVUN1ZXpLZGNOZkRpYlRBd1I5dW5CTktHZWxYTDZ4UDVxX1U5SHAzZHFYc0Y0ZDI1NW1POVVFeU1uX1dIUktKbjhIMF9wc0Y5S1plVkJLZlk?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2023-01-26T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1k1VFlxVkNuTmtFYlhYc1BSVVVoZ1V2dGRKeFdZU2ZfTXJOb2lSWGNpb2JTbFFMdmM4SEFyV3Ywd1lfdlNteC00NnlVQ2RFTGJEcl94X2NCX2dVeXJZOUdlcTVNZWkyZmVWakVjeVJkT21QV1pVeGxLTXBFQ3ZLWnEyLVh3X2U5MVM2VC1md3BGRUEzV2dVWWhiOE11eUdLbHMxRno0dlBYa2dSaFQ2QkZXWQ?oc=5",
       "source": "ICH",
@@ -5571,6 +5595,17 @@
         "GMP",
         "quality",
         "inspection"
+      ]
+    },
+    {
+      "title": "Q9(R1)",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXNFSG9Yd1BtcUMyTzJlcDVTYjZHeTZEM1RoM0VpT3otWGRNOS1QNmNkVVJqeVJZd2tIY1RuU09aTHNUTVJ2Yy0yaUJYT05JaDBTbjE1ZVVvcnJLZk0xalBJdndzNmN5bEVkYnFXZVFSNUtmeXJ2Q29EbnN0aktZUHEzR3BBdXRTSXlMV0lB?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2023-01-18T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP"
       ]
     },
     {
@@ -5863,6 +5898,17 @@
     },
     {
       "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5maTBFYUVZTHVySE9Ia0o4MkVjQ0tvUUxfZlhOOTNZWVNNVzBBWDd5UGFGQWsydWZzZ1FUY1dHd2lqc3pQVG5Md1VWOTB2RnBramZlV0RYRHBKc2sxM1o1QkFMcDltSE9YdVFzbS0wT01rejI4?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2022-01-24T23:02:57+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "guideline"
+      ]
+    },
+    {
+      "title": "News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkVia1ExNk5SR3ZwMmxnNHBtOG5Ha2NpS0hsNTZvNFZBa2lRcEtSM3hMSmlLRWwxMGFuN3dQaUV4UTBESkNZME9NNWl2anVQdms2VWc1S1JKR3lBWFY2R1BIc3dfMjM3dV9iLU5Nem1GWVg1dTc1R05FWHE4V05XSDJRVXdJS3BhUjVRUzN1TnA?oc=5",
       "source": "PIC/S",
       "region": "해외",
@@ -5921,7 +5967,8 @@
       "published": "2021-10-06T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -5946,17 +5993,6 @@
       "matched_keywords": [
         "quality",
         "inspection"
-      ]
-    },
-    {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2hhRGlIT2dRYjJxZTBQOXptQmV0NlhhZmJsYXNkaTItQnE3WVFfZzRrTTFGeVRHR1Brc0lWaGZZYXVFZDdRRGdTcmhZYmNsTXBaOU9ILTB0dENMV2xsRnA5cFk4X1ZTcDRjOWxyT21JS2FEVjRZQVNXOURQTnhWMnJ2REduTWdBQjFVTThMbzI2cnNV?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2021-07-17T21:54:40+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -6043,7 +6079,8 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -6104,6 +6141,7 @@
       "published": "2021-01-26T10:23:20+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "guideline"
       ]
     },
@@ -6225,6 +6263,7 @@
       "published": "2020-10-19T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality"
       ]
     },
@@ -6261,7 +6300,6 @@
       "published": "2020-08-04T03:09:36+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline"
       ]
     },
@@ -6273,7 +6311,6 @@
       "published": "2020-07-23T22:23:32+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline"
       ]
     },
@@ -6285,6 +6322,7 @@
       "published": "2020-07-17T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "guideline",
         "inspection"
@@ -6302,6 +6340,28 @@
       ]
     },
     {
+      "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPamF0Ym1xV3U5YUxuQkl2bUFJNHhHcFR0UFJxNWUyTkdiTnFsM0ppOHNLSmpucGp4Y2dtT19Pa3E5M3VIU3pIb3FVamZUQTNpREZjNW1ld1IwQ2g4QldrQThmWmdMRF90bEUyLVhMZVpHSmd2Sl9ybVM0WnVrbVl1bjdidlJCaTRUZEtuZ3FSNlZFZw?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2020-07-10T20:32:13+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP"
+      ]
+    },
+    {
+      "title": "Human Blood, Tissues, Cells & ATMPs",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVUhqQUY4OU5ZaE4tSTNPdXEtYjQ5R0tfT0JIQmNFNlViYmlhaEQ2Q05xOFZQdTQwNFFILXZNQkVJbDh4a3VPdjJZRkxud05FYWlINGtaU1BZaEtiWGNJbHZOR28xSWZHYVV6YkhPSTR0REVVOU9yU3pBUEt0Q1BlODdQZ2l1MkZaSUdGWXFn?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2020-07-10T20:15:56+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
       "title": "Quality Risk Management",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXFJSEdjcGlYN05RMDA3WHlvako1UEtNSHBwRWM5V0pFNVVPUVJ0Nkt3b0ZZNURUZWdHT1Z0SGpoQVU1VGNidHNidkpRRzF4dzVMVGhMbE9RZU5CLWpjTlFiZ1VSWnFFWU10STl5eHNvOU56MEZfS0J4QmZEMmstYTl0VHhrWEMxNU10cjd3?oc=5",
       "source": "PIC/S",
@@ -6311,18 +6371,6 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "inspection"
-      ]
-    },
-    {
-      "title": "Expert Circle on Good Pharmacovigilance Practices",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdmJuMF9xdVBsVHJ6M1VDVWpfREJhc2pEdEtaeW1heTdfYlNCaENwVWtoeU9NT2lBTm8yb25WS29jUElxR1ZEZWxicEhCbXlKTlpwSXdXSTVEYUQxUjYwN1lwdVVnNkVqaVJLYmRETHRnTlJma1E5TkE1ZDFBMW9oaFFYMHU1RUp2ZXR4cw?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2020-07-10T19:40:52+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline",
         "inspection"
       ]
     },
@@ -6369,6 +6417,7 @@
       "published": "2020-07-08T08:17:51+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "inspection"
       ]
@@ -6392,6 +6441,7 @@
       "published": "2020-07-08T05:20:17+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "inspection"
       ]
@@ -6463,6 +6513,7 @@
       "published": "2020-07-06T22:38:22+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "inspection"
       ]
@@ -6530,17 +6581,6 @@
       "source": "PIC/S",
       "region": "해외",
       "published": "2020-07-01T06:01:17+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
-      ]
-    },
-    {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpaW9WWkthYng4VWMxZ2tKbzhLLWM2WEZaWUNsLUJiU0xtYnZlaUlHdW1kelRRbURpNmFlQlEzRjJfdVZlM2FLSWVNcGd1ZjRWYjQxTmQ2OFBrYWkwOWRabmJ6U3hKdw?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2020-06-28T20:53:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
@@ -6716,7 +6756,7 @@
     },
     {
       "title": "S5(R3)",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlZsZk8zOWtjTkN0RTN1OUJ5OVEybGdQZktDQ3ZWWTgwQXNUX1lsSUh6elV6SjZFcnZYTDJRRWJ6NURydUFzaGw1ZFBCLVBMcEhFTW1ZRjFUNUFMXy1SZ3BpeU82QXdTbmVzWnMxaDFqdlBXc2g0SXZYX2pjXzZ5NS1GcklTM1k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX29xOU13dzBES2hydnFULVRrU2FZX2w5T0s1dkhwejJxWVNDVVEzQmcwLWlrazRpTk5QaEZNTjlBX1cybmxaNXNrUzYtMmM5ajdVcGhkYjRwVzlYMXZtUjdtNjNKUHlTMC1VT1RwS0JOZDk3azJjQW9DMFdLVTBSaTlsS0U3cndxZFE?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "2020-02-18T08:00:00+00:00",
@@ -6791,6 +6831,7 @@
       "published": "2019-11-28T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality"
       ]
     },
@@ -6899,18 +6940,6 @@
       ]
     },
     {
-      "title": "Annex 10",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDI0Z0dEVEkyR0x2WjlaMjhzd2g2RGhuLW03QWppa0ZyNFJ0cFU2WC10SktBT0cwMXVWNm5SNXZkVjlDRkg1S3RVX3N4d0RyWlQ1bVB0Znl2N2pfb0pPLV9GR1NlRUlVMm9mdXJfaHFkdl8xTDYyQ2NaN2VfdnJmRGRqZW1qeFpC?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-06T04:36:44+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP",
-        "inspection"
-      ]
-    },
-    {
       "title": "Overview of the S7 Guideline, Munehiro Hashimoto",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZZWVoT1E1Z0ZXaWNfNVlwOVVxNnRvY0RLUlc1dlFuQUlneC14ZlVZUDBhcEhlUDZyX01GZDFLLUtpV2xIVWtpTEdRUVMtLWxwSWk5WENNS011S0lGekU0X3lBSnllM1RDTXdCX29wOXJUZDRCajdpRU12MA?oc=5",
       "source": "ICH",
@@ -6922,24 +6951,23 @@
       ]
     },
     {
+      "title": "TESTING FOR CARCINOGENICITY OF PHARMACEUTICALS",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WaHVTclh4elJlNHRuYVBfWUExYmlJeXN0dHgyeUFTMGZvMzZmRWYzRncyY09pMk5qNHFqTHozaG9JaFFGaHRBMldPVHM3YlhVUDdSc2dUR3M2ZEtjZHlKZ25LbVlhUkZPQTJsMVRWUTVkcXNa?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2019-10-06T02:32:06+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "guideline"
+      ]
+    },
+    {
       "title": "INTERNATIONAL CONFERENCE ON HARMONISATION OF TECHNICAL REQUIREMENTS FOR REGISTRATION OF PHARMACEUTICALS FOR HUMAN USE Final Conc",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zWTQ0dTI0V2d1a3ZiRUZYZnBKUlVqQ2MxdGhPYlNsUWxJUHBoeHpmdmJzRmJCc09nMjhRcHJ5WW1TUXJ6OUFMaHNPUkxyS3ZRcHZWT0hVUjFfQUVTOG5NM05wZlFaaUxNZ2Y1YjBUM2lzdUNH?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "2019-10-06T02:31:43+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP",
-        "quality",
-        "inspection"
-      ]
-    },
-    {
-      "title": "ICH Q10 Pharmaceutical Quality System",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KRHl3eVJZc2taNDlwTjgwN203cndXQm04QnNMdUNWaVY5eGphRFRWUUQxaElUWGgxS0ZSeFBEVEZFZHQ3alR1Q2VQallnY3pXd3FLMlhSd01XeV9LSHJVNExVRTVjcVBpeGs5NUIxZ3gyMG8?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-06T02:30:06+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
@@ -7065,28 +7093,6 @@
     },
     {
       "title": "ICH Official web site",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52TUZ6czViNFhsRzRjS2oyVDFlU1FncWJvcTB6OWlpelRQbGxIMm12dmZTcTFLRTFlOHJIc2VqRzVIa2NPVkFNNlpUVF9GbUY5V0NiXw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-03T12:06:17+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "Search the Index of ICH Guidelines",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5MzgzajkxOG9jMmkzcHRCeFU5cG8zbFRFemw4T1BtNnVDSl83Y2RTOWJ6TjZmdm96bmwyRnNSeGZNN2lycmlVWEp4V0REdWZSU2pZdjNfR0hVOXRmLWcwY2t3?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-03T12:02:49+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WZVZ2Q1gwMnNCbzR6aklpM0FMa3c1clB3SzZuQjhsaXhWX2Fjc0tNbXh6SEY5dFVYdW1KQzBYeldnbVRtRVg4U01xQUxoYlk3NXBfUk0tUmY?oc=5",
       "source": "ICH",
       "region": "해외",
@@ -7110,17 +7116,6 @@
       ]
     },
     {
-      "title": "ICH eCTD v4.0 Step 4 page",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wb0x4YTk4Um1UQVl1T05iNG1uckxBVEkxNzA3cTl6dnNTbnRyQ2tydkxNNDVwNXkzbjZvZGtScEpwOVozVFdHTUVQdVo1NjB4ZVBYenJrbTlZM3k5YUhKZjR3Mk1lWDYyNGk3Q1ZzV3RyMUhtcVVaUTZ3?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-02T18:23:47+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
-      ]
-    },
-    {
       "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JWG9rVG5NcEJ5WWNoSHJvMW9vb2dLbndEU3JhMEJpS2Qwc1NlRHdhc0Q0d0ZlaENOaXFOS3ZSYTVHbld4ZkVYWk9sekRscWxQNl9XWHFQTThPNEp1QktIWmFSQQ?oc=5",
       "source": "ICH",
@@ -7140,28 +7135,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "The following training presentations support the use of the ICH Q9(R1) guideline:",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE13TXFHc2NLTnRGTjFKRkw2NmpiUUxfTU1yZjB1UGZhamJfRTBhckFucVNsVVFMYkFBd0JUaGdYYjYyV3pEalRPVGR3?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-02T09:08:30+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "ICH E10",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0bGNDMk00ZzhVcVBWTkxxM1ZBWllVRXJQc2dXZDZQVHN6bENtX2M1d1A5U2tuc0VDX2ExcVVfcFB3N0VTYlpiaVlYRHN5bC1saHJLZVJ1X0pwbWg2SEMzdWhBN09oTEQ2eFpjMWNBQQ?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-02T00:21:35+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -7277,17 +7250,6 @@
       "matched_keywords": [
         "GMP",
         "guideline"
-      ]
-    },
-    {
-      "title": "Initiation of ICH",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13TUVHUm52ODA0cHktMm5IX2FpLXkweU5NOXl0dHZwSVJEbUZ6Y0pQMEZtUDJNTkpzbndVQzI1aUdJc1pxRHBR?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-01T15:35:06+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
       ]
     },
     {
@@ -7452,19 +7414,6 @@
       ]
     },
     {
-      "title": "Press release",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5EY1l0RXY2bGNYaHNIUUxQSDcyeVJoVnh2VXZmSThQc2NyMzZ2R0w0bnF4eXhkUXZENWRLRjJfamd2M085OVZjTlNR?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2018-10-16T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP",
-        "quality",
-        "inspection"
-      ]
-    },
-    {
       "title": "GUIDELINES ON THE FORMALISED RISK ASSESSMENT FOR ASCERTAINING THE APPROPRIATE GOOD MANUFACTURING PRACTICE FOR EXCIPIENTS OF MEDI",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8ta3lLTmpmczVZR1otQU1PZ2IwLV9qcXc5WkZBcDVpaGs5am5Iak9vTVIwcVlOQWt4cm1TVE5SZlpVZUF1b1B2UEh3?oc=5",
       "source": "PIC/S",
@@ -7558,17 +7507,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP"
-      ]
-    },
-    {
-      "title": "ICH Q-IWG Q&A Vol 1",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1cUF1WU5lZF9KTm1EemlPS3haX2pNcUFja0s1Uk8tSFpqUkNNa082X1k0emd5d1V6QUkwYlA4RUw1cmVBQkwtdkpqOGFlenNUVTBzblpocUd5REFSR2RJR2JieURuVFJidk1sdE9RclRwUEE?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2018-02-27T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
       ]
     },
     {
@@ -7683,7 +7621,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "quality",
         "inspection"
       ]
     },
@@ -7733,6 +7670,7 @@
       "published": "2016-07-19T22:07:24+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "inspection"
       ]
@@ -7820,6 +7758,7 @@
       "published": "2016-07-19T14:35:30+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality"
       ]
     },
@@ -7836,17 +7775,6 @@
       ]
     },
     {
-      "title": "International Co-operation",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0ydTBrTGowNXkyQUhoZmdLZlMySkJ6V2w5X2xDX1V0S3lSM3ZBV2hWTVpSWmZTSFhxUmlULTQ4bi1ENkRQMUxUMS1iYndIYUx0ekNiUGdjWkJZbzFDcTd1ZTJYbTBUNDlY?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:36+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "Budget, Risk and Audit",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zLUdJSUZfQ3VPOV9uTWJETG5MVUNhSW1IMU9Uelp0TWNka2hzNzZRc1lCbTVLS0VoVkoyeWdwWi0tdjcycHJDQ0VSOEM5cVczSXVMeGtTMDUyc1RRemhGaFRqdV9udTA?oc=5",
       "source": "PIC/S",
@@ -7855,17 +7783,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "Accession Contact",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QM05pZEh0U2hmNHZaMVlwTFB4TC1Cai03NGhvOHFwQTdTRllBaEhYOUo2TFNCTkw5bXlnMEw3cDRnM0RYNjlpWUZUZ0JIb1VWQVAyV3l0VEVqbkhOU3VJNmxqQQ?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:32+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -7883,39 +7800,6 @@
       ]
     },
     {
-      "title": "PIC/S 40th Anniversary",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IdVdVNHdMS3I2ODM1MUMzeXdFQ2llUGduVGZHWWRUenp2ODBpVV8zQmZSSGVZUFZoVVBSOXlkSTN0WlZXNXJwQjBHcmlFZUJ1ZmhMdktQSEJsaDRzdXl3bnp3?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:28+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "PIC/S-PDA Q7 Trainings",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qVHJHUzVtLVozeXVHbWRxZHNoQWxXdlVNMTJubFlVNFZ5TER1b2VOX1NFVHA0RFpFeTN2YmpILWlDSjZSNjhRSmlDLW1USFc3ZGtORjZqU1VrSEJCbnBLSWh3?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:28+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "Mission, Vision and Values",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02ZTVFOHZkenphNE9oSlY3dHp6TXF2a1B6NW5xbHY4V2JrZnhaaHhWcEs4a0lLRlJBVEFldC1PVzBQalczQnR6YWVEMW9ERU05SGNXOUxRcmt0V1hfVWZR?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:23+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "Expert Circles",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmZXE3YzVaNzNXQl9ld1IxdTBhdVZEWjR2UGZic1BveEVpYk1qQlF4TlphSnIzUllXM2lNWi1ucUhfVWNqMlJRN2pudkVJaHRGa21iMzlBVjR2elBPM0E?oc=5",
       "source": "PIC/S",
@@ -7926,17 +7810,6 @@
         "GMP",
         "quality",
         "guideline"
-      ]
-    },
-    {
-      "title": "Office Holders",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EeElZb1IxMEZBa29HMjJrc3ZBTjdkSzY0ejRxZzZhdURXVXB5MmpuV3NNOWRISkw0ajdlWHZxOUFrZVpPNDY5QTh2bHpPRkJSMEZKdEhObEFiWk1S?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:16+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -7984,7 +7857,6 @@
       "published": "2016-07-19T09:40:06+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline"
       ]
     },
@@ -7994,17 +7866,6 @@
       "source": "PIC/S",
       "region": "해외",
       "published": "2016-07-19T09:40:05+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
-      "title": "Members Area Login",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wMGwzV3JhNjJkck4zYU9IMFJENUZEZFFsY3QwNWZHa3BwQUVyTVUwSk5yMWU3U0FOdHNXZ0FXLUlBZmNNTWVwVWRJTm15dGhXYzE1WXF3?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:40:04+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "GMP"
@@ -8046,17 +7907,6 @@
         "quality",
         "guideline",
         "inspection"
-      ]
-    },
-    {
-      "title": "Benefits",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TeVh2OTRjcklEU3pEaGRJZ0pNSVRtbVBLZHlHb1JWbWZDVkkxMlZKTFREd2pRa2hLNVBvaW5HdWdMNFVJY2ZvRA?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:39:37+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -8106,17 +7956,6 @@
       "matched_keywords": [
         "GMP",
         "inspection"
-      ]
-    },
-    {
-      "title": "FAQ",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5rOF9nQWRadUswSmZPOUhJd2RQU0pHM2x3Tmo3M2h5a3RvT3J4bFJ5ZmRfS19XQTlRSXhvSFBQT3NpN0pE?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2016-07-19T09:39:24+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
       ]
     },
     {
@@ -8290,17 +8129,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "guideline"
-      ]
-    },
-    {
-      "title": "Final Concept Paper S5(R3): Detection of Toxicity to Reproduction for Human Pharmaceuticals dated 9 February 2015 Endorsed by th",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xcWx2ZnV5REdlLURnYTczenNXVmo1UDVvcE1MejkzUTY0UDdQZGMyRE43ZkRJTTN4WFJpSjJGanJqUzEySlF5Q0tCWXNRRGU1WExsZGE5a250ZzRITFJ6V1lsR3NUeW1FMUt6WVZhVnZjNUEwLXFKMzNReWo?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2015-03-27T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
         "guideline"
       ]
     },
@@ -8620,7 +8448,8 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline"
+        "guideline",
+        "inspection"
       ]
     },
     {
@@ -8720,6 +8549,7 @@
       "published": "2009-03-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "guideline",
         "inspection"
@@ -8897,6 +8727,18 @@
       ]
     },
     {
+      "title": "QUALITY RISK MANAGEMENT",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VOFdIeXJVTUwzdC1PZnRfamtMZmN3cmpDUzJQeHNWbE9XQzZ2ZTVJLXZlWkt6MHBFVUVjM3V0c0RWM1JOX0V6Q0RqV3lKOTNtTkJha1UyT2FYZnRfbU9RcTFJTnktSGZDZnFsMnhDUFg?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2005-11-09T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality",
+        "inspection"
+      ]
+    },
+    {
       "title": "Final Business Plan Q10: Pharmaceutical Quality Systems dated 14 October 2005 Endorsed by the ICH SC on 10 November 2005 The iss",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56dHA2OUMzc2ZjZmtkTlh0UEc2WlZjcE9SRG5XRlRaYjNuN0hqQ1cyV2I5dVpaNV9ncHBkOEpiRTJDam5RZTdrRHduazZqQUJHaVM3VE1OVXhqOFJlTi1zMUFSY2IxbnVpbEh4dDUwQnR2NVQ4WDZwSXN3?oc=5",
       "source": "ICH",
@@ -9048,6 +8890,7 @@
       "published": "2001-05-22T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "quality",
         "guideline"
       ]
@@ -9136,6 +8979,18 @@
       ]
     },
     {
+      "title": "Annex 10",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDI0Z0dEVEkyR0x2WjlaMjhzd2g2RGhuLW03QWppa0ZyNFJ0cFU2WC10SktBT0cwMXVWNm5SNXZkVjlDRkg1S3RVX3N4d0RyWlQ1bVB0Znl2N2pfb0pPLV9GR1NlRUlVMm9mdXJfaHFkdl8xTDYyQ2NaN2VfdnJmRGRqZW1qeFpC?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "inspection"
+      ]
+    },
+    {
       "title": "Q5D Guideline",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SUEFGd1cyRVRuRkxyWTB3aS11aW5UOXRub3JMX2N6dDlzcDVObnZDWUVxelRrVHFtSjAwSzZseFJVZ1JxM0luMDUxZTdwRXdPUmN5bHEtS0pMQ0t0UmEzZFMyTnZhV0NWOTFyNjI5Y2lqZw?oc=5",
       "source": "ICH",
@@ -9145,7 +9000,21 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline"
+        "guideline",
+        "inspection"
+      ]
+    },
+    {
+      "title": "ICH Q10 Pharmaceutical Quality System",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KRHl3eVJZc2taNDlwTjgwN203cndXQm04QnNMdUNWaVY5eGphRFRWUUQxaElUWGgxS0ZSeFBEVEZFZHQ3alR1Q2VQallnY3pXd3FLMlhSd01XeV9LSHJVNExVRTVjcVBpeGs5NUIxZ3gyMG8?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "quality",
+        "inspection"
       ]
     },
     {
@@ -9163,6 +9032,17 @@
     {
       "title": "ICH TOPIC E2A",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54R21MVm9raGZuZzdVMGhPa2hTWGN6WUZCekJNNktpS25ySzVwcFltMTdtQ2tMYWNJOWhxZlVETktQQWNQT0xsQ252ZGtwX1pWTHYzSDQ2SmZEdGlFdGQ0Vld0eWphUWJmd3ppeWk0WQ?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP"
+      ]
+    },
+    {
+      "title": "ICH E10",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0bGNDMk00ZzhVcVBWTkxxM1ZBWllVRXJQc2dXZDZQVHN6bENtX2M1d1A5U2tuc0VDX2ExcVVfcFB3N0VTYlpiaVlYRHN5bC1saHJLZVJ1X0pwbWg2SEMzdWhBN09oTEQ2eFpjMWNBQQ?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "1970-01-01T00:00:00+00:00",
@@ -9196,6 +9076,39 @@
       ]
     },
     {
+      "title": "Search the Index of ICH Guidelines",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5MzgzajkxOG9jMmkzcHRCeFU5cG8zbFRFemw4T1BtNnVDSl83Y2RTOWJ6TjZmdm96bmwyRnNSeGZNN2lycmlVWEp4V0REdWZSU2pZdjNfR0hVOXRmLWcwY2t3?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
+      "title": "The following training presentations support the use of the ICH Q9(R1) guideline:",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE13TXFHc2NLTnRGTjFKRkw2NmpiUUxfTU1yZjB1UGZhamJfRTBhckFucVNsVVFMYkFBd0JUaGdYYjYyV3pEalRPVGR3?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
+      "title": "Initiation of ICH",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13TUVHUm52ODA0cHktMm5IX2FpLXkweU5NOXl0dHZwSVJEbUZ6Y0pQMEZtUDJNTkpzbndVQzI1aUdJc1pxRHBR?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
       "title": "GUIDELINE FOR GOOD CLINICAL PRACTICE",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10S01Wc3U5SVo3RE5DMlZaeko5RmdGNDZfaDZvVVFXLWYxbXRhU0s5enlOTDBuSjBBMzVmZzEzVmp0RllFbWY0cmtWU2I2VDk5Wml0T1V4QldYYVFBMGtUME9Zalc2azdXQllTZGx1d0MzTDg?oc=5",
       "source": "ICH",
@@ -9204,6 +9117,17 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
+      ]
+    },
+    {
+      "title": "ICH PQKM Task Force – 2024-2025",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91RUZTOFU5clNxNENJbXJjei1BR2hBVzFxaWxISWYwdFNIY25PeUtLaWpTbS15WGx2bklDV1JEWUd4QlhsU093Yl96djVFRUFRSU9Mazlvbw?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "1970-01-01T00:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "inspection"
       ]
     },
     {
