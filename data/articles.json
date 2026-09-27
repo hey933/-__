@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-09-26T00:29:02.873019+00:00",
-  "count": 789,
+  "generated_at": "2026-09-27T05:13:22.834476+00:00",
+  "count": 788,
   "articles": [
+    {
+      "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNYjU2dDRTUTZVcUJpNW53UGJrQ3FkLXpvRWU4bEdNRmh2SFVDdWpTZm5nakN0cGhaQ2otNm5ZeFMyWmdsWmIydkR2MXpUM3lKZmdPYnRhTkdyVDFHTGxQenlXcE1UVUY2Y3VHMlI5Y3kweTRs?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2026-09-24T21:35:12+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "quality"
+      ]
+    },
     {
       "title": "Member states contact points for review of national implementation of quick response (QR) codes of veterinary medicinal products authorised via the centralised (CP), mutual recognition (MRP), decentralised procedures (DCP) and national procedures",
       "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/member-states-contact-points-review-national-implementation-quick-response-qr-codes-veterinary-medicinal-products-authorised-centralised-cp-mutual-recognition-mrp-decentralised-procedures-dcp-national_en.pdf",
@@ -44,18 +56,6 @@
       "category": "개발·연구",
       "matched_keywords": [
         "임상시험"
-      ]
-    },
-    {
-      "title": "PICS GMP Guide Part I",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50OXNqdDNvNVBycGxLNk5wSnNJU00wS3lWZkxGa1J0QUdlTVdVVjgzZUF6M1QzSGotZjNYQjNrMHNROUJTMmVYOVhHZDRqanVxbFFiTll0RzhWRDVqREFzelVR?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2026-09-23T15:06:09+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP",
-        "quality"
       ]
     },
     {
@@ -388,6 +388,17 @@
       "source": "약업신문",
       "region": "국내",
       "published": "2026-09-22T21:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "승인"
+      ]
+    },
+    {
+      "title": "10년 걸리던 신약 승인…미·일, AI 실시간 심사로 뚫는다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fRkFENU1tTEthcWx0aVk5Yy1vTGtPUzJiUWxrY0NweGd5c3QycHRHbERCSWJNLS10d1ZnSFdIVkZTcmhGVUdDeEZ2bDE3VUJ0TGxPcmk0RzBqb1p4eGNPNFhaRVUzUjdmTWhycw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-22T20:57:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "승인"
@@ -2266,6 +2277,18 @@
       ]
     },
     {
+      "title": "FDA 신약 '단일 임상' 승인 추진… 전문가 위험성 경고",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VZ1NmTjVVeXpJVkdJQkM1S2U3akJ5WGtvYkVHcDBLekZFTXJhZGZFcEFPeDRYTDlRNXFHME85V09qVmJucVViTVN0QmFBRTY4M09YZU5Wb3ZtOHJiXzNNUEtjdVd4dkd2ei1Zaw?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-14T20:55:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "승인",
+        "FDA"
+      ]
+    },
+    {
       "title": "International collaboration on GMP inspections",
       "link": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-manufacturing-practice/international-collaboration-gmp-inspections",
       "source": "EMA (EMA 실사(Inspections))",
@@ -2377,6 +2400,17 @@
       ]
     },
     {
+      "title": "휴온스, 바이오벤처 3사와 중기부 신약개발 국책과제 선정",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16SUpUVUpseG0tb3VPcENLbDlOM3JyTGdTSFp2QzFYSzhVQUVpUGttb20yOUpxVkVtbzVxWlVWaTVNZEdDNWpaOUFnSldUb0FHLWZLZEc2ZUFiYUZfYm9ocHhyazZoQWxvMVRmTg?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-14T01:11:35+00:00",
+      "category": "개발·연구",
+      "matched_keywords": [
+        "신약개발"
+      ]
+    },
+    {
       "title": "인천성모병원, 인천 최초 경피적 승모판막 재치환술(TMVR) 시행",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=332473",
       "source": "약업신문",
@@ -2429,6 +2463,17 @@
       "category": "품질관리(QC/QA)",
       "matched_keywords": [
         "회수"
+      ]
+    },
+    {
+      "title": "GUIDELINE FOR GOOD CLINICAL PRACTICE",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcC1uYUNMOXlmU2czeFBvLUx2bUNBR20wT3dEdkxIMW52X1FxbVNlVHRnRTlHemdtUzNTVjJ2NkpnZURTaXl2QUhMdzJuT2gwbTlJYUZRSmljRkdad0J3LUpiQ05kS3pxRnNRRGxFTmZwR0VfcDRqaW1RODJ3TFYyY2NzY1lvQkNsNkw1MQ?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2026-09-11T19:36:29+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "inspection"
       ]
     },
     {
@@ -2494,9 +2539,10 @@
       "source": "팜뉴스",
       "region": "국내",
       "published": "2026-09-11T00:12:50+00:00",
-      "category": "개발·연구",
+      "category": "개발·연구, 공통·규제",
       "matched_keywords": [
-        "후보물질"
+        "후보물질",
+        "FDA"
       ]
     },
     {
@@ -2797,6 +2843,17 @@
       ]
     },
     {
+      "title": "식약처, 지엘팜텍-아주약품 '라티카' 국내 44호 신약 허가",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRbzBkdjBHV041RElXQ1BBZ0x3RGstRHp5TjA2eU40RmpmNi1heWtrU0hNc2J0NkIwaEVKUjdDQV9fSEtNeEQtTW9xYmE4VkgxUlhXNTczMWZoZ3RwN25tcWMxaTBHVjNjQjBZcA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-08T08:42:18+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
+      ]
+    },
+    {
       "title": "Member states contact points for translations review",
       "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/member-states-contact-points-translations-review_en.pdf",
       "source": "EMA (EMA 규제/절차 가이드라인)",
@@ -2849,6 +2906,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "바이오시밀러"
+      ]
+    },
+    {
+      "title": "GC녹십자, 산자부·KEIT 'AI 활용 백신 제조·품질관리' 국책과제 주관기관 선정",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NXhqWFJkVmxZYjlFM0pGSkNUQm5JTmFsTnZkbUNmQlFLSllWMkFMcVVpdzFWdmZ3eml0YkUtd190bk1KMy1SR2JWWEVmVGtTb0JYYVB1RnZKaTk5bTVqWHRGQ2JuTXZ0Zmc4ZA?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-08T00:41:55+00:00",
+      "category": "품질관리(QC/QA)",
+      "matched_keywords": [
+        "품질관리"
       ]
     },
     {
@@ -3063,6 +3131,17 @@
       "category": "개발·연구",
       "matched_keywords": [
         "라이선스아웃"
+      ]
+    },
+    {
+      "title": "식약처 GMP 적합 수입 의약외품 제조증명서 제출 면제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4U1VURms5ZGNGUjRyLUNxQlZ6amtvLTktaVBTSFpENExPMTVCNDQ1bUZnTTZ5UnMxZVFreDIxa2xueE5lSUFDZWRVMVlHR2FZc0tmM3VHYWZ5MmZRclB5Z2JOYnhTLVZRU1VueQ?oc=5",
+      "source": "팜뉴스",
+      "region": "국내",
+      "published": "2026-09-04T01:00:12+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "식약처"
       ]
     },
     {
@@ -3836,88 +3915,11 @@
       ]
     },
     {
-      "title": "Recommended submission dates for veterinary medicinal products",
-      "link": "https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/recommended-submission-dates-veterinary-medicinal-products_en.pdf",
-      "source": "EMA (EMA 규제/절차 가이드라인)",
-      "region": "해외",
-      "published": "2026-08-27T07:48:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "(공식 규제 피드)"
-      ]
-    },
-    {
       "title": "“420일→240일 목표” 동아에스티-SK바이오팜 ‘엑스코프리’로 본 식약처 혁신",
       "link": "https://www.yakup.com/news/index.html?mode=view&nid=331668",
       "source": "약업신문",
       "region": "국내",
       "published": "2026-08-27T05:18:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "제조소"
-      ]
-    },
-    {
-      "title": "원료의약품 허가 후 변경, 글로벌 규제 파편화 실태 극복 방안은?",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331665",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-27T04:47:00+00:00",
-      "category": "품질관리(QC/QA)",
-      "matched_keywords": [
-        "불순물"
-      ]
-    },
-    {
-      "title": "샤페론 \"누세핀, 치료 효과 통계적 입증…글로벌 시장 진출 가속도\"",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331659",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-27T03:58:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "라이선스아웃"
-      ]
-    },
-    {
-      "title": "리가켐바이오 파트너사 소티오, 'SOT106' 미국 FDA 패스트트랙 지정",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331654",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-27T01:25:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "CMO"
-      ]
-    },
-    {
-      "title": "식약처-안전관리원-서울시, 의료용 마약류 감시 역량 강화 맞손",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331636",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-27T00:12:00+00:00",
-      "category": "생산·GMP",
-      "matched_keywords": [
-        "행정처분"
-      ]
-    },
-    {
-      "title": "지투지바이오,치매치료제 ‘GB-5001’ 임상1상 안전성·내약성 확인",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331628",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T23:07:00+00:00",
-      "category": "개발·연구",
-      "matched_keywords": [
-        "제제개발"
-      ]
-    },
-    {
-      "title": "마크헬츠 “AAV 제조 자동화 승부”…KHF 2026서 50L·85% 자동화 로드맵 공개",
-      "link": "https://www.yakup.com/news/index.html?mode=view&nid=331623",
-      "source": "약업신문",
-      "region": "국내",
-      "published": "2026-08-26T21:00:00+00:00",
       "category": "생산·GMP",
       "matched_keywords": [
         "제조소"
@@ -3957,17 +3959,6 @@
       "matched_keywords": [
         "GMP",
         "quality"
-      ]
-    },
-    {
-      "title": "GUIDELINE FOR GOOD CLINICAL PRACTICE E6(R3)",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS0JqSGxyUC1rVk82bGo4a1BtTlRuVmZKc1BOV0JIWWZXTlpMTWNGMW5KN3VJdjZSYXN5VmFIbVVoaDNUeG9KaXBIZmdhdUoxT3RXX1pwSnhRYWZNTFBsaU8tZHpCNFlZWEl6ejNaeV9aMG5OSTNHaFVVS3NCLU9tT3NNS3p0R19TYjJ1ZjVFVlpFODNCNnFaRms1R0N3QWY0eDBBOWl0TUN3OTNud2c?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2026-06-16T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "inspection"
       ]
     },
     {
@@ -4114,7 +4105,6 @@
       "published": "2026-02-13T01:53:06+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline"
       ]
     },
@@ -4217,7 +4207,8 @@
       "published": "2025-12-16T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "guideline"
       ]
     },
     {
@@ -4496,6 +4487,17 @@
       ]
     },
     {
+      "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00UWhwal9DV1VTMWZXQ0JmSy1DWW1tTUVqT0gtcGJ1TWljTEh5OVZjS3ZUTlVXemctS1A3TUZPYXI2ZUFUQWliVkdsTWpVNVVhRl9qblA0VHVHQk9yLTJXU3Y2Q29XanRyYlFSVWNYZzhzMTZIQlE?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2025-07-03T06:55:21+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP"
+      ]
+    },
+    {
       "title": "ICH M4Q(R2): The Common Technical Document for the Registration of Pharmaceuticals for Human Use",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVHFOejhWbzJya1hnRmN4WlBPM2VJczdPNVFUM0RLOHR3RG8wU285RUg2Q0F4bmxva1BiNGZDR0x2UU5ZTEFNVi11c2I1dkxuMzdkSlNzYjdJaUs5cGVYMWhhX3daU2ZxZVNMVWVVMG9OQnBTWEs1TTlBdDFCRF9tbHdsM09xYUE0cVp5by1mdzN3STRrRnhLNS15QkFQMWJiUEMtQ3N5ODJ3Ykxnbjk3Sm91T2lXUFRuZlNPc2lkYw?oc=5",
       "source": "ICH",
@@ -4675,17 +4677,6 @@
       ]
     },
     {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMldQOE15SUNGckFINXBxR0lINW1NbHdBS0hLX3FxSzdERXlvTFNzR25IMWdKdmtLWkZLZW9zU1d0NzFacm9PejlQVGd4VDBhQ3ZhSWIzYW1RbTlLcFpiSHlvRFY5dFJITXdTSjlsdUdnY3J4RS1JRDNBTHRoNWJLWFlQeVFINjB3V1czcUJrak9HZ2F1?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2024-12-13T08:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "ICH Q9(R1) IWG Updated Q9(R1) Annex 1- Q8/Q9/Q10 Questions & Answers",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLVZPVDlxVXRPZm0zeXdManJFRm05aU9WcUs5YktWUEE2TDJVVFJseU94MmpUcHI3Q21XMEpKZHczSDRRN3R6cnRubHRNWFVSOTBYY2J6b1AwSzZvUmE1RUEzUW96NTNKRFlISGVUYXVvX3NpOEtPQ2JLeV9jbEFndVFsZTctSm5UaWg5bA?oc=5",
       "source": "ICH",
@@ -4715,7 +4706,6 @@
       "published": "2024-11-22T03:32:44+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
         "guideline"
       ]
     },
@@ -4761,7 +4751,6 @@
       "published": "2024-11-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
         "inspection"
       ]
     },
@@ -4846,14 +4835,24 @@
     },
     {
       "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DQTZrbm9WenlMeVoxRTMyNnFVR0QyX0FORVBBWERNUEJpM2F2UjdjZzJHT1pXOS1jSG1IbjYwQ1E3aTdGbG1NNWQ2V1QydmV4bW1ZZ3kwRWMzZEdNa1lYREJVVTFzc09CMDlfZ1VNX1M?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2024-08-03T19:11:18+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "guideline"
+      ]
+    },
+    {
+      "title": "News",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1a1RCQTM4cWxzM3A4N3U0NHo3T2g2WXNsMUJ2cDM3NXhaYWRfRG9SaF9maENrOVNYTl9TMmtzWUk2V0Z4Q3RTWUNGbEFPNTdqVkRZU0JHaVBjaXBSVDFrWlBxTE91YnJHOWxHZ3oxcGlQTWFFSk91N3FtbnZpQQ?oc=5",
       "source": "PIC/S",
       "region": "해외",
       "published": "2024-08-03T01:09:28+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
-        "quality"
+        "GMP"
       ]
     },
     {
@@ -5058,6 +5057,7 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
+        "quality",
         "guideline"
       ]
     },
@@ -5070,17 +5070,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
-        "guideline"
-      ]
-    },
-    {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdmhtOGU1dVotaUZ1anlCNUFnOHVldlJwcE1xWGhFT0loR21VYUpUYklENkpQc0lKNnJ0TmVPckdDV3M4MDB3X2xBRXpiUzdvZVdCd0Zjby15YVo4NTBJcWIydkk3LVlSTFF2VlZqdmlsMVZtTEFmWDFvSEh6bjJnTUJZLW5HS0xCd2NMcEl5VFpEeHpF?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2023-12-12T09:51:11+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
         "guideline"
       ]
     },
@@ -5155,6 +5144,7 @@
       "published": "2023-11-29T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "guideline"
       ]
     },
@@ -5193,13 +5183,14 @@
     },
     {
       "title": "ANALYTICAL PROCEDURE DEVELOPMENT Q14",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa3VfSWFoV3B2Rjk3UTNRZDkxUnZReEtSZjU1RVpqdHQ5YV9uRzRXMHZoazJMTUd2NzRld3dkS29xd3hmS1dUOXZKdEdXd2tUTFJreFRONTRRWXhDRVNCYkI4LVFYUEhyNVd2VmZqX3lTLS1idVhCMVo0YjNHaEZqcUVR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZlZZZVJhMjhXUm5nbGNYRzR4ZWw1ZWVOUUZoT0x4X2VLczVNZk5ienM3bDd0S0I2Q0M0T0ZsLW1iNFFMLWZuY1hjYkFPT2E0SHRXc0xuUG5nakkzaklXQ0NUNU4tMnh1Y2RCc3Z1WEVOaWdmRnZydmtpd0RTcVJRNUI4bXFtRkNiRWRIRGZiNHIwRS1jV3VOSS1iZWRYQQ?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "2023-11-01T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
         "GMP",
+        "quality",
         "guideline"
       ]
     },
@@ -5251,15 +5242,14 @@
       ]
     },
     {
-      "title": "PICS GMP Guide Part I",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFByd3gxS2l1Wm93YkZvT2dQVUxkcUN3a3dhOGV2Y290RnlzX0ZKekFVcEo2eVE3M2gzcVNqZU1fdVVlRUUzcnQxRFNB?oc=5",
+      "title": "News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdmhtOGU1dVotaUZ1anlCNUFnOHVldlJwcE1xWGhFT0loR21VYUpUYklENkpQc0lKNnJ0TmVPckdDV3M4MDB3X2xBRXpiUzdvZVdCd0Zjby15YVo4NTBJcWIydkk3LVlSTFF2VlZqdmlsMVZtTEFmWDFvSEh6bjJnTUJZLW5HS0xCd2NMcEl5VFpEeHpF?oc=5",
       "source": "PIC/S",
       "region": "해외",
       "published": "2023-08-25T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "guideline",
-        "inspection"
+        "GMP"
       ]
     },
     {
@@ -5271,17 +5261,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "guideline"
-      ]
-    },
-    {
-      "title": "GMP Guide Part II APIs",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1wODI4MXdhSFNYRnlPUDMwUnR0OVFGc3VIeHEwZ1RRZHE0VmRnOGc2a0NzWjhWWnlWUjBLSzZaUDZtX2MweDdaN1JB?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2023-08-25T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "inspection"
       ]
     },
     {
@@ -5385,7 +5364,8 @@
       "published": "2023-03-02T00:19:35+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP"
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -5750,8 +5730,7 @@
       "published": "2022-02-04T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
-        "guideline"
+        "quality"
       ]
     },
     {
@@ -5848,7 +5827,6 @@
       "published": "2021-08-16T07:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "inspection"
       ]
     },
@@ -5977,7 +5955,7 @@
     },
     {
       "title": "Q3C(R8)",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV2lCRmVmVVVzSm5uSF9sZFpfOXdMUEdZajhMMzFKcmtIZ2tsTmlfMnBHS1pTMjBrWG1ySkRWZ2d4VjhCNVdXM0hGN1hUTHdJX3E4SGNiRVl3RmV5WVFlSVZldTc2eDQzQTJORWpmYzRsM2NDQnlSdm1uRFFNVGZ3SE1JaUc4d3UxbWNVQ3l2NFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNm5za0NPS2l6ejJjeUdUUzM2YjMwc05wY3FsaXNUcDhaTjNWUThkRzBGR3lBcVAxbVRuenRSWUk5UjNadHZVaWdJZEUwenM3M3BqUktOYVRZZ3lYa0ZRMWNPSmhWbnBja0k4LXpNamxENEFtYUkza1BJZlY2ZGZWclRna0hWcUI5cUZWcXNR?oc=5",
       "source": "ICH",
       "region": "해외",
       "published": "2021-04-22T07:00:00+00:00",
@@ -6167,17 +6145,6 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline"
-      ]
-    },
-    {
-      "title": "News",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jekEwVWZPMGpmLXlmeUl1aGZiRFFSbmY5NDJsSG93aWdXbzQwVDB2TUhrN09hdUY2ZXFCMTVyVTRrMGtWbFdoYmsyRU45ckJsUGVhY1NhNkhTMWVVcEtKVFoxUGNpbDJ6cERjMC1GTG1sUQ?oc=5",
-      "source": "PIC/S",
-      "region": "해외",
-      "published": "2020-08-04T03:09:36+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
         "guideline"
       ]
     },
@@ -6533,8 +6500,18 @@
       "published": "2020-04-16T12:51:22+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "quality",
         "inspection"
+      ]
+    },
+    {
+      "title": "Q5A(R1)",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oakdBSVB5OC12NTBEYTRGTFpnSE9UaTdUWE43TTNRRTBzZnRMY2pQbXVTRlBlMlgyd21OZjQ1M0pyNlVYeUk4S1pQTHA2X0tucE05MXBMV2dldmJWZjZMRndkUUhLTTZqbkhRRm9MUHZSTF9pSnF5a3hHZkMxb00?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2020-04-16T12:50:42+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP"
       ]
     },
     {
@@ -6561,6 +6538,7 @@
       "matched_keywords": [
         "GMP",
         "quality",
+        "guideline",
         "inspection"
       ]
     },
@@ -6686,6 +6664,7 @@
       "published": "2020-02-06T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
+        "GMP",
         "inspection"
       ]
     },
@@ -6910,17 +6889,6 @@
       ]
     },
     {
-      "title": "THE EXTENT OF POPULATION EXPOSURE TO ASSESS CLINICAL SAFETY",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYamFBWkRSaGViSDkwZ3Judmk4eVVaWExfTDVCdGlrVDZOMGZNRWt1SHEzU1hvbDR6aDBQcnFGRzRYRFdqSXZyS083aEtxX29LMFFJY2ZJbk1vVi1WQTdFOGlYTVVZRjhycnlRRFhpOU9KaG8?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-06T02:30:30+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "GMP"
-      ]
-    },
-    {
       "title": "ICH Q10 Pharmaceutical Quality System",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KRHl3eVJZc2taNDlwTjgwN203cndXQm04QnNMdUNWaVY5eGphRFRWUUQxaElUWGgxS0ZSeFBEVEZFZHQ3alR1Q2VQallnY3pXd3FLMlhSd01XeV9LSHJVNExVRTVjcVBpeGs5NUIxZ3gyMG8?oc=5",
       "source": "ICH",
@@ -7035,17 +7003,6 @@
       "category": "공통·규제",
       "matched_keywords": [
         "quality"
-      ]
-    },
-    {
-      "title": "ICH Official web site",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TTlF0TUdhNnZrUGhpVUg1RVRMbU1qNmNsRUZsd1k1bVRpMWVidTA3MlE2ZGNTcGN2RXM1OUN0aTFzZU01VUJvTUp5MGpoY0tFX2c3dzJR?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-03T12:08:06+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "guideline"
       ]
     },
     {
@@ -7300,6 +7257,17 @@
       ]
     },
     {
+      "title": "Initiation of ICH",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13TUVHUm52ODA0cHktMm5IX2FpLXkweU5NOXl0dHZwSVJEbUZ6Y0pQMEZtUDJNTkpzbndVQzI1aUdJc1pxRHBR?oc=5",
+      "source": "ICH",
+      "region": "해외",
+      "published": "2019-10-01T15:35:06+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality"
+      ]
+    },
+    {
       "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1jZHFDLWFzb0VJLWt6cDV4UlhsVW1nbU10MDBUcHNldEpCeWw0WXdIdWQ2czBPamd6N3oyTF9nRG9udw?oc=5",
       "source": "ICH",
@@ -7324,17 +7292,6 @@
     },
     {
       "title": "ICH Official web site",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqT0g0TEJoQTVER3F6Z1Bqck5RZ1oyRjBlekoxUWhZTXJNNE0ycW1xUTBSUDZfdy1SRXJ4VXpyLTJ2aXhLMkZua2M5VmFSSzFyUzhTSw?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-10-01T13:41:37+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
-      ]
-    },
-    {
-      "title": "ICH Official web site",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyenFaeURXS2FVMFJKdllpbEZWUWZ1UzQ0UFhub0EyNjVpSzJXcHFnanhHeVEyZHM4ZTJ5S2RCRWFNc3dpOGZCdDNhcmVvbFB0VWItTk5B?oc=5",
       "source": "ICH",
       "region": "해외",
@@ -7344,17 +7301,6 @@
         "GMP",
         "quality",
         "inspection"
-      ]
-    },
-    {
-      "title": "DIA India ICH Day 2019",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSXhxNnd4ay1HeGhBbGpFbnRsQlQtcWRFQW9QT3BEbnFQdzNFN0FpejhUWGhxaXhLNzN2cktmVmpMckUta2poMmJFUG1SRGx3c0RQN3BJbl9BREdHaU5GR0djYmdkLU8wN2dkSENocjAxUUJJVmxxNFl6NW9DMG1mMHVuS3dTQV9mZURRRzFQZXhwSFQ1dGktVjVZZ2V2dGc?oc=5",
-      "source": "ICH",
-      "region": "해외",
-      "published": "2019-08-30T07:00:00+00:00",
-      "category": "공통·규제",
-      "matched_keywords": [
-        "quality"
       ]
     },
     {
@@ -7535,6 +7481,18 @@
       ]
     },
     {
+      "title": "PIC/S Meetings in Chicago (USA) From 24 to 28 September 2018, the United States Food and Drug Administration (US",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE52cHprSlRaVTdGaWU0ZGo4dDNRSV9qSTAxRnhkMWJCNW13STlpanRCUlB2MHkzUTRSTHlQa29vQ1VHWkpya24zQ1RR?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2018-06-25T07:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "quality",
+        "inspection"
+      ]
+    },
+    {
       "title": "PHARMACEUTICAL INSPECTION CONVENTION PHARMACEUTICAL INSPECTION CO-OPERATION SCHEME",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0SXhVdmotS3Z1TXF2REctV19TTWhXNm9icVZha2JVSzNrcjU3S1dORU9qWm52eVJoMnpvOUptY192XzJQYmt3b1BR?oc=5",
       "source": "PIC/S",
@@ -7649,6 +7607,18 @@
       ]
     },
     {
+      "title": "PHARMACEUTICAL INSPECTION CONVENTION",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQXRpM3BFQldKQ0tsWXh2RUU1U1NqX0ZTNVhDWGtxWEtsM0ZhSUJzRng2eWtNRjUzT3RkdkYyTHc5WjZQTmVVYzBNLUdZd0lEUWFmZ0E3Sm5vcExmc2JCSzdYTS1FZkpwOFkwT1ZVWXliOE1VTUVPX3Zsckx3WndManBHWVlEcXFtbGVUanBaLVp1VDIxS2dMWWJpSGRfak1RbmVaZ1J4VUI?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2017-02-24T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "guideline"
+      ]
+    },
+    {
       "title": "The E6(R2) presentation available now on the ICH Website",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hRkprWktsUHpkanpyLWVpUzBaS05GaF9ycWV4TUREZWFqZ0F2bjBTUmozSkRqMGlBZmw5QmMtNmFUazZYSTR1dEttZ3hWWUhDZHc4emQ4TEZ0aDljeEtGVVBxcVZwcU5IUm5hNndLaUlmUQ?oc=5",
       "source": "ICH",
@@ -7679,7 +7649,6 @@
       "published": "2016-12-22T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "quality"
       ]
     },
@@ -7743,6 +7712,18 @@
         "GMP",
         "quality",
         "inspection"
+      ]
+    },
+    {
+      "title": "Training for Auditors",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XbUt6X1dabndCZjFmckxYZWR5YjJybHlldlZsUXF1U3N3d2gyVldQaGkzQ0p6cjl4dWhoNFFCdmtMb09CbFJub0RsMWF4OE56NlFobFdtenJiU3hZMlFWV3pTT3pEOFF4dVBmazh3?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2016-07-19T22:08:44+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "GMP",
+        "quality"
       ]
     },
     {
@@ -7925,6 +7906,7 @@
       "matched_keywords": [
         "GMP",
         "quality",
+        "guideline",
         "inspection"
       ]
     },
@@ -8686,7 +8668,6 @@
       "matched_keywords": [
         "GMP",
         "quality",
-        "guideline",
         "inspection"
       ]
     },
@@ -8882,6 +8863,17 @@
       ]
     },
     {
+      "title": "Press Release",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBxT0R6cUd2Y2NMc29hMmpQc1lkdWRiN3VmcWFLbjNUX0RjSGszTkhjMjhRUG1Fa2ZvaVJlaEZpcmF5d3dMa25NU0dR?oc=5",
+      "source": "PIC/S",
+      "region": "해외",
+      "published": "2003-11-11T08:00:00+00:00",
+      "category": "공통·규제",
+      "matched_keywords": [
+        "inspection"
+      ]
+    },
+    {
       "title": "Common Technical Document – Quality",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Pc0ctRW9YUVNERHV1Qm1ab1RXaXNieDJLdGh1eXdkZG1wbHRIVmo2eXlfSVZTb2dYQm5CR1VpWEU4NDVJa3o0MGV0UjE2NXBicEFRQldidVYyZ0ZpelBjOHRkV1RkZVphQWNOMVBUd1c2bGFTMndBWA?oc=5",
       "source": "ICH",
@@ -8911,7 +8903,6 @@
       "published": "2002-11-01T08:00:00+00:00",
       "category": "공통·규제",
       "matched_keywords": [
-        "GMP",
         "guideline",
         "inspection"
       ]
@@ -9014,7 +9005,7 @@
       ]
     },
     {
-      "title": "INTERNATIONAL CONFERENCE ON HARMONISATION OF TECHNICAL REQUIREMENTS FOR REGISTRATION OF PHARMACEUTICALS FOR HUMAN USE GUIDELINE",
+      "title": "S1A Guideline",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GR0NMSlpvbVE0bW9JYkJhUFdZYW9laWFoUlhRLUFWVk9YMkhSM3FqTGpkNi1kVG1RNGctSFd1bnIwWXVYejFpYVFmcG1HN0w5NlNNR2NYS3VFOVNJa0JhaWJzWXpJRElsZFBEdExmV2dBUQ?oc=5",
       "source": "ICH",
       "region": "해외",
@@ -9036,7 +9027,7 @@
       ]
     },
     {
-      "title": "INTERNATIONAL CONFERENCE ON HARMONISATION OF TECHNICAL REQUIREMENTS FOR REGISTRATION OF PHARMACEUTICALS FOR HUMAN USE",
+      "title": "studies in support of special populations: geriatrics e7",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xR2NvaUQxbVNtSndKOVoxamNULWY3ZW5jdXhOMU5FeFNWajRHd3lFcEVlOXlURnFWbFU1dmRKa0tZRmxXUHV2bno2M1JWTjNVUkV1bFRQTkw5TlpTX2dZZTVtd1FrYUVzd3lzZVJB?oc=5",
       "source": "ICH",
       "region": "해외",
